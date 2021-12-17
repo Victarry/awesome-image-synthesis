@@ -140,11 +140,11 @@ ICLR 2017. [[PDF](https://arxiv.org/abs/1609.07093)]
 Antonia Creswell, Anil Anthony Bharath. <br>
 NeurIPS 2016 Workshop. [[PDF](https://arxiv.org/abs/1611.05644)]
 
-(GAN Paint)**Semantic photo manipulation with a generative image prior**
+(GAN Paint)**Semantic photo manipulation with a generative image prior**<br>
 David Bau, Hendrik Strobelt, William Peebles, Jonas Wulff, Bolei Zhou, Jun-Yan Zhu, Antonio Torralba.<br>
 SIGGRAPH 2019. [[PDF](https://arxiv.org/abs/2005.07727)]
 
-(GANSeeing) **Seeing What a GAN Cannot Generate.**
+(GANSeeing) **Seeing What a GAN Cannot Generate.**<br>
 David Bau, Jun-Yan Zhu, Jonas Wulff, William Peebles, Hendrik Strobelt, Bolei Zhou, Antonio Torralba.<br>
 ICCV 2019. [[PDF](https://arxiv.org/abs/1910.11626)]
 
@@ -158,15 +158,19 @@ CVPR 2020. [[PDF](https://arxiv.org/abs/1911.11544)]
 
 <!-- mGANPrior -->
 
-**Editing in Style: Uncovering the Local Semantics of GANs**
+**Editing in Style: Uncovering the Local Semantics of GANs**<br>
 Edo Collins, Raja Bala, Bob Price, Sabine Süsstrunk. <br>
 CVPR 2020. [[PDF](https://arxiv.org/abs/2004.14367)]
 
-(StyleSpace)**StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation**
+(e4e)**Designing an encoder for StyleGAN image manipulation.**<br>
+Omer Tov, Yuval Alaluf, Yotam Nitzan, Or Patashnik, Daniel Cohen-Or.<br>
+SIGGRAPH 2021. [[PDF](https://arxiv.org/abs/2102.02766)]
+
+(StyleSpace)**StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation**<br>
 Zongze Wu, Dani Lischinski, Eli Shechtman. <br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2011.12799)]
 
-**Improving Inversion and Generation Diversity in StyleGAN using a Gaussianized Latent Space**
+**Improving Inversion and Generation Diversity in StyleGAN using a Gaussianized Latent Space**<br>
 arxiv 2020. [[PDF](https://arxiv.org/abs/2009.06529)]
 
 **Collaborative Learning for Faster StyleGAN Embedding.** <br>
@@ -186,10 +190,11 @@ arxiv 2020. [[PDF](https://arxiv.org/abs/2007.01758)]
 David Bau, Jun-Yan Zhu, Hendrik Strobelt, Bolei Zhou, Joshua B. Tenenbaum, William T. Freeman, Antonio Torralba. <br>
 ICLR 2019. [[PDF](https://arxiv.org/abs/1811.10597)] [[Project](http://gandissect.csail.mit.edu/)].
 
-InterFaceGAN**Interpreting the Latent Space of GANs for Semantic Face Editing**
+InterFaceGAN**Interpreting the Latent Space of GANs for Semantic Face Editing**<br>
 Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou.
 CVPR 2020. [[PDF](https://arxiv.org/abs/1907.10786)] [[Project](https://genforce.github.io/interfacegan/)]
 
+<!-- **Only a matter of style: Age transformation using a style-based regression model.** -->
 <!-- StyleFlow -->
 
 ## Unsupervised GAN Manipulation
