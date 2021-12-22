@@ -274,3 +274,23 @@ arxiv 2021. [[PDF](https://arxiv.org/abs/2112.05143)]
 # Text-to-Image Synthesis
 
 # Others
+
+## Single Image Generation
+
+`DIP` **Deep Image Prior**<br>
+Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky. <br>
+CVPR 2018 [[PDF](https://arxiv.org/abs/1711.10925)] [[Project](https://dmitryulyanov.github.io/deep_image_prior)]
+
+`SinGAN` **SinGAN: Learning a Generative Model from a Single Natural Image**<br>
+Tamar Rott Shaham, Tali Dekel, Tomer Michaeli. <br>
+ICCV 2019 Best Paper. [[PDF](https://arxiv.org/abs/1905.01164)] [[Project](https://tamarott.github.io/SinGAN.htm)]
+
+
+`TuiGAN` **TuiGAN: Learning Versatile Image-to-Image Translation with Two Unpaired Images** <br>
+Jianxin Lin, Yingxue Pang, Yingce Xia, Zhibo Chen, Jiebo Luo. <br>
+ECCV 2020. [[PDF](https://arxiv.org/abs/2004.04634)]
+
+
+`DeepSIM` **Image Shape Manipulation from a Single Augmented Training Sample**
+Yael Vinker, Eliahu Horwitz, Nir Zabari , Yedid Hoshen. <br>
+ICCV 2021. [[PDF](https://arxiv.org/abs/2007.01289)] [[Project](https://www.vision.huji.ac.il/deepsim/)] [[Pytorch](https://github.com/eliahuhorwitz/DeepSIM)]
