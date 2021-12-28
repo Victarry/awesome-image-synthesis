@@ -140,6 +140,10 @@ Axel Sauer, Kashyap Chitta, Jens Müller, Andreas Geiger<br>
 Jun-Yan Zhu, Philipp Krähenbühl, Eli Shechtman, Alexei A. Efros. <br>
 ECCV 2016. [[PDF](https://arxiv.org/abs/1609.03552)] [[github](https://github.com/junyanz/iGAN)]
 
+`IcGAN` **Invertible Conditional GANs for image editing**<br>
+Guim Perarnau, Joost van de Weijer, Bogdan Raducanu, Jose M. Álvarez<br>
+NIPS 2016 Workshop. [[PDF](https://arxiv.org/abs/1611.06355)]
+
 **Neural photo editing with introspective adversarial networks**<br>
 Andrew Brock, Theodore Lim, J.M. Ritchie, Nick Weston. <br>
 ICLR 2017. [[PDF](https://arxiv.org/abs/1609.07093)]
@@ -162,7 +166,6 @@ Class Distribution-Level Mode Collapse: StyleGAN outperforms WGAN-GP.<br>
 Instance Level Mode Collapse with GAN Inversion: (1) Use intermediate features instead of initial latent code as the optimization target. (2) Propose layer-wise inversion to learn the encoder for inversion, note this inversion output z coe. (3) Use restirction on z code to regularilize the inversion of intermediate feature. <br>
 Experiment: (1) Directly optimization on z not work. (2) encoder + optimization works better (3) Layer-wise inversion obviously better.  <br>
 Limitation: Layer-wise inversion is not performed on StyleGAN.
-
 </details>
 
 **Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?** <br>
@@ -178,10 +181,31 @@ CVPR 2020. [[PDF](https://arxiv.org/abs/1911.11544)]
 `IDInvert` **In-Domain GAN Inversion for Real Image Editing**<br>
 Jiapeng Zhu, Yujun Shen, Deli Zhao, Bolei Zhou. <br>
 ECCV 2020. [[PDF](https://arxiv.org/abs/2004.00049)]
+<details>
+<summary>summary</summary>
+Motivation: Traditional GAN Inversion method train the encoder in the latent space via optimizing the distance to  |E(G(z))-z|. However, the gradient to encoder is agnostic about the semantic distribution of generator's latent space. (For example, latent code far from mean vector is less editable.) 
+This paper first train a domain-guided encoder, and then propose domain-regularized optimization by involving the encoder as a regularizer to finetune the code produced by the encoder and better recover the target image.<br>
+Method:
+(1) Objective for training encoder: MSE loss and perceptual loss for reconstructed real image, adversarial loss.
+(2) Objective for refining embeded code: perceptual loss and MSE for reconstructed image, distance from to inverted code by encoder as regularization. <br>
+
+Experiment:
+(1) semantic analysis of inverted code: Train attribute boundry of inverted code with InterFaceGAN, compared with Image2StyleGAN, the Precision-Recall Curve performs betters.
+(2) Inversion Quality: Compared by FID, SWD, MSE and visual quality.
+(3) Application: Image Interpolation, Semantic Manipulation, Semantic Diffusion(Inversion of Composed image and then optimize with only front image), Style Mixing
+(4) Ablation Study: Larger weight for encoder bias the optimization towards the domain constraint such that the inverted codes are more semantically meaningful. Instead, the cost is that the target image cannot be ideally recovered for per-pixel values.
+</details>
 
 **Editing in Style: Uncovering the Local Semantics of GANs**<br>
 Edo Collins, Raja Bala, Bob Price, Sabine Süsstrunk. <br>
-CVPR 2020. [[PDF](https://arxiv.org/abs/2004.14367)]
+CVPR 2020. [[PDF](https://arxiv.org/abs/2004.14367)] [[Pytorch](https://github.com/cyrilzakka/GANLocalEditing)]
+<details>
+<summary>summary</summary>
+StyleGAN's style code controls the global style of images, so how to make local manipulation based on style code? 
+Remeber that the style code is to modulate the variance of intermediate variations, different channels control different local semantic elements like noise and eyes.
+So we can identity the channel most correlated to the region of interest for local manipulation, and then replace value of source image style code of that channel with corresponding target channel.<br>
+Limitation: This paper actually does local semantic swap, and interpolation is not available.<br>
+</details>
 
 **Improving Inversion and Generation Diversity in StyleGAN using a Gaussianized Latent Space**<br>
 arxiv 2020. [[PDF](https://arxiv.org/abs/2009.06529)]
