@@ -5,7 +5,7 @@ Collection of papers in image synthesis.
 ## Architecture
 **Generative adversarial nets.** <br>
 Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio*<br>
-NeurIPS 2014. [[PDF](https://arxiv.org/abs/1406.2661)] [[Tutorial](https://arxiv.org/abs/1701.00160)]
+NeurIPS 2014. [[PDF](https://arxiv.org/abs/1406.2661)] [[Tutorial](https://arxiv.org/abs/1701.00160)] `Citation:`
 
 `DCGAN` **Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks.** <br>
 Alec Radford, Luke Metz, Soumith Chintala. <br>
@@ -130,8 +130,24 @@ ICLR 2021. [[PDF](https://arxiv.org/abs/2101.04775)]
 
 `ProjectedGAN` **Projected GANs Converge Faster**<br>
 Axel Sauer, Kashyap Chitta, Jens Müller, Andreas Geiger<br>
-[[PDF](https://proceedings.neurips.cc//paper/2021/hash/9219adc5c42107c4911e249155320648-Abstract.html)] [[Project](https://sites.google.com/view/projected-gan/)] [[Pytorch](https://github.com/autonomousvision/projected_gan)]
+[[PDF](https://arxiv.org/abs/2111.01007)] [[Project](https://sites.google.com/view/projected-gan/)] [[Pytorch](https://github.com/autonomousvision/projected_gan)]
 
+## GAN Adaptation
+**Transferring GANs: generating images from limited data.**<br>
+Yaxing Wang, Chenshen Wu, Luis Herranz, Joost van de Weijer, Abel Gonzalez-Garcia, Bogdan Raducanu.<br>
+ECCV 2018. [[PDF](https://arxiv.org/abs/1805.01677)]
+
+**Image Generation From Small Datasets via Batch Statistics Adaptation.**<br>
+Atsuhiro Noguchi, Tatsuya Harada.<br>
+ICCV 2019 [[PDF](https://arxiv.org/abs/1904.01774)]
+
+**Freeze Discriminator: A Simple Baseline for Fine-tuning GANs.**<br>
+Sangwoo Mo, Minsu Cho, Jinwoo Shin.<br>
+CVPRW 2020 [[PDF](https://arxiv.org/abs/2002.10964)] [[Pytorch](https://github.com/sangwoomo/FreezeD)]
+
+**Few-shot Adaptation of Generative Adversarial Networks**<br>
+Esther Robb, Wen-Sheng Chu, Abhishek Kumar, Jia-Bin Huang.<br>
+arxiv 2020 [[PDF](https://arxiv.org/abs/2010.11943)]
 
 # Image Manipulation with Deep Generative Model
 ## GAN Inversion
@@ -244,11 +260,16 @@ Yuval Alaluf, Omer Tov, Ron Mokady, Rinon Gal, Amit H. Bermano. <br>
 David Bau, Jun-Yan Zhu, Hendrik Strobelt, Bolei Zhou, Joshua B. Tenenbaum, William T. Freeman, Antonio Torralba. <br>
 ICLR 2019. [[PDF](https://arxiv.org/abs/1811.10597)] [[Project](http://gandissect.csail.mit.edu/)].
 
+**On the "steerability" of generative adversarial networks.**<br>
+Ali Jahanian, Lucy Chai, Phillip Isola. <br>
+ICLR 2020. [[PDF](https://arxiv.org/abs/1907.07171)] [[Project](https://ali-design.github.io/gan_steerability/)] [[Pytorch](https://github.com/ali-design/gan_steerability)]
+
 `InterFaceGAN` **Interpreting the Latent Space of GANs for Semantic Face Editing**<br>
 Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou.
 CVPR 2020. [[PDF](https://arxiv.org/abs/1907.10786)] [[Project](https://genforce.github.io/interfacegan/)]
 
 <!-- **Only a matter of style: Age transformation using a style-based regression model.** -->
+
 <!-- StyleFlow -->
 <!-- EditGAN -->
 
@@ -261,14 +282,24 @@ ICML 2020. [[PDF](https://arxiv.org/abs/2002.03754)]
 Erik Härkönen, Aaron Hertzmann, Jaakko Lehtinen, Sylvain Paris.<br>
 NeurIPS 2020 [[PDF](https://arxiv.org/abs/2004.02546)] [[Pytorch](https://github.com/harskish/ganspace)]
 
-`SeFa` **Closed-Form Factorization of Latent Semantics in GANs**<br>
-Yujun Shen, Bolei Zhou. <br>
-CVPR 2021 [[PDF](https://arxiv.org/abs/2007.06600)] [[Project](https://genforce.github.io/sefa/)]
-
 **The Hessian Penalty: A Weak Prior for Unsupervised Disentanglement**<br>
 William Peebles, John Peebles, Jun-Yan Zhu, Alexei Efros, Antonio Torralba<br>
 ECCV 2020 [[PDF](https://arxiv.org/abs/2008.10599)] [[Project](https://www.wpeebles.com/hessian-penalty)]
 
+**The Geometry of Deep Generative Image Models and its Applications**<br>
+Binxu Wang, Carlos R. Ponce<br>
+ICLR 2021. [[PDF](https://arxiv.org/abs/2101.06006)]
+
+**Enjoy your editing: Controllable gans for image editing via latent space navigation**
+ICLR 2021. [[PDF](https://arxiv.org/abs/2102.01187)]
+
+`SeFa` **Closed-Form Factorization of Latent Semantics in GANs**<br>
+Yujun Shen, Bolei Zhou. <br>
+CVPR 2021 [[PDF](https://arxiv.org/abs/2007.06600)] [[Project](https://genforce.github.io/sefa/)]
+
+`NaviGAN` **Navigating the GAN Parameter Space for Semantic Image Editing**<br>
+Anton Cherepkov, Andrey Voynov, Artem Babenko.<br>
+CVPR 2021 [[PDF](https://arxiv.org/abs/2011.13786)] [[Pytorch](https://github.com/yandex-research/navigan)]
 
 <!-- EigenGAN -->
 
@@ -286,9 +317,14 @@ Kevin Frans, L.B. Soros, Olaf Witkowski.<br>
 Arxiv 2021. [[PDF](https://arxiv.org/abs/2106.14843)]
 
 
+
 # Image-to-Image Translation
 
 ## Style Transfer
+
+`WCT` **Universal Style Transfer via Feature Transforms**<br>
+Yijun Li, Chen Fang, Jimei Yang, Zhaowen Wang, Xin Lu, Ming-Hsuan Yang. <br>
+[[PDF](https://arxiv.org/abs/1705.08086)]
 
 ## Others
 `GANgealing`**GAN-Supervised Dense Visual Alignment**<br>
@@ -315,6 +351,11 @@ Jianxin Lin, Yingxue Pang, Yingce Xia, Zhibo Chen, Jiebo Luo. <br>
 ECCV 2020. [[PDF](https://arxiv.org/abs/2004.04634)]
 
 
-`DeepSIM` **Image Shape Manipulation from a Single Augmented Training Sample**
+`DeepSIM` **Image Shape Manipulation from a Single Augmented Training Sample**<br>
 Yael Vinker, Eliahu Horwitz, Nir Zabari , Yedid Hoshen. <br>
 ICCV 2021. [[PDF](https://arxiv.org/abs/2007.01289)] [[Project](https://www.vision.huji.ac.il/deepsim/)] [[Pytorch](https://github.com/eliahuhorwitz/DeepSIM)]
+
+# Miscellaneous
+**The Geometry of Deep Generative Image Models and its Applications**<br>
+Binxu Wang, Carlos R. Ponce.<br>
+ICLR 2021. [[PDF](https://arxiv.org/abs/2101.06006)]
