@@ -2,7 +2,7 @@
 Collection of papers in image synthesis.
 
 # Unconditional/(Class Conditional) Image Generation
-## Architecture
+## GAN Architecture
 **Generative adversarial nets.** <br>
 Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio*<br>
 NeurIPS 2014. [[PDF](https://arxiv.org/abs/1406.2661)] [[Tutorial](https://arxiv.org/abs/1701.00160)] `Citation:`
@@ -39,7 +39,49 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2102.07074)] [[Pytorch](https://github.c
 Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakko Lehtinen, Timo Aila. <br>
 NeurIPS 2022. [[PDF](https://arxiv.org/abs/2106.12423)] [[Project](https://nvlabs.github.io/stylegan3/)] Cited:`34`
 
-## Objective
+## Autoencoder-based framework
+`VAE` **Auto-Encoding Variational Bayes.**<br>
+Diederik P.Kingma, Max Welling.<br>
+ICLR 2014. [[PDF](https://arxiv.org/abs/1312.6114)]
+
+`AAE` **Adversarial Autoencoders.**<br>
+Alireza Makhzani, Jonathon Shlens, Navdeep Jaitly, Ian Goodfellow, Brendan Frey.<br>
+arxiv 2015. [[PDF](https://arxiv.org/abs/1511.05644)]
+
+`VAE/GAN` **Autoencoding beyond pixels using a learned similarity metric.** <br>
+Anders Boesen Lindbo Larsen, Søren Kaae Sønderby, Hugo Larochelle, Ole Winther.<br>
+ICML 2016. [[PDF](https://arxiv.org/abs/1512.09300)]
+
+`VampPrior` **VAE with a VampPrior** <br>
+Jakub M. Tomczak, Max Welling.<br>
+AISTATS 2018. [[PDF](https://arxiv.org/abs/1705.07120)] [[Pytorch](https://github.com/jmtomczak/vae_vampprior)]
+
+`BiGAN` **Adversarial Feature Learning**<br>
+Jeff Donahue, Philipp Krähenbühl, Trevor Darrell. <br>
+ICLR 2017. [[PDF](https://arxiv.org/abs/1605.09782)]
+
+`AIL` **Adversarial Learned Inference**<br>
+Vincent Dumoulin, Ishmael Belghazi, Ben Poole, Olivier Mastropietro, Alex Lamb, Martin Arjovsky, Aaron Courville. <br>
+ICLR 2017. [[PDF]https://arxiv.org/abs/1606.00704]
+
+`VEEGAN` **Veegan: Reducing mode collapse in gans using implicit variational learning.**<br>
+Akash Srivastava, Lazar Valkov, Chris Russell, Michael U. Gutmann, Charles Sutton.<br>
+NeurIPS 2017. [[PDF](https://arxiv.org/abs/1705.07761)] [[Github](https://github.com/akashgit/VEEGAN)]
+
+`AGE` **Adversarial Generator-Encoder Networks.**<br>
+Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky.<br>
+AAAI 2018. [[PDF](https://arxiv.org/abs/1704.02304)] [[Pytorch](https://github.com/DmitryUlyanov/AGE)]
+
+`IntroVAE` **IntroVAE: Introspective Variational Autoencoders for Photographic Image Synthesis.**<br>
+Huaibo Huang, Zhihang Li, Ran He, Zhenan Sun, Tieniu Tan. <br>
+NeurIPS 2018. [[PDF](https://arxiv.org/abs/1807.06358)]
+
+`ALAE` **Adversarial Latent Autoencoders**<br>
+Stanislav Pidhorskyi, Donald Adjeroh, Gianfranco Doretto. <br>
+CVPR 2020. [[PDF](https://arxiv.org/abs/2004.04467)]
+
+
+## GAN Objective
 <!-- https://towardsdatascience.com/gan-objective-functions-gans-and-their-variations-ad77340bce3c -->
 `LSGAN` **Least Squares Generative Adversarial Networks.**<br>
 Xudong Mao, Qing Li, Haoran Xie, Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley. <br>
