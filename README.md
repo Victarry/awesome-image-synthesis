@@ -42,7 +42,7 @@ NeurIPS 2022. [[PDF](https://arxiv.org/abs/2106.12423)] [[Project](https://nvlab
 ## Autoencoder-based framework
 `VAE` **Auto-Encoding Variational Bayes.**<br>
 Diederik P.Kingma, Max Welling.<br>
-ICLR 2014. [[PDF](https://arxiv.org/abs/1312.6114)] Cited:`14866`
+ICLR 2014. [[PDF](https://arxiv.org/abs/1312.6114)] Cited:`14867`
 
 `AAE` **Adversarial Autoencoders.**<br>
 Alireza Makhzani, Jonathon Shlens, Navdeep Jaitly, Ian Goodfellow, Brendan Frey.<br>
@@ -262,6 +262,7 @@ CVPR 2020. [[PDF](https://arxiv.org/abs/2004.14367)] [[Pytorch](https://github.c
 StyleGAN's style code controls the global style of images, so how to make local manipulation based on style code? 
 Remeber that the style code is to modulate the variance of intermediate variations, different channels control different local semantic elements like noise and eyes.
 So we can identity the channel most correlated to the region of interest for local manipulation, and then replace value of source image style code of that channel with corresponding target channel.<br>
+Details: The corresponding between RoI and channel is measured by feature map magnitude within each cluster, and the cluster is calculated from spherical k-means on features in 32x32 layer.
 Limitation: This paper actually does local semantic swap, and interpolation is not available.<br>
 </details>
 
@@ -397,7 +398,17 @@ ECCV 2020. [[PDF](https://arxiv.org/abs/2004.04634)] Cited:`18`
 Yael Vinker, Eliahu Horwitz, Nir Zabari , Yedid Hoshen. <br>
 ICCV 2021. [[PDF](https://arxiv.org/abs/2007.01289)] [[Project](https://www.vision.huji.ac.il/deepsim/)] [[Pytorch](https://github.com/eliahuhorwitz/DeepSIM)] Cited:`0`
 
+# Semi-supervised Learning with GAN
+`SemanticGAN` **Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization**<br>
+Daiqing Li, Junlin Yang, Karsten Kreis, Antonio Torralba, Sanja Fidler.<br>
+CVPR 2021. [[PDF](https://arxiv.org/abs/2104.05833)]
+
+
 # Miscellaneous
 **The Geometry of Deep Generative Image Models and its Applications**<br>
 Binxu Wang, Carlos R. Ponce.<br>
 ICLR 2021. [[PDF](https://arxiv.org/abs/2101.06006)] Cited:`5`
+
+`SemanticStyleGAN` **SemanticStyleGAN: Learning Compositional Generative Priors for Controllable Image Synthesis and Editing**<br>
+Yichun Shi, Xiao Yang, Yangyue Wan, Xiaohui Shen.<br>
+arxiv 2021. [[PDF](https://arxiv.org/abs/2112.02236)]
