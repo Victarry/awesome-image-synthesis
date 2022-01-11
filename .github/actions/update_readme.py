@@ -10,14 +10,17 @@ with open('./README.md', 'r') as f:
         m = p.search(line)
         if m:
             arxiv_url = m.group()
-            paper = sch.paper(f'URL:{arxiv_url}')
-            if "numCitedBy" in paper:
-                cite_count = paper["numCitedBy"]
-                if "Cited" in line:
-                    line = line.split(" Cited")[0]
-                line = line.strip()
-                line = f'{line} Cited:`{cite_count}`\n'
-        print(line, end="")
+            try:
+                paper = sch.paper(f'URL:{arxiv_url}')
+            except Exception:
+                print(f"Unsuccessfuly when handle {arxiv_url}")
+            else:
+                if "numCitedBy" in paper:
+                    cite_count = paper["numCitedBy"]
+                    if "Cited" in line:
+                        line = line.split(" Cited")[0]
+                    line = line.strip()
+                    line = f'{line} Cited:`{cite_count}`\n'
         lines.append(line)
 
 with open('./README.md', 'w') as f:
