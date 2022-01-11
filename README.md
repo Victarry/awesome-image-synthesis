@@ -403,6 +403,9 @@ ICCV 2021. [[PDF](https://arxiv.org/abs/2007.01289)] [[Project](https://www.visi
 Daiqing Li, Junlin Yang, Karsten Kreis, Antonio Torralba, Sanja Fidler.<br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2104.05833)]
 
+`DatasetGAN` **DatasetGAN: Efﬁcient Labeled Data Factory with Minimal Human Effort**
+Yuxuan Zhang, Huan Ling, Jun Gao, Kangxue Yin, Jean-Francois Lafleche, Adela Barriuso, Antonio Torralba, Sanja Fidler.<br>
+CVPR 2021. [[PDF](https://arxiv.org/abs/2104.06490)]
 
 # Miscellaneous
 **The Geometry of Deep Generative Image Models and its Applications**<br>
