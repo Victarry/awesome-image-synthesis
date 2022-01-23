@@ -13,19 +13,19 @@ ICLR 2016. [[PDF](https://arxiv.org/abs/1511.06434)] Cited:`9219`
 
 `PG-GAN` **Progressive Growing of GANs for Improved Quality, Stability, and Variation.** <br>
 Tero Karras, Timo Aila, Samuli Laine, Jaakko Lehtinen.<br>
-ICLR 2018. [[PDF](https://arxiv.org/abs/1710.10196)] Cited:`3503`
+ICLR 2018. [[PDF](https://arxiv.org/abs/1710.10196)] Cited:`3505`
 
 `StyleGAN` **A Style-Based Generator Architecture for Generative Adversarial Networks.** <br>
 Tero Karras, Samuli Laine, Timo Aila. <br>
-CVPR 2019. [[PDF](https://arxiv.org/abs/1812.04948)] Cited:`2942`
+CVPR 2019. [[PDF](https://arxiv.org/abs/1812.04948)] Cited:`2946`
 
 `BigGAN` **Large Scale GAN Training for High Fidelity Natural Image Synthesis.** <br>
 Andrew Brock, Jeff Donahue, Karen Simonyan. <br>
-ICLR 2019. [[PDF](https://arxiv.org/abs/1809.11096)] Cited:`2354`
+ICLR 2019. [[PDF](https://arxiv.org/abs/1809.11096)] Cited:`2357`
 
 `StyleGAN2` **Analyzing and Improving the Image Quality of StyleGAN.**<br>
 Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila. <br>
-CVPR 2020. [[PDF](https://arxiv.org/abs/1912.04958)] Cited:`1189`
+CVPR 2020. [[PDF](https://arxiv.org/abs/1912.04958)] Cited:`1190`
 
 `VQGAN` **Taming Transformers for High-Resolution Image Synthesis**<br>
 Patrick Esser, Robin Rombach, Björn Ommer.<br>
@@ -37,7 +37,7 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2102.07074)] [[Pytorch](https://github.c
 
 `StyleGAN3` **Alias-Free Generative Adversarial Networks.**<br>
 Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakko Lehtinen, Timo Aila. <br>
-NeurIPS 2022. [[PDF](https://arxiv.org/abs/2106.12423)] [[Project](https://nvlabs.github.io/stylegan3/)] Cited:`40`
+NeurIPS 2022. [[PDF](https://arxiv.org/abs/2106.12423)] [[Project](https://nvlabs.github.io/stylegan3/)] Cited:`41`
 
 ## Autoencoder-based framework
 `VAE` **Auto-Encoding Variational Bayes.**<br>
@@ -58,7 +58,7 @@ AISTATS 2018. [[PDF](https://arxiv.org/abs/1705.07120)] [[Pytorch](https://githu
 
 `BiGAN` **Adversarial Feature Learning**<br>
 Jeff Donahue, Philipp Krähenbühl, Trevor Darrell. <br>
-ICLR 2017. [[PDF](https://arxiv.org/abs/1605.09782)] Cited:`1270`
+ICLR 2017. [[PDF](https://arxiv.org/abs/1605.09782)] Cited:`1271`
 
 `AIL` **Adversarial Learned Inference**<br>
 Vincent Dumoulin, Ishmael Belghazi, Ben Poole, Olivier Mastropietro, Alex Lamb, Martin Arjovsky, Aaron Courville. <br>
@@ -85,7 +85,7 @@ CVPR 2020. [[PDF](https://arxiv.org/abs/2004.04467)] Cited:`101`
 <!-- https://towardsdatascience.com/gan-objective-functions-gans-and-their-variations-ad77340bce3c -->
 `LSGAN` **Least Squares Generative Adversarial Networks.**<br>
 Xudong Mao, Qing Li, Haoran Xie, Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley. <br>
-ICCV 2017. [[PDF](https://arxiv.org/abs/1611.04076)] Cited:`2545`
+ICCV 2017. [[PDF](https://arxiv.org/abs/1611.04076)] Cited:`2546`
 
 `GGAN` **Geometric GAN** <br>
 Jae Hyun Lim, Jong Chul Ye. <br>
@@ -107,7 +107,7 @@ NeurIPS 2017. [[PDF](https://arxiv.org/abs/1704.00028)] Cited:`5172`
 
 `CR-GAN` **Consistency regularization for generative adversarial networks.**<br>
 Han Zhang, Zizhao Zhang, Augustus Odena, Honglak Lee. <br>
-ICLR 2020. [[PDF](https://arxiv.org/abs/1910.12027)] Cited:`114`
+ICLR 2020. [[PDF](https://arxiv.org/abs/1910.12027)] Cited:`115`
 <details>
 <summary>Summary</summary>
 Motivation: GANs training is unstable. Traditional regularization methods introduce non-trivial computational overheads. Discrminator is easy to focus on local features instead of semantic information. Images of different semantic objects may be close in the discriminator's feature space due to their similarity in viewpoint.<br>
@@ -121,7 +121,7 @@ The author claim this is due to consistency regularization further enforce the d
 
 **Differentiable Augmentation for Data-Efficient GAN Training.** <br>
 Zhao Shengyu, Liu Zhijian, Lin Ji, Zhu Jun-Yan, Han Song.<br>
-NeurIPS 2020.  [[PDF](https://arxiv.org/abs/2006.10738)] [[Project](https://hanlab.mit.edu/projects/data-efficient-gans/)]<br> Cited:`144`
+NeurIPS 2020.  [[PDF](https://arxiv.org/abs/2006.10738)] [[Project](https://hanlab.mit.edu/projects/data-efficient-gans/)]<br> Cited:`145`
 
 `ICR-GAN` **Improved consistency regularization for GANs.** <br>
 Zhengli Zhao, Sameer Singh, Honglak Lee, Zizhao Zhang, Augustus Odena, Han Zhang. <br>
@@ -136,7 +136,7 @@ Experiment: the augmentation to image is same as CR-GAN, the augmentation to lat
 
 `StyleGAN-ADA` **Training Generative Adversarial Networks with Limited Data.**<br>
 Tero Karras, Miika Aittala, Janne Hellsten, Samuli Laine, Jaakko Lehtinen, Timo Aila. <br>
-NeurIPS 2020. [[PDF](https://arxiv.org/abs/2006.06676)] [[Tensorflow](https://github.com/NVlabs/stylegan2-ada)] [[Pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch)] Cited:`310`
+NeurIPS 2020. [[PDF](https://arxiv.org/abs/2006.06676)] [[Tensorflow](https://github.com/NVlabs/stylegan2-ada)] [[Pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch)] Cited:`311`
 <!-- <details>
 <summary>summary</summary>
 Motivation: <br>
@@ -159,7 +159,7 @@ NeurIPS 2016. [[PDF](https://arxiv.org/abs/1606.03498)] Cited:`5126`
 
 `FID, TTUR` **GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium**<br>
 Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, Sepp Hochreiter. <br>
-NeurIPS 2017. [[PDF](https://arxiv.org/abs/1706.08500)] Cited:`3787`
+NeurIPS 2017. [[PDF](https://arxiv.org/abs/1706.08500)] Cited:`3789`
 
 `SWD` **Sliced Wasserstein Generative Models**
 Jiqing Wu, Zhiwu Huang, Dinesh Acharya, Wen Li, Janine Thoma, Danda Pani Paudel, Luc Van Gool. <br>
@@ -196,7 +196,7 @@ arxiv 2020 [[PDF](https://arxiv.org/abs/2010.11943)] Cited:`15`
 
 `iGAN` **Generative Visual Manipulation on the Natural Image Manifold**<br>
 Jun-Yan Zhu, Philipp Krähenbühl, Eli Shechtman, Alexei A. Efros. <br>
-ECCV 2016. [[PDF](https://arxiv.org/abs/1609.03552)] [[github](https://github.com/junyanz/iGAN)] Cited:`953`
+ECCV 2016. [[PDF](https://arxiv.org/abs/1609.03552)] [[github](https://github.com/junyanz/iGAN)] Cited:`954`
 
 `IcGAN` **Invertible Conditional GANs for image editing**<br>
 Guim Perarnau, Joost van de Weijer, Bogdan Raducanu, Jose M. Álvarez<br>
@@ -228,7 +228,7 @@ Limitation: Layer-wise inversion is not performed on StyleGAN.
 
 **Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?** <br>
 Rameen Abdal, Yipeng Qin, Peter Wonka. <br>
-ICCV 2019. [[PDF](https://arxiv.org/abs/1904.03189)] Cited:`312`
+ICCV 2019. [[PDF](https://arxiv.org/abs/1904.03189)] Cited:`315`
 
 **Image2StyleGAN++: How to Edit the Embedded Images?**<br>
 Rameen Abdal, Yipeng Qin, Peter Wonka. <br>
@@ -301,7 +301,7 @@ Yuval Alaluf, Omer Tov, Ron Mokady, Rinon Gal, Amit H. Bermano. <br>
 ## Supervised GAN Manipulation
 **GAN Dissection: Visualizing and Understanding Generative Adversarial Networks**<br>
 David Bau, Jun-Yan Zhu, Hendrik Strobelt, Bolei Zhou, Joshua B. Tenenbaum, William T. Freeman, Antonio Torralba. <br>
-ICLR 2019. [[PDF](https://arxiv.org/abs/1811.10597)] [[Project](http://gandissect.csail.mit.edu/)]. Cited:`230`
+ICLR 2019. [[PDF](https://arxiv.org/abs/1811.10597)] [[Project](http://gandissect.csail.mit.edu/)]. Cited:`231`
 
 **On the "steerability" of generative adversarial networks.**<br>
 Ali Jahanian, Lucy Chai, Phillip Isola. <br>
@@ -309,7 +309,7 @@ ICLR 2020. [[PDF](https://arxiv.org/abs/1907.07171)] [[Project](https://ali-desi
 
 `InterFaceGAN` **Interpreting the Latent Space of GANs for Semantic Face Editing**<br>
 Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou.
-CVPR 2020. [[PDF](https://arxiv.org/abs/1907.10786)] [[Project](https://genforce.github.io/interfacegan/)] Cited:`326`
+CVPR 2020. [[PDF](https://arxiv.org/abs/1907.10786)] [[Project](https://genforce.github.io/interfacegan/)] Cited:`327`
 
 <!-- **Only a matter of style: Age transformation using a style-based regression model.** -->
 
