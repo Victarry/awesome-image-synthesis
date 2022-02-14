@@ -294,9 +294,14 @@ arxiv 2020. [[PDF](https://arxiv.org/abs/2007.01758)] Cited:`36`
 3. The embedding network consists of a pretrained Arcface model as identity encoder, an attribute encoder built with ResBlock, the output identity feature and attribute feature are combined via linear modulation(denomarlization in SPADE). After that a Treeconnect(a sparse alterative to fully-connected layer) is used to output the final embeded code.
 </details>
 
+**Pivotal Tuning for Latent-based Editing of Real Images**<br>
+Daniel Roich, Ron Mokady, Amit H. Bermano, Daniel Cohen-Or. <br>
+arxiv 2021. [[PDF](https://arxiv.org/abs/2106.05744)]
+
 **HyperStyle: StyleGAN Inversion with HyperNetworks for Real Image Editing.**<br>
 Yuval Alaluf, Omer Tov, Ron Mokady, Rinon Gal, Amit H. Bermano. <br>
 (CVPR 2022?) [[PDF](https://arxiv.org/abs/2111.15666)] [[Project](https://yuval-alaluf.github.io/hyperstyle/)] Cited:`3`
+
 
 ## Supervised GAN Manipulation
 **GAN Dissection: Visualizing and Understanding Generative Adversarial Networks**<br>
@@ -334,6 +339,7 @@ Binxu Wang, Carlos R. Ponce<br>
 ICLR 2021. [[PDF](https://arxiv.org/abs/2101.06006)] Cited:`8`
 
 **Enjoy your editing: Controllable gans for image editing via latent space navigation**
+Peiye Zhuang, Oluwasanmi Koyejo, Alexander G. Schwing<br>
 ICLR 2021. [[PDF](https://arxiv.org/abs/2102.01187)] Cited:`12`
 
 `SeFa` **Closed-Form Factorization of Latent Semantics in GANs**<br>
@@ -360,8 +366,59 @@ Kevin Frans, L.B. Soros, Olaf Witkowski.<br>
 Arxiv 2021. [[PDF](https://arxiv.org/abs/2106.14843)] Cited:`15`
 
 
-
 # Image-to-Image Translation
+## Supervised Image Translation
+
+`pix2pix` **Image-to-Image Translation with Conditional Adversarial Networks**<br>
+Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros.<br>
+CVPR 2017. [[PDF](https://arxiv.org/abs/1611.07004)]
+
+### Semantic Image Synthesis
+
+`CRN` **Photographic Image Synthesis with Cascaded Refinement Networks**<br>
+Qifeng Chen, Vladlen Koltun. <br>
+ICCV 2017. [[PDF](https://arxiv.org/abs/1707.09405)]
+
+`pix2pixHD` **High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs**<br>
+Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro.<br>
+CVPR 2018. [[PDF](https://arxiv.org/abs/1711.11585)]
+
+`SPADE` **Semantic Image Synthesis with Spatially-Adaptive Normalization**<br>
+Taesung Park, Ming-Yu Liu, Ting-Chun Wang, Jun-Yan Zhu.<br>
+CVPR 2019. [[PDF](https://arxiv.org/abs/1903.07291)]
+
+`SEAN` **SEAN: Image Synthesis with Semantic Region-Adaptive Normalization**<br>
+Peihao Zhu, Rameen Abdal, Yipeng Qin, Peter Wonka.<br>
+CVPR 2020. [[PDF](https://arxiv.org/abs/1911.12861)]
+
+**Diverse Semantic Image Synthesis via Probability Distribution Modeling**<br>
+Zhentao Tan, Menglei Chai, Dongdong Chen, Jing Liao, Qi Chu, Bin Liu, Gang Hua, Nenghai Yu.<br>
+CVPR 2021. [[PDF](https://arxiv.org/abs/2103.06878)]
+
+**Efficient Semantic Image Synthesis via Class-Adaptive Normalization**<br>
+Zhentao Tan, Dongdong Chen, Qi Chu, Menglei Chai, Jing Liao, Mingming He, Lu Yuan, Gang Hua, Nenghai Yu.<br>
+TPAMI 2021. [[PDF](https://arxiv.org/pdf/2012.04644.pdf)]
+
+Spatially-adaptive pixelwise networks for fast image translation.
+
+High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network
+
+### Various Applications
+Sketch Your Own GAN
+
+### Super-resolution
+
+### Example based image translation
+
+## Unsupervised Image Transaltion
+### Cycle-Consistency Based
+Swapping Autoencoder for Deep Image Manipulation
+
+### Beyond Cycle-consistency
+
+## Multimodal Image Translation
+
+## Few-shot Image Translation
 
 ## Style Transfer
 
@@ -388,11 +445,9 @@ CVPR 2018 [[PDF](https://arxiv.org/abs/1711.10925)] [[Project](https://dmitryuly
 Tamar Rott Shaham, Tali Dekel, Tomer Michaeli. <br>
 ICCV 2019 Best Paper. [[PDF](https://arxiv.org/abs/1905.01164)] [[Project](https://tamarott.github.io/SinGAN.htm)] Cited:`327`
 
-
 `TuiGAN` **TuiGAN: Learning Versatile Image-to-Image Translation with Two Unpaired Images** <br>
 Jianxin Lin, Yingxue Pang, Yingce Xia, Zhibo Chen, Jiebo Luo. <br>
 ECCV 2020. [[PDF](https://arxiv.org/abs/2004.04634)] Cited:`19`
-
 
 `DeepSIM` **Image Shape Manipulation from a Single Augmented Training Sample**<br>
 Yael Vinker, Eliahu Horwitz, Nir Zabari , Yedid Hoshen. <br>
