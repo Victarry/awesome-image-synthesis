@@ -300,9 +300,6 @@ SIGGRAPH 2021. [[PDF](https://arxiv.org/abs/2102.02766)] Cited:`61`
 Yuval Alaluf, Or Patashnik, Daniel Cohen-Or. <br>
 ICCV 2021. [[PDF](https://arxiv.org/abs/2104.02699)] [[Project](https://yuval-alaluf.github.io/restyle-encoder/)] Cited:`31`
 
-`StyleSpace` **StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation**<br>
-Zongze Wu, Dani Lischinski, Eli Shechtman. <br>
-CVPR 2021. [[PDF](https://arxiv.org/abs/2011.12799)] Cited:`63`
 
 **Collaborative Learning for Faster StyleGAN Embedding.** <br>
 Shanyan Guan, Ying Tai, Bingbing Ni, Feida Zhu, Feiyue Huang, Xiaokang Yang. <br>
@@ -333,13 +330,19 @@ Ali Jahanian, Lucy Chai, Phillip Isola. <br>
 ICLR 2020. [[PDF](https://arxiv.org/abs/1907.07171)] [[Project](https://ali-design.github.io/gan_steerability/)] [[Pytorch](https://github.com/ali-design/gan_steerability)] Cited:`178`
 
 `InterFaceGAN` **Interpreting the Latent Space of GANs for Semantic Face Editing**<br>
-Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou.
+Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou. <br>
 CVPR 2020. [[PDF](https://arxiv.org/abs/1907.10786)] [[Project](https://genforce.github.io/interfacegan/)] Cited:`338`
 
 <!-- **Only a matter of style: Age transformation using a style-based regression model.** -->
 
-<!-- StyleFlow -->
-<!-- EditGAN -->
+`StyleFlow` **StyleFlow: Attribute-conditioned Exploration of StyleGAN-Generated Images using Conditional Continuous Normalizing Flows** <br>
+Rameen Abdal, Peihao Zhu, Niloy Mitra, Peter Wonka. <br>
+SIGGRAPH 2021. [[PDF](https://arxiv.org/abs/2008.02401)]
+
+`EditGAN` **EditGAN: High-Precision Semantic Image Editing**<br>
+Huan Ling, Karsten Kreis, Daiqing Li, Seung Wook Kim, Antonio Torralba, Sanja Fidler. <br>
+NeurIPS 2021. [[PDF](https://arxiv.org/abs/2111.03186)]
+
 
 ## Unsupervised GAN Manipulation
 **Unsupervised Discovery of Interpretable Directions in the GAN Latent Space.**<br>
@@ -349,6 +352,10 @@ ICML 2020. [[PDF](https://arxiv.org/abs/2002.03754)] Cited:`109`
 `GANSpace`**GANSpace: Discovering Interpretable GAN Controls**<br>
 Erik Härkönen, Aaron Hertzmann, Jaakko Lehtinen, Sylvain Paris.<br>
 NeurIPS 2020 [[PDF](https://arxiv.org/abs/2004.02546)] [[Pytorch](https://github.com/harskish/ganspace)] Cited:`198`
+
+`StyleSpace` **StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation**<br>
+Zongze Wu, Dani Lischinski, Eli Shechtman. <br>
+CVPR 2021. [[PDF](https://arxiv.org/abs/2011.12799)] Cited:`63`
 
 **The Hessian Penalty: A Weak Prior for Unsupervised Disentanglement**<br>
 William Peebles, John Peebles, Jun-Yan Zhu, Alexei Efros, Antonio Torralba<br>
