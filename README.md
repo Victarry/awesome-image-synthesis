@@ -80,6 +80,26 @@ NeurIPS 2018. [[PDF](https://arxiv.org/abs/1807.06358)] Cited:`130`
 Stanislav Pidhorskyi, Donald Adjeroh, Gianfranco Doretto. <br>
 CVPR 2020. [[PDF](https://arxiv.org/abs/2004.04467)] Cited:`105`
 
+## Disentangled Image Generation
+`DC-IGN` **Deep Convolutional Inverse Graphics Network**<br>
+Tejas D. Kulkarni, Will Whitney, Pushmeet Kohli, Joshua B. Tenenbaum. <br>
+NeurIPS 2015. [[PDF](Deep Convolutional Inverse Graphics Network)]
+
+`InfoGAN` **InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets**<br>
+Xi Chen, Yan Duan, Rein Houthooft, John Schulman, Ilya Sutskever, Pieter Abbeel. <br>
+NeurIPS 2016. [[PDF](https://arxiv.org/abs/1606.03657)]
+
+`Beta-VAE` **beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework**<br>
+I. Higgins, L. Matthey, Arka Pal, Christopher P. Burgess, Xavier Glorot, M. Botvinick, S. Mohamed, Alexander Lerchner. <br>
+ICLR 2017. [[PDF](https://openreview.net/forum?id=Sy2fzU9gl)]
+
+`Factor-VAE` **Disentangling by Factorising**<br>
+Hyunjik Kim, Andriy Mnih. <br>
+NeurIPS 2017. [[PDF](https://arxiv.org/abs/1802.05983)]
+
+**Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations.**<br>
+Francesco Locatello, Stefan Bauer, Mario Lucic, Gunnar Rätsch, Sylvain Gelly, Bernhard Schölkopf, Olivier Bachem.<br>
+ICML(best paper award) 2019. [[PDF](https://arxiv.org/abs/1811.12359)]
 
 ## GAN Objective
 <!-- https://towardsdatascience.com/gan-objective-functions-gans-and-their-variations-ad77340bce3c -->
