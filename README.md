@@ -39,6 +39,36 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2102.07074)] [[Pytorch](https://github.c
 Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakko Lehtinen, Timo Aila. <br>
 NeurIPS 2022. [[PDF](https://arxiv.org/abs/2106.12423)] [[Project](https://nvlabs.github.io/stylegan3/)] Cited:`55`
 
+## GAN Objective
+**Towards Principled Methods for Training Generative Adversarial Networks**<br>
+Martin Arjovsky, Léon Bottou<br>
+ICLR 2017. [[PDF]https://arxiv.org/abs/1701.04862]
+
+<!-- https://towardsdatascience.com/gan-objective-functions-gans-and-their-variations-ad77340bce3c -->
+`LSGAN` **Least Squares Generative Adversarial Networks.**<br>
+Xudong Mao, Qing Li, Haoran Xie, Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley. <br>
+ICCV 2017. [[PDF](https://arxiv.org/abs/1611.04076)] Cited:`2573`
+
+`WGAN` **Wasserstein GAN**<br>
+Martin Arjovsky, Soumith Chintala, Léon Bottou.<br>
+ICML 2017. [[PDF](https://arxiv.org/abs/1701.07875)] Cited:`2677`
+
+`GGAN` **Geometric GAN** <br>
+Jae Hyun Lim, Jong Chul Ye. <br>
+Axiv 2017. [[PDF](https://arxiv.org/abs/1705.02894)] Cited:`171`
+
+`AC-GAN` **Conditional Image Synthesis With Auxiliary Classifier GANs** <br>
+Augustus Odena, Christopher Olah, Jonathon Shlens. <br>
+ICML 2017. [[PDF](https://arxiv.org/abs/1610.09585)]
+
+**cGANs with Projection Discriminator**<br>
+Takeru Miyato, Masanori Koyama. <br>
+ICLR 2018. [[PDF](https://arxiv.org/abs/1802.05637)]
+
+`S³-GAN` **High-Fidelity Image Generation With Fewer Labels**<br>
+Mario Lucic*, Michael Tschannen*, Marvin Ritter*, Xiaohua Zhai, Olivier Bachem, Sylvain Gelly. <br>
+ICML 2019. [[PDF](https://arxiv.org/abs/1903.02271)] [[Tensorflow](https://github.com/google/compare_gan)]
+
 ## Autoencoder-based framework
 `VAE` **Auto-Encoding Variational Bayes.**<br>
 Diederik P.Kingma, Max Welling.<br>
@@ -101,29 +131,14 @@ NeurIPS 2017. [[PDF](https://arxiv.org/abs/1802.05983)] Cited:`700`
 Francesco Locatello, Stefan Bauer, Mario Lucic, Gunnar Rätsch, Sylvain Gelly, Bernhard Schölkopf, Olivier Bachem.<br>
 ICML(best paper award) 2019. [[PDF](https://arxiv.org/abs/1811.12359)] Cited:`636`
 
-## GAN Objective
-<!-- https://towardsdatascience.com/gan-objective-functions-gans-and-their-variations-ad77340bce3c -->
-`LSGAN` **Least Squares Generative Adversarial Networks.**<br>
-Xudong Mao, Qing Li, Haoran Xie, Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley. <br>
-ICCV 2017. [[PDF](https://arxiv.org/abs/1611.04076)] Cited:`2587`
-
-`GGAN` **Geometric GAN** <br>
-Jae Hyun Lim, Jong Chul Ye. <br>
-Axiv 2017. [[PDF](https://arxiv.org/abs/1705.02894)] Cited:`172`
-
-`WGAN` **Wasserstein GAN**<br>
-Martin Arjovsky, Soumith Chintala, Léon Bottou.<br>
-ICML 2017. [[PDF](https://arxiv.org/abs/1701.07875)] Cited:`2681`
-
 ## Regularization / Limited Data
+`WGAN-GP` **Improved training of wasserstein gans**<br>
+Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, Aaron Courville.<br>
+NeurIPS 2017. [[PDF](https://arxiv.org/abs/1704.00028)] Cited:`5221`
 
 **Spectral Normalization for Generative Adversarial Networks.**<br>
 Takeru Miyato, Toshiki Kataoka, Masanori Koyama, Yuichi Yoshida.<br>
 ICLR 2018. [[PDF](https://arxiv.org/abs/1802.05957)] Cited:`2531`
-
-`WGAN-GP` **Improved training of wasserstein gans**<br>
-Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, Aaron Courville.<br>
-NeurIPS 2017. [[PDF](https://arxiv.org/abs/1704.00028)] Cited:`5270`
 
 `CR-GAN` **Consistency regularization for generative adversarial networks.**<br>
 Han Zhang, Zizhao Zhang, Augustus Odena, Honglak Lee. <br>
@@ -433,13 +448,17 @@ High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyram
 ### Various Applications
 Sketch Your Own GAN
 
+### Swapping
+Information Bottleneck Disentanglement for Identity Swapping
+High-Resolution Daytime Translation Without Domain Labels
+Swapping Autoencoder for Deep Image Manipulation
+
 ### Super-resolution
 
 ### Example based image translation
 
 ## Unsupervised Image Transaltion
 ### Cycle-Consistency Based
-Swapping Autoencoder for Deep Image Manipulation
 
 ### Beyond Cycle-consistency
 
@@ -452,6 +471,9 @@ Swapping Autoencoder for Deep Image Manipulation
 `WCT` **Universal Style Transfer via Feature Transforms**<br>
 Yijun Li, Chen Fang, Jimei Yang, Zhaowen Wang, Xin Lu, Ming-Hsuan Yang. <br>
 [[PDF](https://arxiv.org/abs/1705.08086)] Cited:`436`
+
+Style transfer by relaxed optimal transport and self-similarity.
+
 
 ## Others
 `GANgealing`**GAN-Supervised Dense Visual Alignment**<br>
@@ -488,6 +510,7 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2104.05833)] Cited:`19`
 `DatasetGAN` **DatasetGAN: Efﬁcient Labeled Data Factory with Minimal Human Effort**
 Yuxuan Zhang, Huan Ling, Jun Gao, Kangxue Yin, Jean-Francois Lafleche, Adela Barriuso, Antonio Torralba, Sanja Fidler.<br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2104.06490)] Cited:`26`
+
 
 # Miscellaneous
 **The Geometry of Deep Generative Image Models and its Applications**<br>
