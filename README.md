@@ -17,11 +17,11 @@ ICLR 2018. [[PDF](https://arxiv.org/abs/1710.10196)] Cited:`3576`
 
 `StyleGAN` **A Style-Based Generator Architecture for Generative Adversarial Networks.** <br>
 Tero Karras, Samuli Laine, Timo Aila. <br>
-CVPR 2019. [[PDF](https://arxiv.org/abs/1812.04948)] Cited:`3041`
+CVPR 2019. [[PDF](https://arxiv.org/abs/1812.04948)] Cited:`3046`
 
 `BigGAN` **Large Scale GAN Training for High Fidelity Natural Image Synthesis.** <br>
 Andrew Brock, Jeff Donahue, Karen Simonyan. <br>
-ICLR 2019. [[PDF](https://arxiv.org/abs/1809.11096)] Cited:`2422`
+ICLR 2019. [[PDF](https://arxiv.org/abs/1809.11096)] Cited:`2424`
 
 `StyleGAN2` **Analyzing and Improving the Image Quality of StyleGAN.**<br>
 Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila. <br>
@@ -55,15 +55,15 @@ ICML 2017. [[PDF](https://arxiv.org/abs/1701.07875)] Cited:`2682`
 
 `GGAN` **Geometric GAN** <br>
 Jae Hyun Lim, Jong Chul Ye. <br>
-Axiv 2017. [[PDF](https://arxiv.org/abs/1705.02894)] Cited:`172`
+Axiv 2017. [[PDF](https://arxiv.org/abs/1705.02894)] Cited:`173`
 
 `AC-GAN` **Conditional Image Synthesis With Auxiliary Classifier GANs** <br>
 Augustus Odena, Christopher Olah, Jonathon Shlens. <br>
-ICML 2017. [[PDF](https://arxiv.org/abs/1610.09585)] Cited:`1972`
+ICML 2017. [[PDF](https://arxiv.org/abs/1610.09585)] Cited:`1975`
 
 **cGANs with Projection Discriminator**<br>
 Takeru Miyato, Masanori Koyama. <br>
-ICLR 2018. [[PDF](https://arxiv.org/abs/1802.05637)] Cited:`511`
+ICLR 2018. [[PDF](https://arxiv.org/abs/1802.05637)] Cited:`512`
 
 `S³-GAN` **High-Fidelity Image Generation With Fewer Labels**<br>
 Mario Lucic*, Michael Tschannen*, Marvin Ritter*, Xiaohua Zhai, Olivier Bachem, Sylvain Gelly. <br>
@@ -138,7 +138,7 @@ NeurIPS 2017. [[PDF](https://arxiv.org/abs/1704.00028)] Cited:`5278`
 
 **Spectral Normalization for Generative Adversarial Networks.**<br>
 Takeru Miyato, Toshiki Kataoka, Masanori Koyama, Yuichi Yoshida.<br>
-ICLR 2018. [[PDF](https://arxiv.org/abs/1802.05957)] Cited:`2532`
+ICLR 2018. [[PDF](https://arxiv.org/abs/1802.05957)] Cited:`2533`
 
 `CR-GAN` **Consistency regularization for generative adversarial networks.**<br>
 Han Zhang, Zizhao Zhang, Augustus Odena, Honglak Lee. <br>
@@ -194,7 +194,7 @@ NeurIPS 2016. [[PDF](https://arxiv.org/abs/1606.03498)] Cited:`5158`
 
 `FID, TTUR` **GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium**<br>
 Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, Sepp Hochreiter. <br>
-NeurIPS 2017. [[PDF](https://arxiv.org/abs/1706.08500)] Cited:`3895`
+NeurIPS 2017. [[PDF](https://arxiv.org/abs/1706.08500)] Cited:`3893`
 
 `SWD` **Sliced Wasserstein Generative Models**
 Jiqing Wu, Zhiwu Huang, Dinesh Acharya, Wen Li, Janine Thoma, Danda Pani Paudel, Luc Van Gool. <br>
@@ -251,7 +251,7 @@ SIGGRAPH 2019. [[PDF](https://arxiv.org/abs/2005.07727)] Cited:`178`
 
 `GANSeeing` **Seeing What a GAN Cannot Generate.**<br>
 David Bau, Jun-Yan Zhu, Jonas Wulff, William Peebles, Hendrik Strobelt, Bolei Zhou, Antonio Torralba.<br>
-ICCV 2019. [[PDF](https://arxiv.org/abs/1910.11626)] Cited:`126`
+ICCV 2019. [[PDF](https://arxiv.org/abs/1910.11626)] Cited:`127`
 <details>
 <summary>summary</summary>
 Summary: To see what a GAN cannot generate (mode collapse problem), this paper first inspects the distribution of semantic classes of generated images compared with groundtruth images. Sencond, by inverting images, the failure cases of image instances can be directly observed.<br>
