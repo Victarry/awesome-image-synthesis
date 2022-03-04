@@ -40,6 +40,10 @@ Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakk
 NeurIPS 2022. [[PDF](https://arxiv.org/abs/2106.12423)] [[Project](https://nvlabs.github.io/stylegan3/)] Cited:`58`
 
 ## GAN Objective
+`EB-GAN` **Energy-based Generative Adversarial Networks**<br>
+Junbo Zhao, Michael Mathieu, Yann LeCun.<br>
+ICLR 2017. [[PDF](https://arxiv.org/abs/1609.03126)]
+
 **Towards Principled Methods for Training Generative Adversarial Networks**<br>
 Martin Arjovsky, Léon Bottou<br>
 ICLR 2017. [[PDF]https://arxiv.org/abs/1701.04862] Cited:`1346`
@@ -122,6 +126,10 @@ NeurIPS 2016. [[PDF](https://arxiv.org/abs/1606.03657)] Cited:`2889`
 `Beta-VAE` **beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework**<br>
 I. Higgins, L. Matthey, Arka Pal, Christopher P. Burgess, Xavier Glorot, M. Botvinick, S. Mohamed, Alexander Lerchner. <br>
 ICLR 2017. [[PDF](https://openreview.net/forum?id=Sy2fzU9gl)]
+
+`AnnealedVAE` **Understanding disentangling in β-VAE**<br>
+Christopher P. Burgess, Irina Higgins, Arka Pal, Loic Matthey, Nick Watters, Guillaume Desjardins, Alexander Lerchner. <br>
+NeurIPS 2017. [[PDF](https://arxiv.org/abs/1804.03599)]
 
 `Factor-VAE` **Disentangling by Factorising**<br>
 Hyunjik Kim, Andriy Mnih. <br>
@@ -358,6 +366,9 @@ SIGGRAPH 2021. [[PDF](https://arxiv.org/abs/2008.02401)] Cited:`110`
 Huan Ling, Karsten Kreis, Daiqing Li, Seung Wook Kim, Antonio Torralba, Sanja Fidler. <br>
 NeurIPS 2021. [[PDF](https://arxiv.org/abs/2111.03186)] Cited:`6`
 
+**A good image generator is what you need for high-resolution video synthesis**<br>
+Yu Tian, Jian Ren, Menglei Chai, Kyle Olszewski, Xi Peng, Dimitris N. Metaxas, Sergey Tulyakov. <br>
+ICLR 2021. [[PDF](https://arxiv.org/abs/2104.15069)]
 
 ## Unsupervised GAN Manipulation
 **Unsupervised Discovery of Interpretable Directions in the GAN Latent Space.**<br>
@@ -393,6 +404,11 @@ Anton Cherepkov, Andrey Voynov, Artem Babenko.<br>
 CVPR 2021 [[PDF](https://arxiv.org/abs/2011.13786)] [[Pytorch](https://github.com/yandex-research/navigan)] Cited:`9`
 
 <!-- EigenGAN -->
+**Discovering Interpretable Latent Space Directions of GANs Beyond Binary Attributes**<br>
+Huiting Yang, Liangyu Chai, Qiang Wen, Shuang Zhao, Zixun Sun, Shengfeng He.<br>
+CVPR 2021. [[PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Discovering_Interpretable_Latent_Space_Directions_of_GANs_Beyond_Binary_Attributes_CVPR_2021_paper.pdf)]
+
+
 
 ## CLIP based
 **StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery**<br>
@@ -441,23 +457,42 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2103.06878)] Cited:`4`
 Zhentao Tan, Dongdong Chen, Qi Chu, Menglei Chai, Jing Liao, Mingming He, Lu Yuan, Gang Hua, Nenghai Yu.<br>
 TPAMI 2021. [[PDF](https://arxiv.org/pdf/2012.04644.pdf)]
 
-Spatially-adaptive pixelwise networks for fast image translation.
+**Spatially-adaptive pixelwise networks for fast image translation.**<br>
+Tamar Rott Shaham, Michael Gharbi, Richard Zhang, Eli Shechtman, Tomer Michaeli<br>
+CVPR 2021. [[PDF](https://arxiv.org/abs/2012.02992)]
 
-High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network
+**High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network**<br>
+Jie Liang, Hui Zeng, Lei Zhang. 
+CVPR 2021. [[PDF](https://arxiv.org/abs/2105.09188)]
 
 ### Various Applications
-Sketch Your Own GAN
-
-### Swapping
-Information Bottleneck Disentanglement for Identity Swapping
-High-Resolution Daytime Translation Without Domain Labels
-Swapping Autoencoder for Deep Image Manipulation
+**Sketch Your Own GAN**<br>
+Sheng-Yu Wang, David Bau, Jun-Yan Zhu<br>
+ICCV 2021. [[PDF](https://arxiv.org/abs/2108.02774)]
 
 ### Super-resolution
 
 ### Example based image translation
 
 ## Unsupervised Image Transaltion
+### Swapping Based
+**High-Resolution Daytime Translation Without Domain Labels**<br>
+I. Anokhin, P. Solovev, D. Korzhenkov, A. Kharlamov, T. Khakhulin, A. Silvestrov, S. Nikolenko, V. Lempitsky, and G. Sterkin.<br>
+CVPR 2020. [[PDF](https://arxiv.org/abs/2003.08791)]
+
+**Information Bottleneck Disentanglement for Identity Swapping**<br>
+Gege Gao, Huaibo Huang, Chaoyou Fu, Zhaoyang Li, Ran He<br>
+CVPR 2021. [[PDF](https://openaccess.thecvf.com/content/CVPR2021/html/Gao_Information_Bottleneck_Disentanglement_for_Identity_Swapping_CVPR_2021_paper.html)]
+
+**Swapping Autoencoder for Deep Image Manipulation**<br>
+Taesung Park, Jun-Yan Zhu, Oliver Wang, Jingwan Lu, Eli Shechtman, Alexei A. Efros, Richard Zhang<br>
+NeurIPS 2020. [[PDF](https://arxiv.org/abs/2007.00653)]
+
+**L2M-GAN: Learning to Manipulate Latent Space Semantics for Facial Attribute Editing**<br>
+Guoxing Yang, Nanyi Fei, Mingyu Ding, Guangzhen Liu, Zhiwu Lu, Tao Xiang<br>
+CVPR 2021. [[PDF]]
+
+
 ### Cycle-Consistency Based
 
 ### Beyond Cycle-consistency
