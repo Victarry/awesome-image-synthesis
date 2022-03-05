@@ -312,6 +312,10 @@ Limitation: This paper actually does local semantic swap, and interpolation is n
 **Improving Inversion and Generation Diversity in StyleGAN using a Gaussianized Latent Space**<br>
 arxiv 2020. [[PDF](https://arxiv.org/abs/2009.06529)] Cited:`18`
 
+`pix2latent` **Transforming and Projecting Images into Class-conditional Generative Networks**<br>
+Minyoung Huh,Richard Zhang,Jun-Yan Zhu,Sylvain Paris,Aaron Hertzmann<br>
+ECCV 2020. [[PDF](https://arxiv.org/abs/2005.01703)]
+
 `pSp,pixel2style2pixel` **Encoding in style: a stylegan encoder for image-to-image translation.**<br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2008.00951)] [[Pytorch](https://github.com/eladrich/pixel2style2pixel)] Cited:`156`
 
@@ -357,18 +361,25 @@ Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou. <br>
 CVPR 2020. [[PDF](https://arxiv.org/abs/1907.10786)] [[Project](https://genforce.github.io/interfacegan/)] Cited:`349`
 
 <!-- **Only a matter of style: Age transformation using a style-based regression model.** -->
+**Discovering Interpretable Latent Space Directions of GANs Beyond Binary Attributes.**<br>
+*Huiting Yang, Liangyu Chai, Qiang Wen, Shuang Zhao, Zixun Sun, Shengfeng He.*<br>
+CVPR 2021. [[PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Discovering_Interpretable_Latent_Space_Directions_of_GANs_Beyond_Binary_Attributes_CVPR_2021_paper.pdf)]
 
 `StyleFlow` **StyleFlow: Attribute-conditioned Exploration of StyleGAN-Generated Images using Conditional Continuous Normalizing Flows** <br>
 Rameen Abdal, Peihao Zhu, Niloy Mitra, Peter Wonka. <br>
 SIGGRAPH 2021. [[PDF](https://arxiv.org/abs/2008.02401)] Cited:`111`
 
+**A Latent Transformer for Disentangled Face Editing in Images and Videos.**<br>
+*Xu Yao, Alasdair Newson, Yann Gousseau, Pierre Hellier.*<br>
+ICCV 2021. [[PDF](https://openaccess.thecvf.com/content/ICCV2021/html/Yao_A_Latent_Transformer_for_Disentangled_Face_Editing_in_Images_and_ICCV_2021_paper.html)] [[ArXiV](https://arxiv.org/abs/2106.11895)] [[Github](https://github.com/InterDigitalInc/latent-transformer)]
+
+**Controllable and Compositional Generation with Latent-Space Energy-Based Models.**<br>
+*Weili Nie, Arash Vahdat, Anima Anandkumar.*<br>
+NeurIPS 2021. [[PDF](https://arxiv.org/abs/2110.10873)]
+
 `EditGAN` **EditGAN: High-Precision Semantic Image Editing**<br>
 Huan Ling, Karsten Kreis, Daiqing Li, Seung Wook Kim, Antonio Torralba, Sanja Fidler. <br>
 NeurIPS 2021. [[PDF](https://arxiv.org/abs/2111.03186)] Cited:`7`
-
-**A good image generator is what you need for high-resolution video synthesis**<br>
-Yu Tian, Jian Ren, Menglei Chai, Kyle Olszewski, Xi Peng, Dimitris N. Metaxas, Sergey Tulyakov. <br>
-ICLR 2021. [[PDF](https://arxiv.org/abs/2104.15069)]
 
 ## Unsupervised GAN Manipulation
 **Unsupervised Discovery of Interpretable Directions in the GAN Latent Space.**<br>
@@ -379,13 +390,17 @@ ICML 2020. [[PDF](https://arxiv.org/abs/2002.03754)] Cited:`119`
 Erik Härkönen, Aaron Hertzmann, Jaakko Lehtinen, Sylvain Paris.<br>
 NeurIPS 2020 [[PDF](https://arxiv.org/abs/2004.02546)] [[Pytorch](https://github.com/harskish/ganspace)] Cited:`212`
 
-`StyleSpace` **StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation**<br>
-Zongze Wu, Dani Lischinski, Eli Shechtman. <br>
-CVPR 2021. [[PDF](https://arxiv.org/abs/2011.12799)] Cited:`72`
-
 **The Hessian Penalty: A Weak Prior for Unsupervised Disentanglement**<br>
 William Peebles, John Peebles, Jun-Yan Zhu, Alexei Efros, Antonio Torralba<br>
 ECCV 2020 [[PDF](https://arxiv.org/abs/2008.10599)] [[Project](https://www.wpeebles.com/hessian-penalty)] Cited:`40`
+
+**GAN Steerability without optimization.**<br>
+Nurit Spingarn-Eliezer, Ron Banner, Tomer Michaeli<br>
+ICLR 2021. [[PDF](https://arxiv.org/abs/2012.05328)]
+
+`StyleSpace` **StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation**<br>
+Zongze Wu, Dani Lischinski, Eli Shechtman. <br>
+CVPR 2021. [[PDF](https://arxiv.org/abs/2011.12799)] Cited:`72`
 
 **The Geometry of Deep Generative Image Models and its Applications**<br>
 Binxu Wang, Carlos R. Ponce<br>
@@ -403,12 +418,41 @@ CVPR 2021 [[PDF](https://arxiv.org/abs/2007.06600)] [[Project](https://genforce.
 Anton Cherepkov, Andrey Voynov, Artem Babenko.<br>
 CVPR 2021 [[PDF](https://arxiv.org/abs/2011.13786)] [[Pytorch](https://github.com/yandex-research/navigan)] Cited:`10`
 
-<!-- EigenGAN -->
 **Discovering Interpretable Latent Space Directions of GANs Beyond Binary Attributes**<br>
 Huiting Yang, Liangyu Chai, Qiang Wen, Shuang Zhao, Zixun Sun, Shengfeng He.<br>
 CVPR 2021. [[PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Discovering_Interpretable_Latent_Space_Directions_of_GANs_Beyond_Binary_Attributes_CVPR_2021_paper.pdf)]
 
+**EigenGAN: Layer-Wise Eigen-Learning for GANs.**<br>
+*Zhenliang He, Meina Kan, Shiguang Shan.*<br>
+ICCV 2021. [[PDF](https://arxiv.org/abs/2104.12476)] [[Github](https://github.com/LynnHo/EigenGAN-Tensorflow)]
 
+**Toward a Visual Concept Vocabulary for GAN Latent Space.**<br>
+*Sarah Schwettmann, Evan Hernandez, David Bau, Samuel Klein, Jacob Andreas, Antonio Torralba*.<br>
+ICCV 2021. [[PDF](https://openaccess.thecvf.com/content/ICCV2021/html/Schwettmann_Toward_a_Visual_Concept_Vocabulary_for_GAN_Latent_Space_ICCV_2021_paper.html)] [[Project](https://visualvocab.csail.mit.edu/)]
+
+**WarpedGANSpace: Finding Non-linear RBF Paths in GAN Latent Space.**<br>
+*Christos Tzelepis, Georgios Tzimiropoulos, Ioannis Patras.*<br>
+ICCV 2021. [[PDF](https://arxiv.org/abs/2109.13357)] [[Github](https://github.com/chi0tzp/WarpedGANSpace)]
+
+**OroJaR: Orthogonal Jacobian Regularization for Unsupervised Disentanglement in Image Generation.**<br>
+*Yuxiang Wei, Yupeng Shi, Xiao Liu, Zhilong Ji, Yuan Gao, Zhongqin Wu, Wangmeng Zuo.*<br>
+ICCV 2021. [[PDF](https://arxiv.org/abs/2108.07668)] [[Github](https://github.com/csyxwei/OroJaR)]
+
+**Optimizing Latent Space Directions For GAN-based Local Image Editing.**<br>
+*Ehsan Pajouheshgar, Tong Zhang, Sabine Süsstrunk.*<br>
+arxiv 2021. [[PDF](https://arxiv.org/abs/2111.12583)] [[Pytorch](https://github.com/IVRL/LELSD)]
+
+**Discovering Density-Preserving Latent Space Walks in GANs for Semantic Image Transformations.**<br>
+*Guanyue Li, Yi Liu, Xiwen Wei, Yang Zhang, Si Wu, Yong Xu, Hau San Wong.*<br>
+ACM MM 2021. [[PDF](https://dl.acm.org/doi/abs/10.1145/3474085.3475293)]
+
+**Do Not Escape From the Manifold: Discovering the Local Coordinates on the Latent Space of GANs.**<br>
+*Jaewoong Choi, Changyeon Yoon, Junho Lee, Jung Ho Park, Geonho Hwang, Myungjoo Kang.*<br>
+ICLR 2022. [[PDF](https://arxiv.org/abs/2106.06959)]
+
+**Rayleigh EigenDirections (REDs): GAN latent space traversals for multidimensional features.**<br>
+*Guha Balakrishnan, Raghudeep Gadde, Aleix Martinez, Pietro Perona.*<br>
+arxiv 2022. [[PDF](https://arxiv.org/pdf/2201.10423.pdf)]
 
 ## CLIP based
 **StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery**<br>
@@ -422,6 +466,15 @@ Rinon Gal, Or Patashnik, Haggai Maron, Gal Chechik, Daniel Cohen-Or.<br>
 **CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders.**<br>
 Kevin Frans, L.B. Soros, Olaf Witkowski.<br>
 Arxiv 2021. [[PDF](https://arxiv.org/abs/2106.14843)] Cited:`18`
+
+## Inversion-based Animation
+**A good image generator is what you need for high-resolution video synthesis**<br>
+Yu Tian, Jian Ren, Menglei Chai, Kyle Olszewski, Xi Peng, Dimitris N. Metaxas, Sergey Tulyakov. <br>
+ICLR 2021. [[PDF](https://arxiv.org/abs/2104.15069)]
+
+**Latent Image Animator: Learning to animate image via latent space navigation.**<br>
+*Yaohui Wang, Di Yang, Francois Bremond, Antitza Dantcheva.*<br>
+ICLR 2022. [[PDF](https://openreview.net/forum?id=7r6kDq0mK_)]
 
 
 # Image-to-Image Translation
@@ -490,7 +543,7 @@ NeurIPS 2020. [[PDF](https://arxiv.org/abs/2007.00653)]
 
 **L2M-GAN: Learning to Manipulate Latent Space Semantics for Facial Attribute Editing**<br>
 Guoxing Yang, Nanyi Fei, Mingyu Ding, Guangzhen Liu, Zhiwu Lu, Tao Xiang<br>
-CVPR 2021. [[PDF]]
+CVPR 2021. [[PDF](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_L2M-GAN_Learning_To_Manipulate_Latent_Space_Semantics_for_Facial_Attribute_CVPR_2021_paper.html)]
 
 
 ### Cycle-Consistency Based
