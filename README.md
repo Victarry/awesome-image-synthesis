@@ -382,6 +382,25 @@ Huan Ling, Karsten Kreis, Daiqing Li, Seung Wook Kim, Antonio Torralba, Sanja Fi
 NeurIPS 2021. [[PDF](https://arxiv.org/abs/2111.03186)] Cited:`7`
 
 ## Unsupervised GAN Manipulation
+```mermaid
+flowchart TD
+  root(Unsupervised GAN Manipulation) --> A(Mutual inforamtion)
+  root --> B[Generator Parameter]
+  root --> C[Training Regularization]
+
+  A --> E[Unsupervised Discovery. Voynov. ICML 2020]
+  InfoGAN == on pretrained network --> E
+  E == Regression for mutiple attributes --> F[Enjoy your editing. Zhuang. ICLR 2021]
+  E == RBF Path --> Warped[WarpedGANSpace. Tzelepis. ICCV 2021]
+  E == Parameter Space --> NaviGAN[NaviGAN. Cherepkov. CVPR 2021]
+
+  B == PCA on Intermediate/W space --> GANSpace[GANSpace. Härkönen. NIPS 2020.]
+  GANSpace == Closed-form Factorization of Weight --> SeFa[SeFa. Shen. CVPR 2021.]
+  GANSpace == Spatial Transformation \n on intermediate Feature --> GANS[GAN Steerability. Eliezer. ICLR 2021]
+
+  SeFa == Variation for intermediate features --> VisualConcept[Visual Concept Vocabulary. Schwettmann. ICCV 2021]
+```
+
 **Unsupervised Discovery of Interpretable Directions in the GAN Latent Space.**<br>
 Andrey Voynov, Artem Babenko.<br>
 ICML 2020. [[PDF](https://arxiv.org/abs/2002.03754)] Cited:`119`
@@ -398,17 +417,17 @@ ECCV 2020 [[PDF](https://arxiv.org/abs/2008.10599)] [[Project](https://www.wpeeb
 Nurit Spingarn-Eliezer, Ron Banner, Tomer Michaeli<br>
 ICLR 2021. [[PDF](https://arxiv.org/abs/2012.05328)] Cited:`17`
 
-`StyleSpace` **StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation**<br>
-Zongze Wu, Dani Lischinski, Eli Shechtman. <br>
-CVPR 2021. [[PDF](https://arxiv.org/abs/2011.12799)] Cited:`72`
-
 **The Geometry of Deep Generative Image Models and its Applications**<br>
 Binxu Wang, Carlos R. Ponce<br>
 ICLR 2021. [[PDF](https://arxiv.org/abs/2101.06006)] Cited:`9`
 
-**Enjoy your editing: Controllable gans for image editing via latent space navigation**
+**Enjoy your editing: Controllable gans for image editing via latent space navigation**<br>
 Peiye Zhuang, Oluwasanmi Koyejo, Alexander G. Schwing<br>
 ICLR 2021. [[PDF](https://arxiv.org/abs/2102.01187)] Cited:`13`
+
+`StyleSpace` **StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation**<br>
+Zongze Wu, Dani Lischinski, Eli Shechtman. <br>
+CVPR 2021. [[PDF](https://arxiv.org/abs/2011.12799)] Cited:`72`
 
 `SeFa` **Closed-Form Factorization of Latent Semantics in GANs**<br>
 Yujun Shen, Bolei Zhou. <br>
@@ -417,10 +436,6 @@ CVPR 2021 [[PDF](https://arxiv.org/abs/2007.06600)] [[Project](https://genforce.
 `NaviGAN` **Navigating the GAN Parameter Space for Semantic Image Editing**<br>
 Anton Cherepkov, Andrey Voynov, Artem Babenko.<br>
 CVPR 2021 [[PDF](https://arxiv.org/abs/2011.13786)] [[Pytorch](https://github.com/yandex-research/navigan)] Cited:`10`
-
-**Discovering Interpretable Latent Space Directions of GANs Beyond Binary Attributes**<br>
-Huiting Yang, Liangyu Chai, Qiang Wen, Shuang Zhao, Zixun Sun, Shengfeng He.<br>
-CVPR 2021. [[PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Discovering_Interpretable_Latent_Space_Directions_of_GANs_Beyond_Binary_Attributes_CVPR_2021_paper.pdf)]
 
 **EigenGAN: Layer-Wise Eigen-Learning for GANs.**<br>
 *Zhenliang He, Meina Kan, Shiguang Shan.*<br>
