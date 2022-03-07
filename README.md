@@ -3,6 +3,17 @@ Collection of papers in image synthesis.
 
 # Unconditional/(Class Conditional) Image Generation
 ## GAN Architecture
+```mermaid
+flowchart TB
+  GAN[VanillaGAN, 2014] == architecture tricks --> DCGAN[DCGAN, 2016]
+  DCGAN == Progressive growing --> PG[PG-GAN, 2018]
+  PG --> BigGAN[BigGAN, 2019]
+  PG == AdaIN, mapping network --> SG1[StyleGAN, 2019]
+  SG1 == Weight demodulation --> SG2[StyleGAN2, 2020]
+  SG2 == Translate and rotate equivariance --> SG3[StyleGAN3, 2021]
+  DCGAN == Autoregressive transformer \n for vison tokens --> VQGAN
+  VQGAN == transformers architecture \n of  generator and discriminator --> TransGAN
+```
 **Generative adversarial nets.** <br>
 Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio*<br>
 NeurIPS 2014. [[PDF](https://arxiv.org/abs/1406.2661)] [[Tutorial](https://arxiv.org/abs/1701.00160)]
@@ -37,7 +48,7 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2102.07074)] [[Pytorch](https://github.c
 
 `StyleGAN3` **Alias-Free Generative Adversarial Networks.**<br>
 Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakko Lehtinen, Timo Aila. <br>
-NeurIPS 2022. [[PDF](https://arxiv.org/abs/2106.12423)] [[Project](https://nvlabs.github.io/stylegan3/)] Cited:`61`
+NeurIPS 2021. [[PDF](https://arxiv.org/abs/2106.12423)] [[Project](https://nvlabs.github.io/stylegan3/)] Cited:`61`
 
 ## GAN Objective
 `EB-GAN` **Energy-based Generative Adversarial Networks**<br>
@@ -46,7 +57,7 @@ ICLR 2017. [[PDF](https://arxiv.org/abs/1609.03126)] Cited:`850`
 
 **Towards Principled Methods for Training Generative Adversarial Networks**<br>
 Martin Arjovsky, Léon Bottou<br>
-ICLR 2017. [[PDF]https://arxiv.org/abs/1701.04862] Cited:`1351`
+ICLR 2017. [[PDF](https://arxiv.org/abs/1701.04862)] Cited:`1351`
 
 <!-- https://towardsdatascience.com/gan-objective-functions-gans-and-their-variations-ad77340bce3c -->
 `LSGAN` **Least Squares Generative Adversarial Networks.**<br>
