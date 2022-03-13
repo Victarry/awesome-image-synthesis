@@ -51,6 +51,10 @@ Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakk
 NeurIPS 2021. [[PDF](https://arxiv.org/abs/2106.12423)] [[Project](https://nvlabs.github.io/stylegan3/)] Cited:`66`
 
 ## GAN Objective
+**A Large-Scale Study on Regularization and Normalization in GANs**<br>
+*Karol Kurach, Mario Lucic, Xiaohua Zhai, Marcin Michalski, Sylvain Gelly*<br>
+ICML 2019. [[PDF](https://arxiv.org/abs/1807.04720)]
+
 `EB-GAN` **Energy-based Generative Adversarial Networks**<br>
 Junbo Zhao, Michael Mathieu, Yann LeCun.<br>
 ICLR 2017. [[PDF](https://arxiv.org/abs/1609.03126)] Cited:`853`
@@ -155,7 +159,15 @@ ICML(best paper award) 2019. [[PDF](https://arxiv.org/abs/1811.12359)] Cited:`65
 Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, Aaron Courville.<br>
 NeurIPS 2017. [[PDF](https://arxiv.org/abs/1704.00028)] Cited:`5324`
 
-**Spectral Normalization for Generative Adversarial Networks.**<br>
+**The Numerics of GANs**<br>
+*Lars Mescheder, Sebastian Nowozin, Andreas Geiger*<br>
+NeurIPS 2017. [[PDF](https://arxiv.org/abs/1705.10461)]
+
+`R1-regularization` **Which Training Methods for GANs do actually Converge?**<br>
+*Lars Mescheder, Andreas Geiger, Sebastian Nowozin.*<br>
+ICML 2018. [[PDF](https://arxiv.org/abs/1801.04406)]
+
+`SN-GAN` **Spectral Normalization for Generative Adversarial Networks.**<br>
 Takeru Miyato, Toshiki Kataoka, Masanori Koyama, Yuichi Yoshida.<br>
 ICLR 2018. [[PDF](https://arxiv.org/abs/1802.05957)] Cited:`2551`
 
@@ -241,9 +253,43 @@ ICCV 2019 [[PDF](https://arxiv.org/abs/1904.01774)] Cited:`65`
 Sangwoo Mo, Minsu Cho, Jinwoo Shin.<br>
 CVPRW 2020 [[PDF](https://arxiv.org/abs/2002.10964)] [[Pytorch](https://github.com/sangwoomo/FreezeD)] Cited:`45`
 
+**Resolution dependant GAN interpolation for controllable image synthesis between domains.**
+
+FreezeG
+
 **Few-shot Adaptation of Generative Adversarial Networks**<br>
 Esther Robb, Wen-Sheng Chu, Abhishek Kumar, Jia-Bin Huang.<br>
 arxiv 2020 [[PDF](https://arxiv.org/abs/2010.11943)] Cited:`18`
+
+Unsupervised image-to-image translation via pre-trained StyleGAN2 network
+
+AgileGAN: stylizing portraits by inversion-consistent transfer learning.
+
+**StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators**<br>
+Rinon Gal, Or Patashnik, Haggai Maron, Gal Chechik, Daniel Cohen-Or.<br>
+arxiv 2021 [[PDF](https://arxiv.org/abs/2108.00946)] [[Project](https://stylegan-nada.github.io/)] Cited:`25`
+
+**Stylealign: Analysis and Applications of Aligned StyleGAN Models**<br>
+_Zongze Wu, Yotam Nitzan, Eli Shechtman, Dani Lischinski_<br>
+ICLR 2022. [[PDF](https://arxiv.org/abs/2110.11323)]
+
+## Other Generative Models
+**Optimizing the Latent Space of Generative Networks**<br>
+Piotr Bojanowski, Armand Joulin, David Lopez-Paz, Arthur Szlam<br>
+ICML 2018. [[PDF](https://arxiv.org/abs/1707.05776)]
+
+## Latent Interpolation
+**Sampling generative networks: Notes on a few effective techniques.**<br>
+Tom White.<br>
+arxiv 2016 [[PDF](https://arxiv.org/abs/1609.04468v2)]
+
+**Latent space oddity: on the curvature of deep generative models**<br>
+Georgios Arvanitidis, Lars Kai Hansen, Søren Hauberg.<br>
+ICLR 2018. [[PDF](https://arxiv.org/abs/1710.11379)]
+
+**Feature-Based Metrics for Exploring the Latent Space of Generative Models**<br>
+Samuli Laine.<br>
+ICLR 2018 Workshop. [[PDF](https://openreview.net/forum?id=BJslDBkwG)]
 
 # Image Manipulation with Deep Generative Model
 ## GAN Inversion
@@ -485,9 +531,6 @@ arxiv 2022. [[PDF](https://arxiv.org/pdf/2201.10423.pdf)]
 Or Patashnik, Zongze Wu, Eli Shechtman, Daniel Cohen-Or, Dani Lischinski<br>
 ICCV 2021. [[PDF](https://arxiv.org/abs/2103.17249)] [[Pytorch](https://github.com/orpatashnik/StyleCLIP)] Cited:`88`
 
-**StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators**<br>
-Rinon Gal, Or Patashnik, Haggai Maron, Gal Chechik, Daniel Cohen-Or.<br>
-[[PDF](https://arxiv.org/abs/2108.00946)] [[Project](https://stylegan-nada.github.io/)] Cited:`25`
 
 **CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders.**<br>
 Kevin Frans, L.B. Soros, Olaf Witkowski.<br>
