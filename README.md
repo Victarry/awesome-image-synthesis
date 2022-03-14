@@ -150,6 +150,10 @@ NeurIPS 2017. [[PDF](https://arxiv.org/abs/1804.03599)] Cited:`256`
 Hyunjik Kim, Andriy Mnih. <br>
 NeurIPS 2017. [[PDF](https://arxiv.org/abs/1802.05983)] Cited:`711`
 
+`DCI` **A framework for the quantitative evaluation of disentangled representations.**<br>
+*Cian Eastwood, Christopher K. I. Williams*
+ICLR 2018. [[PDF](https://openreview.net/pdf?id=By-7dz-AZ)] 
+
 **Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations.**<br>
 Francesco Locatello, Stefan Bauer, Mario Lucic, Gunnar Rätsch, Sylvain Gelly, Bernhard Schölkopf, Olivier Bachem.<br>
 ICML(best paper award) 2019. [[PDF](https://arxiv.org/abs/1811.12359)] Cited:`651`
@@ -531,10 +535,13 @@ arxiv 2022. [[PDF](https://arxiv.org/pdf/2201.10423.pdf)]
 Or Patashnik, Zongze Wu, Eli Shechtman, Daniel Cohen-Or, Dani Lischinski<br>
 ICCV 2021. [[PDF](https://arxiv.org/abs/2103.17249)] [[Pytorch](https://github.com/orpatashnik/StyleCLIP)] Cited:`88`
 
-
 **CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders.**<br>
 Kevin Frans, L.B. Soros, Olaf Witkowski.<br>
 Arxiv 2021. [[PDF](https://arxiv.org/abs/2106.14843)] Cited:`20`
+
+**CLIP2StyleGAN: Unsupervised Extraction of StyleGAN Edit Directions.**<br>
+*Omer Kafri, Or Patashnik, Yuval Alaluf, and Daniel Cohen-Or*<br>
+arxiv 2021. [[PDF](https://arxiv.org/abs/2112.05219)]
 
 ## Inversion-based Animation
 **A good image generator is what you need for high-resolution video synthesis**<br>
