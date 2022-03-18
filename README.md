@@ -301,6 +301,10 @@ ICLR 2022. [[PDF](https://arxiv.org/abs/2110.08398)]
 _Jiayu Xiao, Liang Li, Chaofei Wang, Zheng-Jun Zha, Qingming Huang_<br>
 CVPR 2022. [[PDF](https://arxiv.org/abs/2203.04121)]
 
+**JoJoGAN: One Shot Face Stylization**
+_Min Jin Chong, David Forsyth_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2112.11641)]
+
 ## Other Generative Models
 **Optimizing the Latent Space of Generative Networks**<br>
 Piotr Bojanowski, Armand Joulin, David Lopez-Paz, Arthur Szlam<br>
@@ -395,7 +399,12 @@ Limitation: This paper actually does local semantic swap, and interpolation is n
 </details>
 
 **Improving Inversion and Generation Diversity in StyleGAN using a Gaussianized Latent Space**<br>
+_Jonas Wulff, Antonio Torralba_<br>
 arxiv 2020. [[PDF](https://arxiv.org/abs/2009.06529)] Cited:`20`
+
+**Improved StyleGAN Embedding: Where are the Good Latents?**<br>
+Peihao Zhu, Rameen Abdal, Yipeng Qin, John Femiani, Peter Wonka<br>
+arxiv 2020. [[PDF](https://arxiv.org/abs/2012.09036)]
 
 `pix2latent` **Transforming and Projecting Images into Class-conditional Generative Networks**<br>
 Minyoung Huh,Richard Zhang,Jun-Yan Zhu,Sylvain Paris,Aaron Hertzmann<br>
@@ -429,8 +438,11 @@ arxiv 2021. [[PDF](https://arxiv.org/abs/2106.05744)] Cited:`21`
 
 **HyperStyle: StyleGAN Inversion with HyperNetworks for Real Image Editing.**<br>
 Yuval Alaluf, Omer Tov, Ron Mokady, Rinon Gal, Amit H. Bermano. <br>
-(CVPR 2022?) [[PDF](https://arxiv.org/abs/2111.15666)] [[Project](https://yuval-alaluf.github.io/hyperstyle/)] Cited:`3`
+CVPR 2022 [[PDF](https://arxiv.org/abs/2111.15666)] [[Project](https://yuval-alaluf.github.io/hyperstyle/)] Cited:`3`
 
+**High-Fidelity GAN Inversion for Image Attribute Editing**<br>
+Tengfei Wang, Yong Zhang, Yanbo Fan, Jue Wang, Qifeng Chen. <br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2109.06590)]
 
 ## Supervised GAN Manipulation
 **GAN Dissection: Visualizing and Understanding Generative Adversarial Networks**<br>
@@ -576,6 +588,10 @@ Arxiv 2021. [[PDF](https://arxiv.org/abs/2106.14843)] Cited:`21`
 **CLIP2StyleGAN: Unsupervised Extraction of StyleGAN Edit Directions.**<br>
 *Omer Kafri, Or Patashnik, Yuval Alaluf, and Daniel Cohen-Or*<br>
 arxiv 2021. [[PDF](https://arxiv.org/abs/2112.05219)] Cited:`2`
+
+**FEAT: Face Editing with Attention**<br>
+Xianxu Hou, Linlin Shen, Or Patashnik, Daniel Cohen-Or, Hui Huang<br>
+arxiv 2021. [[PDF](https://arxiv.org/abs/2202.02713)]
 
 ## Inversion-based Animation
 **A good image generator is what you need for high-resolution video synthesis**<br>
