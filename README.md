@@ -465,7 +465,10 @@ CVPR 2020. [[PDF](https://arxiv.org/abs/1907.10786)] [[Project](https://genforce
 Peiye Zhuang, Oluwasanmi Koyejo, Alexander G. Schwing<br>
 ICLR 2021. [[PDF](https://arxiv.org/abs/2102.01187)] Cited:`15`
 
-<!-- **Only a matter of style: Age transformation using a style-based regression model.** -->
+**Only a matter of style: Age transformation using a style-based regression model.**<br>
+Yuval Alaluf, Or Patashnik, Daniel Cohen-Or<br>
+SIGGRAPH 2021. [[PDF](https://arxiv.org/abs/2102.02754)]
+
 **Discovering Interpretable Latent Space Directions of GANs Beyond Binary Attributes.**<br>
 *Huiting Yang, Liangyu Chai, Qiang Wen, Shuang Zhao, Zixun Sun, Shengfeng He.*<br>
 CVPR 2021. [[PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Discovering_Interpretable_Latent_Space_Directions_of_GANs_Beyond_Binary_Attributes_CVPR_2021_paper.pdf)]
