@@ -261,17 +261,29 @@ ICCV 2019 [[PDF](https://arxiv.org/abs/1904.01774)] Cited:`66`
 Sangwoo Mo, Minsu Cho, Jinwoo Shin.<br>
 CVPRW 2020 [[PDF](https://arxiv.org/abs/2002.10964)] [[Pytorch](https://github.com/sangwoomo/FreezeD)] Cited:`47`
 
-**Resolution dependant GAN interpolation for controllable image synthesis between domains.**
+**Resolution dependant GAN interpolation for controllable image synthesis between domains.**<br>
+Justin N. M. Pinkney, Doron Adler<br>
+NeruIPS workshop 2020. [[PDF](https://arxiv.org/abs/2010.05334)]
 
-FreezeG
+**Freeze the Discriminator: a Simple Baseline for Fine-Tuning GANs**<br>
+Sangwoo Mo, Minsu Cho, Jinwoo Shin<br>
+arxiv 2020. [[PDF](https://arxiv.org/abs/2002.10964)]
+
+**Unsupervised image-to-image translation via pre-trained StyleGAN2 network**<br>
+_Jialu Huang, Jing Liao, Sam Kwong_<br>
+TMM 2021. [[PDF](https://arxiv.org/abs/2010.05713)]
 
 **Few-shot Adaptation of Generative Adversarial Networks**<br>
 Esther Robb, Wen-Sheng Chu, Abhishek Kumar, Jia-Bin Huang.<br>
 arxiv 2020 [[PDF](https://arxiv.org/abs/2010.11943)] Cited:`18`
 
-Unsupervised image-to-image translation via pre-trained StyleGAN2 network
+**AgileGAN: stylizing portraits by inversion-consistent transfer learning.**<br>
+_Guoxian Song, Linjie Luo, Jing Liu, Wan-Chun Ma, Chunpong Lai, Chuanxia Zheng, Tat-Jen Cham_<br>
+TOG/SIGGRAPH 2021. [[PDF](https://guoxiansong.github.io/homepage/paper/AgileGAN.pdf)] [[Project](https://guoxiansong.github.io/homepage/agilegan.html)]
 
-AgileGAN: stylizing portraits by inversion-consistent transfer learning.
+**Few-shot Image Generation via Cross-domain Correspondence**<br>
+Utkarsh Ojha, Yijun Li, Jingwan Lu, Alexei A. Efros, Yong Jae Lee, Eli Shechtman, Richard Zhang.<br>
+CVPR 2021. [[PDF](https://arxiv.org/abs/2104.06820)]
 
 **StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators**<br>
 Rinon Gal, Or Patashnik, Haggai Maron, Gal Chechik, Daniel Cohen-Or.<br>
@@ -280,6 +292,14 @@ arxiv 2021 [[PDF](https://arxiv.org/abs/2108.00946)] [[Project](https://stylegan
 **Stylealign: Analysis and Applications of Aligned StyleGAN Models**<br>
 _Zongze Wu, Yotam Nitzan, Eli Shechtman, Dani Lischinski_<br>
 ICLR 2022. [[PDF](https://arxiv.org/abs/2110.11323)] Cited:`5`
+
+**Mind the Gap: Domain Gap Control for Single Shot Domain Adaptation for Generative Adversarial Networks**<br>
+_Peihao Zhu, Rameen Abdal, John Femiani, Peter Wonka_<br>
+ICLR 2022. [[PDF](https://arxiv.org/abs/2110.08398)]
+
+**Few Shot Generative Model Adaption via Relaxed Spatial Structural Alignment**
+_Jiayu Xiao, Liang Li, Chaofei Wang, Zheng-Jun Zha, Qingming Huang_<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2203.04121)]
 
 ## Other Generative Models
 **Optimizing the Latent Space of Generative Networks**<br>
@@ -604,8 +624,13 @@ Tamar Rott Shaham, Michael Gharbi, Richard Zhang, Eli Shechtman, Tomer Michaeli<
 CVPR 2021. [[PDF](https://arxiv.org/abs/2012.02992)] Cited:`13`
 
 **High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network**<br>
-Jie Liang, Hui Zeng, Lei Zhang. 
+Jie Liang, Hui Zeng, Lei Zhang. <br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2105.09188)] Cited:`7`
+
+### Others
+**Unsupervised Image-to-Image Translation with Generative Prior**<br>
+Shuai Yang, Liming Jiang, Ziwei Liu and Chen Change Loy. <br>
+CVPR 2022.
 
 ### Various Applications
 **Sketch Your Own GAN**<br>
