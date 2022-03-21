@@ -297,13 +297,17 @@ ICLR 2022. [[PDF](https://arxiv.org/abs/2110.11323)] Cited:`5`
 _Peihao Zhu, Rameen Abdal, John Femiani, Peter Wonka_<br>
 ICLR 2022. [[PDF](https://arxiv.org/abs/2110.08398)] Cited:`7`
 
-**Few Shot Generative Model Adaption via Relaxed Spatial Structural Alignment**
+**Few Shot Generative Model Adaption via Relaxed Spatial Structural Alignment**<br>
 _Jiayu Xiao, Liang Li, Chaofei Wang, Zheng-Jun Zha, Qingming Huang_<br>
 CVPR 2022. [[PDF](https://arxiv.org/abs/2203.04121)] Cited:`0`
 
-**JoJoGAN: One Shot Face Stylization**
+**JoJoGAN: One Shot Face Stylization**<br>
 _Min Jin Chong, David Forsyth_<br>
 arxiv 2022. [[PDF](https://arxiv.org/abs/2112.11641)] Cited:`2`
+
+**When why and which pretrained GANs are useful?**<br>
+*Timofey Grigoryev, Andrey Voynov, Artem Babenko*<br>
+ICLR 2022. [[PDF](https://openreview.net/forum?id=4Ycr8oeCoIh)]
 
 ## Other Generative Models
 **Optimizing the Latent Space of Generative Networks**<br>
@@ -497,6 +501,7 @@ NeurIPS 2021. [[PDF](https://arxiv.org/abs/2111.03186)] Cited:`8`
 *Omer Kafri, Or Patashnik, Yuval Alaluf, Daniel Cohen-Or*<br>
 arxiv 2021. [[PDF](https://arxiv.org/abs/2107.07437)] Cited:`6`
 
+
 ## Unsupervised GAN Manipulation
 ```mermaid
 flowchart TD
@@ -508,6 +513,7 @@ flowchart TD
   InfoGAN == on pretrained network --> E
   E == RBF Path --> Warped[WarpedGANSpace. Tzelepis. ICCV 2021]
   E == Parameter Space --> NaviGAN[NaviGAN. Cherepkov. CVPR 2021]
+  E == Contrastive Loss --> DisCo[Disco. Ren. ICLR 2022]
 
   B == PCA on Intermediate/W space --> GANSpace[GANSpace. Härkönen. NIPS 2020.]
   GANSpace == Closed-form Factorization of Weight --> SeFa[SeFa. Shen. CVPR 2021.]
@@ -571,13 +577,20 @@ ACM MM 2021. [[PDF](https://dl.acm.org/doi/abs/10.1145/3474085.3475293)]
 *Jaewoong Choi, Changyeon Yoon, Junho Lee, Jung Ho Park, Geonho Hwang, Myungjoo Kang.*<br>
 ICLR 2022. [[PDF](https://arxiv.org/abs/2106.06959)] Cited:`1`
 
-**Learning Disentangled Representation by Exploiting Pretrained Generative Models: A Contrastive Learning View**<br>
+`Disco` **Learning Disentangled Representation by Exploiting Pretrained Generative Models: A Contrastive Learning View**<br>
 *Xuanchi Ren, Tao Yang, Yuwang Wang, Wenjun Zeng*<br>
 ICLR 2022. [[PDF](https://arxiv.org/abs/2102.10543)] Cited:`0`
 
 **Rayleigh EigenDirections (REDs): GAN latent space traversals for multidimensional features.**<br>
 *Guha Balakrishnan, Raghudeep Gadde, Aleix Martinez, Pietro Perona.*<br>
 arxiv 2022. [[PDF](https://arxiv.org/pdf/2201.10423.pdf)]
+
+**Region-Based Semantic Factorization in GANs**<br>
+*Jiapeng Zhu, Yujun Shen, Yinghao Xu, Deli Zhao, Qifeng Chen.*<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2202.09649)]
+
+**Fantastic Style Channels and Where to Find Them: A Submodular Framework for Discovering Diverse Directions in GANs**<br>
+
 
 ## CLIP based
 **StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery**<br>
@@ -702,6 +715,9 @@ William Peebles, Jun-Yan Zhu, Richard Zhang, Antonio Torralba, Alexei Efros, Eli
 arxiv 2021. [[PDF](https://arxiv.org/abs/2112.05143)] Cited:`3`
 
 # Text-to-Image Synthesis
+
+**FuseDream: Training-Free Text-to-Image Generationwith Improved CLIP+GAN Space Optimization**<br>
+
 
 # Others
 
