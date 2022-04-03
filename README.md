@@ -739,9 +739,23 @@ CVPR 2019. [[PDF](https://arxiv.org/abs/1903.05628)]
 Hsin-Ying Lee, Hung-Yu Tseng, Qi Mao, Jia-Bin Huang, Yu-Ding Lu, Maneesh Singh, Ming-Hsuan Yang.<br>
 IJCV 2019. [[PDF](https://arxiv.org/abs/1905.01270)]
 
+`U-GAT-IT` **U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation**<br>
+Junho Kim, Minjae Kim, Hyeonwoo Kang, Kwanghee Lee<br>
+ICLR 2020. [[PDF](https://arxiv.org/abs/1907.10830)]
+
+`UVC-GAN` **UVCGAN: UNet Vision Transformer cycle-consistent GAN for unpaired image-to-image translation**<br>
+*Dmitrii Torbunov, Yi Huang, Haiwang Yu, Jin Huang, Shinjae Yoo, Meifeng Lin, Brett Viren, Yihui Ren*<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2203.02557)]
+
 
 ### Beyond Cycle-consistency
+`Council-GAN` **Breaking the Cycle - Colleagues are all you need**<br>
+*Ori Nizan , Ayellet Tal*<br>
+CVPR 2020. [[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Nizan_Breaking_the_Cycle_-_Colleagues_Are_All_You_Need_CVPR_2020_paper.pdf)]
 
+`ACL-GAN` **Unpaired Image-to-Image Translation using Adversarial Consistency Loss**<br>
+Yihao Zhao, Ruihai Wu, Hao Dong.<br>
+ECCV 2020. [[PDF](https://arxiv.org/abs/2003.04858)]
 
 ## Few-shot Image Translation
 
@@ -760,8 +774,9 @@ William Peebles, Jun-Yan Zhu, Richard Zhang, Antonio Torralba, Alexei Efros, Eli
 arxiv 2021. [[PDF](https://arxiv.org/abs/2112.05143)] Cited:`5`
 
 # Text-to-Image Synthesis
-
 **FuseDream: Training-Free Text-to-Image Generationwith Improved CLIP+GAN Space Optimization**<br>
+Xingchao Liu, Chengyue Gong, Lemeng Wu, Shujian Zhang, Hao Su, Qiang Liu<br>
+arxiv 2021. [[PDF](https://arxiv.org/abs/2112.01573)]
 
 
 # Others
