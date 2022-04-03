@@ -309,6 +309,9 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2112.11641)] Cited:`4`
 *Timofey Grigoryev, Andrey Voynov, Artem Babenko*<br>
 ICLR 2022. [[PDF](https://openreview.net/forum?id=4Ycr8oeCoIh)]
 
+**CtlGAN: Few-shot Artistic Portraits Generation with Contrastive Transfer Learning**<br>
+_Yue Wang, Ran Yi, Ying Tai, Chengjie Wang, and Lizhuang Ma_
+
 ## Other Generative Models
 **Optimizing the Latent Space of Generative Networks**<br>
 Piotr Bojanowski, Armand Joulin, David Lopez-Paz, Arthur Szlam<br>
@@ -573,6 +576,10 @@ arxiv 2021. [[PDF](https://arxiv.org/abs/2111.12583)] [[Pytorch](https://github.
 *Guanyue Li, Yi Liu, Xiwen Wei, Yang Zhang, Si Wu, Yong Xu, Hau San Wong.*<br>
 ACM MM 2021. [[PDF](https://dl.acm.org/doi/abs/10.1145/3474085.3475293)]
 
+**Disentangled Representations from Non-Disentangled Models**<br>
+*Valentin Khrulkov, Leyla Mirvakhabova, Ivan Oseledets, Artem Babenko*<br>
+arxiv 2021. [[PDF](https://arxiv.org/abs/2102.06204)]
+
 **Do Not Escape From the Manifold: Discovering the Local Coordinates on the Latent Space of GANs.**<br>
 *Jaewoong Choi, Changyeon Yoon, Junho Lee, Jung Ho Park, Geonho Hwang, Myungjoo Kang.*<br>
 ICLR 2022. [[PDF](https://arxiv.org/abs/2106.06959)] Cited:`2`
@@ -643,6 +650,10 @@ CVPR 2019. [[PDF](https://arxiv.org/abs/1903.07291)] Cited:`1087`
 Peihao Zhu, Rameen Abdal, Yipeng Qin, Peter Wonka.<br>
 CVPR 2020. [[PDF](https://arxiv.org/abs/1911.12861)] Cited:`155`
 
+**You Only Need Adversarial Supervision for Semantic Image Synthesis**<br>
+Vadim Sushko, Edgar Schönfeld, Dan Zhang, Juergen Gall, Bernt Schiele, Anna Khoreva.<br>
+ICLR 2021. [[PDF](https://arxiv.org/abs/2012.04781)]
+
 **Diverse Semantic Image Synthesis via Probability Distribution Modeling**<br>
 Zhentao Tan, Menglei Chai, Dongdong Chen, Jing Liao, Qi Chu, Bin Liu, Gang Hua, Nenghai Yu.<br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2103.06878)] Cited:`5`
@@ -672,6 +683,9 @@ ICCV 2021. [[PDF](https://arxiv.org/abs/2108.02774)] Cited:`9`
 ### Super-resolution
 
 ### Example based image translation
+**Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer**<br>
+Shuai Yang, Liming Jiang, Ziwei Liu and Chen Change Loy<br>
+CVPR 2022. [[Pytorch](https://github.com/williamyang1991/DualStyleGAN)]
 
 ## Unsupervised Image Transaltion
 ### Swapping Based
@@ -693,10 +707,41 @@ CVPR 2021. [[PDF](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_L2M-G
 
 
 ### Cycle-Consistency Based
+**Coupled Generative Adversarial Networks**<br>
+Ming-Yu Liu, Oncel Tuzel.<br>
+NeurIPS 2016 [[PDF](http://arxiv.org/abs/1606.07536)]
+
+`UNIT` **Unsupervised Image-to-Image Translation Networks.**<br>
+Ming-Yu Liu,Thomas Breuel,Jan Kautz<br>
+NeurIPS 2017. [[PDF](https://arxiv.org/abs/1703.00848)]
+
+`DiscoGAN` **Learning to Discover Cross-Domain Relations with Generative Adversarial Networks**<br>
+Taeksoo Kim, Moonsu Cha, Hyunsoo Kim, Jung Kwon Lee, Jiwon Kim.<br>
+ICML 2017. [[PDF](https://arxiv.org/abs/1703.05192)]
+
+`BicycleGAN` **Toward Multimodal Image-to-Image Translation**<br>
+Jun-Yan Zhu, Richard Zhang, Deepak Pathak, Trevor Darrell, Alexei A. Efros, Oliver Wang, Eli Shechtman.<br>
+NeurIPS 2017. [[PDF](https://arxiv.org/abs/1711.11586)]
+
+`MUNIT` **Multimodal Unsupervised Image-to-Image Translation**<br>
+Xun Huang, Ming-Yu Liu, Serge Belongie, Jan Kautz.<br>
+ECCV 2018. [[PDF](https://arxiv.org/abs/1804.04732)]
+
+`DRIT` **Diverse Image-to-Image Translation via Disentangled Representations**<br>
+Hsin-Ying Lee, Hung-Yu Tseng, Jia-Bin Huang, Maneesh Kumar Singh, Ming-Hsuan Yang.<br>
+ECCV 2018. [[PDF](https://arxiv.org/abs/1808.00948)]
+
+`MSGAN` **Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis**<br>
+Qi Mao, Hsin-Ying Lee, Hung-Yu Tseng, Siwei Ma, Ming-Hsuan Yang.<br>
+CVPR 2019. [[PDF](https://arxiv.org/abs/1903.05628)]
+
+`DRIT++` **DRIT++: Diverse Image-to-Image Translation via Disentangled Representations**<br>
+Hsin-Ying Lee, Hung-Yu Tseng, Qi Mao, Jia-Bin Huang, Yu-Ding Lu, Maneesh Singh, Ming-Hsuan Yang.<br>
+IJCV 2019. [[PDF](https://arxiv.org/abs/1905.01270)]
+
 
 ### Beyond Cycle-consistency
 
-## Multimodal Image Translation
 
 ## Few-shot Image Translation
 
