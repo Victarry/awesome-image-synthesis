@@ -670,6 +670,11 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2012.02992)] Cited:`13`
 Jie Liang, Hui Zeng, Lei Zhang. <br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2105.09188)] Cited:`9`
 
+### Attribute Editing
+**Deep Identity-Aware Transfer of Facial Attributes**<br>
+*Mu Li, Wangmeng Zuo, David Zhang*<br>
+arxiv 2016. [[PDF](https://arxiv.org/abs/1610.05586)]
+
 ### Others
 **Unsupervised Image-to-Image Translation with Generative Prior**<br>
 Shuai Yang, Liming Jiang, Ziwei Liu and Chen Change Loy. <br>
@@ -757,7 +762,19 @@ CVPR 2020. [[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Nizan_B
 Yihao Zhao, Ruihai Wu, Hao Dong.<br>
 ECCV 2020. [[PDF](https://arxiv.org/abs/2003.04858)] Cited:`23`
 
+### Multi-domain
+`StarGAN` **StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation**<br>
+*Yunjey Choi, Minje Choi, Munyoung Kim, Jung-Woo Ha, Sunghun Kim, Jaegul Choo*<br>
+CVPR 2018. [[PDF](https://arxiv.org/abs/1711.09020)]
+
+`StarGANv2` **StarGAN v2: Diverse Image Synthesis for Multiple Domains**<br>
+*Yunjey Choi, Youngjung Uh, Jaejun Yoo, Jung-Woo Ha*<br>
+CVPR 2020. [[PDF](https://arxiv.org/abs/1912.01865)]
+
 ## Few-shot Image Translation
+`FUNIT` **Few-shot unsupervised image-to-image translation.**
+
+Coco-funit:Few-shot unsupervised image translation with a content conditioned style encoder.
 
 ## Style Transfer
 
