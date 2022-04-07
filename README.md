@@ -313,6 +313,10 @@ ICLR 2022. [[PDF](https://openreview.net/forum?id=4Ycr8oeCoIh)]
 _Yue Wang, Ran Yi, Ying Tai, Chengjie Wang, and Lizhuang Ma_
 
 ## Other Generative Models
+**Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space**<br>
+_Anh Nguyen, Jeff Clune, Yoshua Bengio, Alexey Dosovitskiy, Jason Yosinski_<br>
+CVPR 2017. [[PDF](https://arxiv.org/abs/1612.00005)]
+
 **Optimizing the Latent Space of Generative Networks**<br>
 Piotr Bojanowski, Armand Joulin, David Lopez-Paz, Arthur Szlam<br>
 ICML 2018. [[PDF](https://arxiv.org/abs/1707.05776)] Cited:`256`
@@ -536,6 +540,10 @@ NeurIPS 2020 [[PDF](https://arxiv.org/abs/2004.02546)] [[Pytorch](https://github
 William Peebles, John Peebles, Jun-Yan Zhu, Alexei Efros, Antonio Torralba<br>
 ECCV 2020 [[PDF](https://arxiv.org/abs/2008.10599)] [[Project](https://www.wpeebles.com/hessian-penalty)] Cited:`45`
 
+**The Geometry of Deep Generative Image Models and its Applications**<br>
+Binxu Wang, Carlos R. Ponce.<br>
+ICLR 2021. [[PDF](https://arxiv.org/abs/2101.06006)] Cited:`9`
+
 **GAN Steerability without optimization.**<br>
 Nurit Spingarn-Eliezer, Ron Banner, Tomer Michaeli<br>
 ICLR 2021. [[PDF](https://arxiv.org/abs/2012.05328)] Cited:`19`
@@ -748,10 +756,6 @@ BMVC 2020. [[PDF](https://arxiv.org/abs/1902.03938)]
 Qi Mao, Hsin-Ying Lee, Hung-Yu Tseng, Siwei Ma, Ming-Hsuan Yang.<br>
 CVPR 2019. [[PDF](https://arxiv.org/abs/1903.05628)] Cited:`192`
 
-`DRIT++` **DRIT++: Diverse Image-to-Image Translation via Disentangled Representations**<br>
-Hsin-Ying Lee, Hung-Yu Tseng, Qi Mao, Jia-Bin Huang, Yu-Ding Lu, Maneesh Singh, Ming-Hsuan Yang.<br>
-IJCV 2019. [[PDF](https://arxiv.org/abs/1905.01270)] Cited:`206`
-
 `U-GAT-IT` **U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation**<br>
 Junho Kim, Minjae Kim, Hyeonwoo Kang, Kwanghee Lee<br>
 ICLR 2020. [[PDF](https://arxiv.org/abs/1907.10830)] Cited:`166`
@@ -775,9 +779,17 @@ ECCV 2020. [[PDF](https://arxiv.org/abs/2003.04858)] Cited:`23`
 *Yunjey Choi, Minje Choi, Munyoung Kim, Jung-Woo Ha, Sunghun Kim, Jaegul Choo*<br>
 CVPR 2018. [[PDF](https://arxiv.org/abs/1711.09020)] Cited:`1978`
 
+`DRIT++` **DRIT++: Diverse Image-to-Image Translation via Disentangled Representations**<br>
+Hsin-Ying Lee, Hung-Yu Tseng, Qi Mao, Jia-Bin Huang, Yu-Ding Lu, Maneesh Singh, Ming-Hsuan Yang.<br>
+IJCV 2019. [[PDF](https://arxiv.org/abs/1905.01270)] Cited:`206`
+
 `StarGANv2` **StarGAN v2: Diverse Image Synthesis for Multiple Domains**<br>
 *Yunjey Choi, Youngjung Uh, Jaejun Yoo, Jung-Woo Ha*<br>
 CVPR 2020. [[PDF](https://arxiv.org/abs/1912.01865)] Cited:`438`
+
+**Smoothing the Disentangled Latent Style Space for Unsupervised Image-to-Image Translation**<br>
+*Yahui Liu, Enver Sangineto, Yajing Chen, Linchao Bao, Haoxian Zhang, Nicu Sebe, Bruno Lepri, Wei Wang, Marco De Nadai*<br>
+CVPR 2021. [[PDF](https://arxiv.org/abs/2106.09016)]
 
 ## Few-shot Image Translation
 `FUNIT` **Few-shot unsupervised image-to-image translation.**
@@ -800,6 +812,8 @@ arxiv 2021. [[PDF](https://arxiv.org/abs/2112.05143)] Cited:`5`
 
 # Text-to-Image Synthesis
 ## End-to-end Training Based
+**Generating images from captions with attention.**<br>
+
 `StackGAN` **StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks**<br>
 *Han Zhang, Tao Xu, Hongsheng Li, Shaoting Zhang, Xiaogang Wang, Xiaolei Huang, Dimitris Metaxas.*<br>
 ICCV 2017. [[PDF](https://arxiv.org/abs/1612.03242)]
@@ -833,6 +847,17 @@ CVPR 2022. [[PDF](https://arxiv.org/abs/2104.00567)]
 Xingchao Liu, Chengyue Gong, Lemeng Wu, Shujian Zhang, Hao Su, Qiang Liu<br>
 arxiv 2021. [[PDF](https://arxiv.org/abs/2112.01573)] Cited:`3`
 
+`DALLE` **Zero-Shot Text-to-Image Generation**<br>
+Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, Ilya Sutskever.<br>
+ICML 2021. [[PDF](https://arxiv.org/abs/2102.12092)]
+
+`GLIDE` **GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models**<br>
+*Alex Nichol, Prafulla Dhariwal, Aditya Ramesh, Pranav Shyam, Pamela Mishkin, Bob McGrew, Ilya Sutskever, Mark Chen*<br>
+arxiv 2021.  [[PDF](https://arxiv.org/pdf/2112.10741.pdf)] [[Pytorch](https://github.com/openai/glide-text2im)]
+
+`DALLE2` **Hierarchical Text-Conditional Image Generation with CLIP Latents**<br>
+*Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, Mark Chen*<br>
+OpenAI 2022. [[PDF](https://cdn.openai.com/papers/dall-e-2.pdf)]
 
 # Others
 
@@ -865,10 +890,10 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2104.06490)] Cited:`38`
 
 
 # Miscellaneous
-**The Geometry of Deep Generative Image Models and its Applications**<br>
-Binxu Wang, Carlos R. Ponce.<br>
-ICLR 2021. [[PDF](https://arxiv.org/abs/2101.06006)] Cited:`9`
-
 `SemanticStyleGAN` **SemanticStyleGAN: Learning Compositional Generative Priors for Controllable Image Synthesis and Editing**<br>
 Yichun Shi, Xiao Yang, Yangyue Wan, Xiaohui Shen.<br>
 arxiv 2021. [[PDF](https://arxiv.org/abs/2112.02236)] Cited:`0`
+
+**Synthesizing the preferred inputs for neurons in neural networks via deep generator networks.**<br>
+
+**Generating Images with Perceptual Similarity Metrics based on Deep Networks.**<br>
