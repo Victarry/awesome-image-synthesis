@@ -736,6 +736,14 @@ ECCV 2018. [[PDF](https://arxiv.org/abs/1804.04732)] Cited:`1408`
 Hsin-Ying Lee, Hung-Yu Tseng, Jia-Bin Huang, Maneesh Kumar Singh, Ming-Hsuan Yang.<br>
 ECCV 2018. [[PDF](https://arxiv.org/abs/1808.00948)] Cited:`771`
 
+**Augmented cyclegan: Learning many-to-many mappings from unpaired data.**
+*Amjad Almahairi, Sai Rajeswar, Alessandro Sordoni, Philip Bachman, Aaron Courville.*<br>
+ICML 2018. [[PDF](https://arxiv.org/abs/1802.10151)]
+
+**MISO: Mutual Information Loss with Stochastic Style Representations for Multimodal Image-to-Image Translation.**<br>
+*Sanghyeon Na, Seungjoo Yoo, Jaegul Choo.*<br>
+BMVC 2020. [[PDF](https://arxiv.org/abs/1902.03938)]
+
 `MSGAN` **Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis**<br>
 Qi Mao, Hsin-Ying Lee, Hung-Yu Tseng, Siwei Ma, Ming-Hsuan Yang.<br>
 CVPR 2019. [[PDF](https://arxiv.org/abs/1903.05628)] Cited:`192`
@@ -791,6 +799,36 @@ William Peebles, Jun-Yan Zhu, Richard Zhang, Antonio Torralba, Alexei Efros, Eli
 arxiv 2021. [[PDF](https://arxiv.org/abs/2112.05143)] Cited:`5`
 
 # Text-to-Image Synthesis
+## End-to-end Training Based
+`StackGAN` **StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks**<br>
+*Han Zhang, Tao Xu, Hongsheng Li, Shaoting Zhang, Xiaogang Wang, Xiaolei Huang, Dimitris Metaxas.*<br>
+ICCV 2017. [[PDF](https://arxiv.org/abs/1612.03242)]
+
+`StackGAN++` **StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks**<br>
+*Han Zhang, Tao Xu, Hongsheng Li, Shaoting Zhang, Xiaogang Wang, Xiaolei Huang, Dimitris Metaxas*<br>
+TPAMI 2018. [[PDF](https://arxiv.org/abs/1710.10916)]
+
+`AttnGAN` **AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks**
+*Tao Xu, Pengchuan Zhang, Qiuyuan Huang, Han Zhang, Zhe Gan, Xiaolei Huang, Xiaodong He.*<br>
+CVPR 2018. [[PDF](https://arxiv.org/abs/1711.10485)]
+
+`DM-GAN` **DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis**<br>
+*Minfeng Zhu, Pingbo Pan, Wei Chen, Yi Yang*<br>
+CVPR 2019. [[PDF](https://arxiv.org/abs/1904.01310)]
+
+`SD-GAN` **Semantics Disentangling for Text-to-Image Generation**<br>
+*Guojun Yin, Bin Liu, Lu Sheng, Nenghai Yu, Xiaogang Wang, Jing Shao*<br>
+CVPR 2019. [[PDF](https://arxiv.org/abs/1904.01480)]
+
+`DF-GAN` **A Simple and Effective Baseline for Text-to-Image Synthesis**<br>
+*Ming Tao, Hao Tang, Fei Wu, Xiaoyuan Jing, Bingkun Bao, Changsheng Xu.*<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2008.05865)]
+
+**Text to Image Generation with Semantic-Spatial Aware GAN**<br>
+*Kai Hu, Wentong Liao, Michael Ying Yang, Bodo Rosenhahn*<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2104.00567)]
+
+## Multimodal Pretraining Based
 **FuseDream: Training-Free Text-to-Image Generationwith Improved CLIP+GAN Space Optimization**<br>
 Xingchao Liu, Chengyue Gong, Lemeng Wu, Shujian Zhang, Hao Su, Qiang Liu<br>
 arxiv 2021. [[PDF](https://arxiv.org/abs/2112.01573)] Cited:`3`
