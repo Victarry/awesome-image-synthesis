@@ -317,9 +317,13 @@ _Yue Wang, Ran Yi, Ying Tai, Chengjie Wang, and Lizhuang Ma_
 _Anh Nguyen, Jeff Clune, Yoshua Bengio, Alexey Dosovitskiy, Jason Yosinski_<br>
 CVPR 2017. [[PDF](https://arxiv.org/abs/1612.00005)] Cited:`508`
 
-**Optimizing the Latent Space of Generative Networks**<br>
+`GLO` **Optimizing the Latent Space of Generative Networks**<br>
 Piotr Bojanowski, Armand Joulin, David Lopez-Paz, Arthur Szlam<br>
 ICML 2018. [[PDF](https://arxiv.org/abs/1707.05776)] Cited:`256`
+
+**Non-Adversarial Image Synthesis with Generative Latent Nearest Neighbors**<br>
+_Yedid Hoshen, Jitendra Malik_<br>
+CVPR 2019. [[PDF](https://arxiv.org/abs/1812.08985)]
 
 ## Latent Interpolation
 **Sampling generative networks: Notes on a few effective techniques.**<br>
@@ -684,9 +688,6 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2105.09188)] Cited:`9`
 arxiv 2016. [[PDF](https://arxiv.org/abs/1610.05586)] Cited:`120`
 
 ### Others
-**Unsupervised Image-to-Image Translation with Generative Prior**<br>
-Shuai Yang, Liming Jiang, Ziwei Liu and Chen Change Loy. <br>
-CVPR 2022.
 
 ### Various Applications
 **Sketch Your Own GAN**<br>
@@ -773,6 +774,10 @@ CVPR 2020. [[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Nizan_B
 `ACL-GAN` **Unpaired Image-to-Image Translation using Adversarial Consistency Loss**<br>
 Yihao Zhao, Ruihai Wu, Hao Dong.<br>
 ECCV 2020. [[PDF](https://arxiv.org/abs/2003.04858)] Cited:`23`
+
+**Unsupervised Image-to-Image Translation with Generative Prior**<br>
+Shuai Yang, Liming Jiang, Ziwei Liu and Chen Change Loy. <br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2204.03641)]
 
 ### Multi-domain
 `StarGAN` **StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation**<br>
