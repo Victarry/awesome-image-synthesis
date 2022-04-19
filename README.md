@@ -796,6 +796,11 @@ CVPR 2020. [[PDF](https://arxiv.org/abs/1912.01865)] Cited:`446`
 *Yahui Liu, Enver Sangineto, Yajing Chen, Linchao Bao, Haoxian Zhang, Nicu Sebe, Bruno Lepri, Wei Wang, Marco De Nadai*<br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2106.09016)] Cited:`6`
 
+### Others
+**Unsupervised Cross-Domain Image Generation**<br>
+*Yaniv Taigman, Adam Polyak, Lior Wolf*<br>
+ICLR 2017. [[PDF](https://arxiv.org/abs/1611.02200)]
+
 ## Few-shot Image Translation
 `FUNIT` **Few-shot unsupervised image-to-image translation.**
 
