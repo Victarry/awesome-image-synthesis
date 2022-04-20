@@ -737,9 +737,17 @@ NeurIPS 2016 [[PDF](http://arxiv.org/abs/1606.07536)]
 Ming-Yu Liu,Thomas Breuel,Jan Kautz<br>
 NeurIPS 2017. [[PDF](https://arxiv.org/abs/1703.00848)] Cited:`1731`
 
+`CycleGAN` **Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks**<br>
+*Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros.*<br>
+ICCV 2017. [[PDF](https://arxiv.org/abs/1703.10593)]
+
 `DiscoGAN` **Learning to Discover Cross-Domain Relations with Generative Adversarial Networks**<br>
 Taeksoo Kim, Moonsu Cha, Hyunsoo Kim, Jung Kwon Lee, Jiwon Kim.<br>
 ICML 2017. [[PDF](https://arxiv.org/abs/1703.05192)] Cited:`1343`
+
+`DualGAN` **DualGAN: Unsupervised Dual Learning for Image-to-Image Translation**<br>
+*Zili Yi, Hao Zhang, Ping Tan, Minglun Gong.*<br>
+ICCV 2017. [[PDF](https://arxiv.org/abs/1704.02510)]
 
 `BicycleGAN` **Toward Multimodal Image-to-Image Translation**<br>
 Jun-Yan Zhu, Richard Zhang, Deepak Pathak, Trevor Darrell, Alexei A. Efros, Oliver Wang, Eli Shechtman.<br>
@@ -773,8 +781,11 @@ ICLR 2020. [[PDF](https://arxiv.org/abs/1907.10830)] Cited:`168`
 *Dmitrii Torbunov, Yi Huang, Haiwang Yu, Jin Huang, Shinjae Yoo, Meifeng Lin, Brett Viren, Yihui Ren*<br>
 arxiv 2022. [[PDF](https://arxiv.org/abs/2203.02557)] Cited:`1`
 
-
 ### Beyond Cycle-consistency
+`DistanceGAN` **One-Sided Unsupervised Domain Mapping**<br>
+*Sagie Benaim, Lior Wolf*<br>
+NIPS 2017. [[PDF](https://arxiv.org/abs/1706.00826)]
+
 `Council-GAN` **Breaking the Cycle - Colleagues are all you need**<br>
 *Ori Nizan , Ayellet Tal*<br>
 CVPR 2020. [[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Nizan_Breaking_the_Cycle_-_Colleagues_Are_All_You_Need_CVPR_2020_paper.pdf)]
@@ -782,6 +793,10 @@ CVPR 2020. [[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Nizan_B
 `ACL-GAN` **Unpaired Image-to-Image Translation using Adversarial Consistency Loss**<br>
 Yihao Zhao, Ruihai Wu, Hao Dong.<br>
 ECCV 2020. [[PDF](https://arxiv.org/abs/2003.04858)] Cited:`23`
+
+`CUT` **Contrastive Learning for Unpaired Image-to-Image Translation**<br>
+Taesung Park, Alexei A. Efros, Richard Zhang, Jun-Yan Zhu.<br>
+ECCV 2020. [[PDF](https://arxiv.org/abs/2007.15651)]
 
 **Unsupervised Image-to-Image Translation with Generative Prior**<br>
 Shuai Yang, Liming Jiang, Ziwei Liu and Chen Change Loy. <br>
