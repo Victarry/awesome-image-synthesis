@@ -129,6 +129,10 @@ AAAI 2018. [[PDF](https://arxiv.org/abs/1704.02304)] [[Pytorch](https://github.c
 Huaibo Huang, Zhihang Li, Ran He, Zhenan Sun, Tieniu Tan. <br>
 NeurIPS 2018. [[PDF](https://arxiv.org/abs/1807.06358)] Cited:`137`
 
+**Disentangled Inference for {GAN}s with Latently Invertible Autoencoder**<br>
+*Jiapeng Zhu, Deli Zhao, Bo Zhang, Bolei Zhou*<br>
+IJCV 2020. [[PDF](https://arxiv.org/abs/1906.08090)]
+
 `ALAE` **Adversarial Latent Autoencoders**<br>
 Stanislav Pidhorskyi, Donald Adjeroh, Gianfranco Doretto. <br>
 CVPR 2020. [[PDF](https://arxiv.org/abs/2004.04467)] Cited:`119`
@@ -268,6 +272,10 @@ NeruIPS workshop 2020. [[PDF](https://arxiv.org/abs/2010.05334)] Cited:`31`
 **Freeze the Discriminator: a Simple Baseline for Fine-Tuning GANs**<br>
 Sangwoo Mo, Minsu Cho, Jinwoo Shin<br>
 arxiv 2020. [[PDF](https://arxiv.org/abs/2002.10964)] Cited:`54`
+
+**One-Shot Domain Adaptation For Face Generation**<br>
+_Chao Yang, Ser-Nam Lim_<br>
+CVPR 2020. [[PDF](https://arxiv.org/abs/2003.12869)]
 
 **Unsupervised image-to-image translation via pre-trained StyleGAN2 network**<br>
 _Jialu Huang, Jing Liao, Sam Kwong_<br>
