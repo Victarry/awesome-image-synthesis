@@ -253,6 +253,9 @@ Axel Sauer, Kashyap Chitta, Jens Müller, Andreas Geiger<br>
 [[PDF](https://arxiv.org/abs/2111.01007)] [[Project](https://sites.google.com/view/projected-gan/)] [[Pytorch](https://github.com/autonomousvision/projected_gan)] Cited:`9`
 
 ## GAN Adaptation
+```mermaid
+flowchart TB
+```
 **Transferring GANs: generating images from limited data.**<br>
 Yaxing Wang, Chenshen Wu, Luis Herranz, Joost van de Weijer, Abel Gonzalez-Garcia, Bogdan Raducanu.<br>
 ECCV 2018. [[PDF](https://arxiv.org/abs/1805.01677)] Cited:`119`
@@ -269,9 +272,13 @@ CVPRW 2020 [[PDF](https://arxiv.org/abs/2002.10964)] [[Pytorch](https://github.c
 Justin N. M. Pinkney, Doron Adler<br>
 NeruIPS workshop 2020. [[PDF](https://arxiv.org/abs/2010.05334)] Cited:`31`
 
-**Freeze the Discriminator: a Simple Baseline for Fine-Tuning GANs**<br>
-Sangwoo Mo, Minsu Cho, Jinwoo Shin<br>
-arxiv 2020. [[PDF](https://arxiv.org/abs/2002.10964)] Cited:`54`
+**Few-shot image generation with elastic weight consolidation.**
+Yijun Li, Richard Zhang, Jingwan Lu, Eli Shechtman<br>
+NeruIPS 2020. [[PDF](https://arxiv.org/abs/2012.02780)]
+
+**Minegan: effective knowledge transfer from gans to target domains with few images.**
+*Yaxing Wang, Abel Gonzalez-Garcia, David Berga, Luis Herranz, Fahad Shahbaz Khan, Joost van de Weijer*<br>
+CVPR 2020. [[PDF](https://arxiv.org/abs/1912.05270)]
 
 **One-Shot Domain Adaptation For Face Generation**<br>
 _Chao Yang, Ser-Nam Lim_<br>
@@ -319,6 +326,11 @@ ICLR 2022. [[PDF](https://openreview.net/forum?id=4Ycr8oeCoIh)]
 
 **CtlGAN: Few-shot Artistic Portraits Generation with Contrastive Transfer Learning**<br>
 _Yue Wang, Ran Yi, Ying Tai, Chengjie Wang, and Lizhuang Ma_
+
+## VAEs
+**NVAE: A Deep Hierarchical Variational Autoencoder**<br>
+*Arash Vahdat, Jan Kautz*<br>
+NeurIPS 2020. [[PDF](https://arxiv.org/abs/2007.03898)]
 
 ## Other Generative Models
 **Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space**<br>
