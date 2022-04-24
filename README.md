@@ -328,6 +328,14 @@ ICLR 2022. [[PDF](https://openreview.net/forum?id=4Ycr8oeCoIh)]
 _Yue Wang, Ran Yi, Ying Tai, Chengjie Wang, and Lizhuang Ma_
 
 ## VAEs
+**Variational Inference with Normalizing Flows**<br>
+*Danilo Jimenez Rezende, Shakir Mohamed*<br>
+ICML 2015. [[PDF](https://arxiv.org/abs/1505.05770)]
+
+**Improved Variational Inference with Inverse Autoregressive Flow**<br>
+*Diederik P. Kingma, Tim Salimans, Rafal Jozefowicz, Xi Chen, Ilya Sutskever, Max Welling*<br>
+NeurIPS 2016. [[PDF](https://arxiv.org/abs/1606.04934)]
+
 **NVAE: A Deep Hierarchical Variational Autoencoder**<br>
 *Arash Vahdat, Jan Kautz*<br>
 NeurIPS 2020. [[PDF](https://arxiv.org/abs/2007.03898)] Cited:`229`
