@@ -308,6 +308,10 @@ arxiv 2021 [[PDF](https://arxiv.org/abs/2108.00946)] [[Project](https://stylegan
 _Zongze Wu, Yotam Nitzan, Eli Shechtman, Dani Lischinski_<br>
 ICLR 2022. [[PDF](https://arxiv.org/abs/2110.11323)] Cited:`9`
 
+**One-Shot Generative Domain Adaptation**<br>
+_Ceyuan Yang, Yujun Shen*, Zhiyi Zhang, Yinghao Xu, Jiapeng Zhu, Zhirong Wu, Bolei Zhou_ <br>
+arXiv 2021. [[PDF](https://arxiv.org/abs/2111.09876)]
+
 **Mind the Gap: Domain Gap Control for Single Shot Domain Adaptation for Generative Adversarial Networks**<br>
 _Peihao Zhu, Rameen Abdal, John Femiani, Peter Wonka_<br>
 ICLR 2022. [[PDF](https://arxiv.org/abs/2110.08398)] Cited:`11`
@@ -631,6 +635,10 @@ ICLR 2022. [[PDF](https://arxiv.org/abs/2102.10543)] Cited:`2`
 **Rayleigh EigenDirections (REDs): GAN latent space traversals for multidimensional features.**<br>
 *Guha Balakrishnan, Raghudeep Gadde, Aleix Martinez, Pietro Perona.*<br>
 arxiv 2022. [[PDF](https://arxiv.org/pdf/2201.10423.pdf)]
+
+**Low-Rank Subspaces in GANs**<br>
+_Jiapeng Zhu, Ruili Feng, Yujun Shen, Deli Zhao, Zhengjun Zha, Jingren Zhou, Qifeng Chen_<br>
+NeurIPS 2021. [[PDF](https://arxiv.org/abs/2106.04488)]
 
 **Region-Based Semantic Factorization in GANs**<br>
 *Jiapeng Zhu, Yujun Shen, Yinghao Xu, Deli Zhao, Qifeng Chen.*<br>
