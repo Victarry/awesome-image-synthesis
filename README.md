@@ -38,10 +38,13 @@ ICLR 2019. [[PDF](https://arxiv.org/abs/1809.11096)] Cited:`2622`
 Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila. <br>
 CVPR 2020. [[PDF](https://arxiv.org/abs/1912.04958)] Cited:`1517`
 
+<<<<<<< HEAD
 `VQGAN` **Taming Transformers for High-Resolution Image Synthesis**<br>
 Patrick Esser, Robin Rombach, Björn Ommer.<br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2012.09841)] [[Project](https://compvis.github.io/taming-transformers/)] Cited:`204`
 
+=======
+>>>>>>> 69d166e... Add papers.
 `TransGAN` **TransGAN: Two Transformers Can Make One Strong GAN, and That Can Scale Up**<br>
 Yifan Jiang, Shiyu Chang, Zhangyang Wang.<br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2102.07074)] [[Pytorch](https://github.com/asarigun/TransGAN)] Cited:`36`
@@ -91,6 +94,7 @@ ICLR 2018. [[PDF](https://arxiv.org/abs/1802.05637)] Cited:`538`
 `S³-GAN` **High-Fidelity Image Generation With Fewer Labels**<br>
 Mario Lucic*, Michael Tschannen*, Marvin Ritter*, Xiaohua Zhai, Olivier Bachem, Sylvain Gelly. <br>
 ICML 2019. [[PDF](https://arxiv.org/abs/1903.02271)] [[Tensorflow](https://github.com/google/compare_gan)] Cited:`99`
+
 
 ## Autoencoder-based framework
 `VAE` **Auto-Encoding Variational Bayes.**<br>
@@ -329,7 +333,12 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2112.11641)] Cited:`4`
 ICLR 2022. [[PDF](https://openreview.net/forum?id=4Ycr8oeCoIh)]
 
 **CtlGAN: Few-shot Artistic Portraits Generation with Contrastive Transfer Learning**<br>
-_Yue Wang, Ran Yi, Ying Tai, Chengjie Wang, and Lizhuang Ma_
+_Yue Wang, Ran Yi, Ying Tai, Chengjie Wang, and Lizhuang Ma_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2203.08612)]
+
+**One-Shot Adaptation of GAN in Just One CLIP**<br>
+_Gihyun Kwon, Jong Chul Ye_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2203.09301)]
 
 ## VAEs
 **Variational Inference with Normalizing Flows**<br>
@@ -369,6 +378,24 @@ ICLR 2018. [[PDF](https://arxiv.org/abs/1710.11379)] Cited:`137`
 **Feature-Based Metrics for Exploring the Latent Space of Generative Models**<br>
 Samuli Laine.<br>
 ICLR 2018 Workshop. [[PDF](https://openreview.net/forum?id=BJslDBkwG)]
+
+# Two-stage Generation Models
+`VQGAN` **Taming Transformers for High-Resolution Image Synthesis**<br>
+Patrick Esser, Robin Rombach, Björn Ommer.<br>
+CVPR 2021. [[PDF](https://arxiv.org/abs/2012.09841)] [[Project](https://compvis.github.io/taming-transformers/)] Cited:`189`
+
+`DALLE` **Zero-Shot Text-to-Image Generation**<br>
+Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, Ilya Sutskever.<br>
+ICML 2021. [[PDF](https://arxiv.org/abs/2102.12092)] Cited:`322`
+
+`ASSET` 
+https://github.com/DifanLiu/ASSET
+
+
+`PUT`
+https://github.com/liuqk3/PUT
+
+Vector Quantized Diffusion Model for Text-to-Image Synthesis?
 
 # Image Manipulation with Deep Generative Model
 ## GAN Inversion
@@ -649,8 +676,12 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2202.09649)] Cited:`2`
 
 ## CLIP based
 **StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery**<br>
-Or Patashnik, Zongze Wu, Eli Shechtman, Daniel Cohen-Or, Dani Lischinski<br>
+_Or Patashnik, Zongze Wu, Eli Shechtman, Daniel Cohen-Or, Dani Lischinski_<br>
 ICCV 2021. [[PDF](https://arxiv.org/abs/2103.17249)] [[Pytorch](https://github.com/orpatashnik/StyleCLIP)] Cited:`141`
+
+`TargetCLIP`**Image-Based CLIP-Guided Essence Transfer**<br>
+_Chefer, Hila and Benaim, Sagie and Paiss, Roni and Wolf, Lior_<br>
+arxiv 2021. [[PDF](https://arxiv.org/abs/2110.12427)]
 
 **CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders.**<br>
 Kevin Frans, L.B. Soros, Olaf Witkowski.<br>
@@ -663,6 +694,22 @@ arxiv 2021. [[PDF](https://arxiv.org/abs/2112.05219)] Cited:`5`
 **FEAT: Face Editing with Attention**<br>
 Xianxu Hou, Linlin Shen, Or Patashnik, Daniel Cohen-Or, Hui Huang<br>
 arxiv 2021. [[PDF](https://arxiv.org/abs/2202.02713)] Cited:`0`
+
+**StyleCLIPDraw: Coupling Content and Style in Text-to-Drawing Translation**<br>
+_Peter Schaldenbrand, Zhixuan Liu, Jean Oh_<br>
+NeurIPS 2021 Workshop. [[PDF](https://github.com/pschaldenbrand/StyleCLIPDraw)]
+
+**CLIPstyler: Image Style Transfer with a Single Text Condition**<br>
+*Gihyun Kwon, Jong Chul Ye*<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2112.00374)]
+
+**HairCLIP: Design Your Hair by Text and Reference Image**<br>
+*Tianyi Wei, Dongdong Chen, Wenbo Zhou, Jing Liao, Zhentao Tan, Lu Yuan, Weiming Zhang, Nenghai Yu*<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2112.05142)]
+
+**CLIPasso: Semantically-Aware Object Sketching**<br>
+*Yael Vinker, Ehsan Pajouheshgar, Jessica Y. Bo, Roman Christian Bachmann, Amit Haim Bermano, Daniel Cohen-Or, Amir Zamir, Ariel Shamir*<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2202.05822)]
 
 ## Inversion-based Animation
 **A good image generator is what you need for high-resolution video synthesis**<br>
@@ -733,9 +780,6 @@ ICCV 2021. [[PDF](https://arxiv.org/abs/2108.02774)] Cited:`9`
 ### Super-resolution
 
 ### Example based image translation
-**Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer**<br>
-Shuai Yang, Liming Jiang, Ziwei Liu and Chen Change Loy<br>
-CVPR 2022. [[Pytorch](https://github.com/williamyang1991/DualStyleGAN)]
 
 ## Unsupervised Image Transaltion
 ### Swapping Based
@@ -847,24 +891,49 @@ CVPR 2020. [[PDF](https://arxiv.org/abs/1912.01865)] Cited:`463`
 *Yahui Liu, Enver Sangineto, Yajing Chen, Linchao Bao, Haoxian Zhang, Nicu Sebe, Bruno Lepri, Wei Wang, Marco De Nadai*<br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2106.09016)] Cited:`8`
 
+**A Style-aware Discriminator for Controllable Image Translation**<br>
+*Kunhee Kim, Sanghun Park, Eunyeong Jeon, Taehun Kim, Daijin Kim*<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2203.15375)]
+
+`DualStyleGAN` **Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer**<br>
+Shuai Yang, Liming Jiang, Ziwei Liu and Chen Change Loy<br>
+CVPR 2022. [[Pytorch](https://github.com/williamyang1991/DualStyleGAN)]
+
 ### Others
 **Unsupervised Cross-Domain Image Generation**<br>
 *Yaniv Taigman, Adam Polyak, Lior Wolf*<br>
 ICLR 2017. [[PDF](https://arxiv.org/abs/1611.02200)] Cited:`727`
 
 ## Few-shot Image Translation
-`FUNIT` **Few-shot unsupervised image-to-image translation.**
+`FUNIT` **Few-shot unsupervised image-to-image translation.**<br>
+*Ming-Yu Liu, Xun Huang, Arun Mallya, Tero Karras, Timo Aila, Jaakko Lehtinen, Jan Kautz*<br>
+ICCV 2019. [[PDF](https://arxiv.org/abs/1905.01723)]
 
-Coco-funit:Few-shot unsupervised image translation with a content conditioned style encoder.
+**Coco-funit:Few-shot unsupervised image translation with a content conditioned style encoder.**<br>
+*Kuniaki Saito, Kate Saenko, Ming-Yu Liu*<br>
+ECCV 2020. [[PDF](https://arxiv.org/abs/2007.07431)]
+
+## Few-shot Image Generation
+**Attribute Group Editing for Reliable Few-shot Image Generation.**<br>
+*Guanqi Ding, Xinzhe Han, Shuhui Wang, Shuzhe Wu, Xin Jin, Dandan Tu, Qingming Huang*<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2203.08422)]
 
 ## Style Transfer
-
 `WCT` **Universal Style Transfer via Feature Transforms**<br>
-Yijun Li, Chen Fang, Jimei Yang, Zhaowen Wang, Xin Lu, Ming-Hsuan Yang. <br>
-[[PDF](https://arxiv.org/abs/1705.08086)] Cited:`471`
+*Yijun Li, Chen Fang, Jimei Yang, Zhaowen Wang, Xin Lu, Ming-Hsuan Yang.* <br>
+NeruIPS 2017. [[PDF](https://arxiv.org/abs/1705.08086)] Cited:`471`
 
-Style transfer by relaxed optimal transport and self-similarity.
+**Style transfer by relaxed optimal transport and self-similarity.**<br>
+*Nicholas Kolkin, Jason Salavon, Greg Shakhnarovich.* <br>
+CVPR 2019. [[PDF](https://arxiv.org/abs/1904.12785)]
 
+**A Closed-Form Solution to Universal Style Transfer**<br>
+*Ming Lu, Hao Zhao, Anbang Yao, Yurong Chen, Feng Xu, Li Zhang*<br>
+ICCV 2019. [[PDF](https://arxiv.org/abs/1906.00668)]
+
+**Neural Neighbor Style Transfer**<br>
+*Nicholas Kolkin, Michal Kucera, Sylvain Paris, Daniel Sykora, Eli Shechtman, Greg Shakhnarovich*<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2203.13215)]
 
 ## Others
 `GANgealing`**GAN-Supervised Dense Visual Alignment**<br>
@@ -874,6 +943,12 @@ arxiv 2021. [[PDF](https://arxiv.org/abs/2112.05143)] Cited:`5`
 # Text-to-Image Synthesis
 ## End-to-end Training Based
 **Generating images from captions with attention.**<br>
+Elman Mansimov, Emilio Parisotto, Jimmy Lei Ba, Ruslan Salakhutdinov.<br>
+ICLR 2016. [[PDF](https://arxiv.org/abs/1511.02793)]
+
+**Generative Adversarial Text to Image Synthesis**<br>
+*Scott Reed, Zeynep Akata, Xinchen Yan, Lajanugen Logeswaran, Bernt Schiele, Honglak Lee>.*<br>
+ICML 2016. [[PDF](https://arxiv.org/abs/1605.05396)]
 
 `StackGAN` **StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks**<br>
 *Han Zhang, Tao Xu, Hongsheng Li, Shaoting Zhang, Xiaogang Wang, Xiaolei Huang, Dimitris Metaxas.*<br>
@@ -903,6 +978,10 @@ CVPR 2022. [[PDF](https://arxiv.org/abs/2008.05865)] Cited:`0`
 *Kai Hu, Wentong Liao, Michael Ying Yang, Bodo Rosenhahn*<br>
 CVPR 2022. [[PDF](https://arxiv.org/abs/2104.00567)] Cited:`2`
 
+**TextFace: Text-to-Style Mapping based Face Generation and Manipulation**<br>
+*Hou, Xianxu, Zhang Xiaokang, Li Yudong, Shen Linlin*<br>
+TMM 2022. [[PDF](https://ieeexplore.ieee.org/document/9737433/)]
+
 ## Multimodal Pretraining Based
 **FuseDream: Training-Free Text-to-Image Generationwith Improved CLIP+GAN Space Optimization**<br>
 Xingchao Liu, Chengyue Gong, Lemeng Wu, Shujian Zhang, Hao Su, Qiang Liu<br>
@@ -919,6 +998,13 @@ arxiv 2021.  [[PDF](https://arxiv.org/pdf/2112.10741.pdf)] [[Pytorch](https://gi
 `DALLE2` **Hierarchical Text-Conditional Image Generation with CLIP Latents**<br>
 *Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, Mark Chen*<br>
 OpenAI 2022. [[PDF](https://cdn.openai.com/papers/dall-e-2.pdf)]
+
+**L-Verse: Bidirectional Generation Between Image and Text**<br>
+*Taehoon Kim, Gwangmo Song, Sihaeng Lee, Sangyun Kim, Yewon Seo, Soonyoung Lee, Seung Hwan Kim, Honglak Lee, Kyunghoon Bae*<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2111.11133)]
+
+**CLIP-GEN: Language-Free Training of a Text-to-Image Generator with CLIP**<br>
+
 
 # Others
 
@@ -954,6 +1040,10 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2104.06490)] Cited:`42`
 `SemanticStyleGAN` **SemanticStyleGAN: Learning Compositional Generative Priors for Controllable Image Synthesis and Editing**<br>
 Yichun Shi, Xiao Yang, Yangyue Wan, Xiaohui Shen.<br>
 arxiv 2021. [[PDF](https://arxiv.org/abs/2112.02236)] Cited:`0`
+
+**Learning to generate line drawings that convey geometry and semantics**<br>
+Caroline Chan, Fredo Durand, Phillip Isola.<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2203.12691)]
 
 **Synthesizing the preferred inputs for neurons in neural networks via deep generator networks.**<br>
 
