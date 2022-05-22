@@ -765,6 +765,55 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2012.02992)] Cited:`15`
 Jie Liang, Hui Zeng, Lei Zhang. <br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2105.09188)] Cited:`9`
 
+### Image Inpainting
+**Context encoders: Feature learning by inpainting.**<br>
+_Deepak Pathak, Philipp Krahenbuhl, Jeff Donahue, Trevor Darrell, Alexei A. Efros_<br>
+CVPR 2016. [[PDF](https://arxiv.org/abs/1604.07379)]
+
+**Globally and locally consistent image completion.**<br>
+_Satoshi Iizuka, Edgar Simo-Serra, Hiroshi Ishikawa_<br>
+SIGGRAPH 2017. [[PDF](http://iizuka.cs.tsukuba.ac.jp/projects/completion/data/completion_sig2017.pdf)]
+
+**Semantic image inpainting with deep generative models.**<br>
+_Raymond A. Yeh, Chen Chen, Teck Yian Lim, Alexander G. Schwing, Mark Hasegawa-Johnson, Minh N. Do_<r>
+CVPR 2017. [[PDF](https://arxiv.org/abs/1607.07539)]
+
+**High-resolution image inpainting using multiscale neural patch synthesis**<br>
+_Chao Yang, Xin Lu, Zhe Lin, Eli Shechtman, Oliver Wang, Hao Li_<br>
+CVPR 2017. [[PDF](https://arxiv.org/abs/1611.09969)]
+
+**Spg-net: Segmentation prediction and guidance network for image inpainting.**<br>
+_Yuhang Song, Chao Yang, Yeji Shen, Peng Wang, Qin Huang, C.-C. Jay Kuo_<br>
+BMVC 2018. [[PDF](https://arxiv.org/abs/1805.03356)]
+
+**Generative image inpainting with contextual attention**<br>
+_Jiahui Yu, Zhe Lin, Jimei Yang, Xiaohui Shen, Xin Lu, Thomas S. Huang_<br>
+CVPR 2018. [[PDF](https://arxiv.org/abs/1801.07892)]
+
+**Free-form image inpainting with gated convolution.**<br>
+_Jiahui Yu, Zhe Lin, Jimei Yang, Xiaohui Shen, Xin Lu, Thomas Huang_<br>
+ICCV 2019. [[PDF](https://arxiv.org/abs/1806.03589)]
+
+**Edgeconnect: Generative image inpainting with adversarial edge learning.**<br>
+_Kamyar Nazeri, Eric Ng, Tony Joseph, Faisal Z. Qureshi, Mehran Ebrahimi_<br>
+ICCV 2019. [[PDF](https://arxiv.org/abs/1901.00212)]
+
+**Pluralistic Image Completion**<br>
+_Chuanxia Zheng, Tat-Jen Cham, Jianfei Cai_<br>
+CVPR 2019. [[PDF](https://arxiv.org/abs/1903.04227)]
+
+**Rethinking image inpainting via a mutual encoder-decoder with feature equalizations.**<br>
+_Hongyu Liu, Bin Jiang, Yibing Song, Wei Huang, Chao Yang_<br>
+ECCV 2020. [[PDF](https://arxiv.org/abs/2007.06929)]
+
+**High-Fidelity Pluralistic Image Completion with Transformers**<br>
+_Ziyu Wan, Jingbo Zhang, Dongdong Chen, Jing Liao_<br>
+ICCV 2021. [[PDF](https://arxiv.org/abs/2103.14031)]
+
+**Reduce Information Loss in Transformers for Pluralistic Image Inpainting**<br>
+_Qiankun Liu, Zhentao Tan, Dongdong Chen, Qi Chu, Xiyang Dai, Yinpeng Chen, Mengchen Liu, Lu Yuan, Nenghai Yu_<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2205.05076)]
+
 ### Attribute Editing
 **Deep Identity-Aware Transfer of Facial Attributes**<br>
 *Mu Li, Wangmeng Zuo, David Zhang*<br>
