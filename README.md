@@ -388,14 +388,41 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2012.09841)] [[Project](https://compvis.
 Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, Ilya Sutskever.<br>
 ICML 2021. [[PDF](https://arxiv.org/abs/2102.12092)] Cited:`388`
 
-`ASSET` 
-https://github.com/DifanLiu/ASSET
+**The Image Local Autoregressive Transformer**<br>
+_Chenjie Cao, Yuxin Hong, Xiang Li, Chengrong Wang, Chengming Xu, XiangYang Xue, Yanwei Fu_<br>
+NeruIPS 2021. [[PDF](https://arxiv.org/abs/2106.02514)]
 
+`MaskGIT` **MaskGIT: Masked Generative Image Transformer**<br>
+_Huiwen Chang, Han Zhang, Lu Jiang, Ce Liu, William T. Freeman_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2202.04200)]
 
-`PUT`
-https://github.com/liuqk3/PUT
+`VQGAN-CLIP` **VQGAN-CLIP: Open Domain Image Generation and Editing with Natural Language Guidance**<br>
+_Katherine Crowson, Stella Biderman, Daniel Kornis, Dashiell Stander, Eric Hallahan, Louis Castricato, Edward Raff_<br>
+arxiv 2021. [[PDF](https://arxiv.org/abs/2204.08583)]
 
-Vector Quantized Diffusion Model for Text-to-Image Synthesis?
+`ASSET` **Autoregressive Semantic Scene Editing with Transformers at High Resolutions**<br>
+_Difan Liu, Sandesh Shetty, Tobias Hinz, Matthew Fisher, Richard Zhang, Taesung Park, Evangelos Kalogerakis_<br>
+SIGGRAPH 2022. [[Pytorch](https://github.com/DifanLiu/ASSET)] 
+
+`CLIP-GEN` **CLIP-GEN: Language-Free Training of a Text-to-Image Generator with CLIP**<br>
+_Zihao Wang, Wei Liu, Qian He, Xinglong Wu, Zili Yi_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2203.00386)]
+
+`PUT` **Reduce Information Loss in Transformers for Pluralistic Image Inpainting**<br>
+_Qiankun Liu, Zhentao Tan, Dongdong Chen, Qi Chu, Xiyang Dai, Yinpeng Chen, Mengchen Liu, Lu Yuan, Nenghai Yu_<br>
+CVPR 2022. [[Pytorch](https://github.com/liuqk3/PUT)]
+
+**High-Quality Pluralistic Image Completion via Code Shared VQGAN**<br>
+_Chuanxia Zheng, Guoxian Song, Tat-Jen Cham, Jianfei Cai, Dinh Phung, Linjie Luo_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2204.01931)]
+
+**L-Verse: Bidirectional Generation Between Image and Text**<br>
+_Taehoon Kim, Gwangmo Song, Sihaeng Lee, Sangyun Kim, Yewon Seo, Soonyoung Lee, Seung Hwan Kim, Honglak Lee, Kyunghoon Bae_<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2111.11133)]
+
+<!-- Vector Quantized Diffusion Model for Text-to-Image Synthesis?
+
+`DALLE2` -->
 
 # Image Manipulation with Deep Generative Model
 ## GAN Inversion
