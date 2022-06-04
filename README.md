@@ -38,13 +38,10 @@ ICLR 2019. [[PDF](https://arxiv.org/abs/1809.11096)] Cited:`2668`
 Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila. <br>
 CVPR 2020. [[PDF](https://arxiv.org/abs/1912.04958)] Cited:`1573`
 
-<<<<<<< HEAD
 `VQGAN` **Taming Transformers for High-Resolution Image Synthesis**<br>
 Patrick Esser, Robin Rombach, Björn Ommer.<br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2012.09841)] [[Project](https://compvis.github.io/taming-transformers/)] Cited:`224`
 
-=======
->>>>>>> 69d166e... Add papers.
 `TransGAN` **TransGAN: Two Transformers Can Make One Strong GAN, and That Can Scale Up**<br>
 Yifan Jiang, Shiyu Chang, Zhangyang Wang.<br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2102.07074)] [[Pytorch](https://github.com/asarigun/TransGAN)] Cited:`38`
