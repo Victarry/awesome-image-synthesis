@@ -138,6 +138,26 @@ IJCV 2020. [[PDF](https://arxiv.org/abs/1906.08090)] Cited:`15`
 Stanislav Pidhorskyi, Donald Adjeroh, Gianfranco Doretto. <br>
 CVPR 2020. [[PDF](https://arxiv.org/abs/2004.04467)] Cited:`121`
 
+## VAEs
+**Variational Inference with Normalizing Flows**<br>
+*Danilo Jimenez Rezende, Shakir Mohamed*<br>
+ICML 2015. [[PDF](https://arxiv.org/abs/1505.05770)] Cited:`2017`
+
+**Improved Variational Inference with Inverse Autoregressive Flow**<br>
+*Diederik P. Kingma, Tim Salimans, Rafal Jozefowicz, Xi Chen, Ilya Sutskever, Max Welling*<br>
+NeurIPS 2016. [[PDF](https://arxiv.org/abs/1606.04934)] Cited:`1210`
+
+**NVAE: A Deep Hierarchical Variational Autoencoder**<br>
+*Arash Vahdat, Jan Kautz*<br>
+NeurIPS 2020. [[PDF](https://arxiv.org/abs/2007.03898)] Cited:`247`
+
+## Diffusion Models
+DDPM
+
+Improved-DDPM
+
+Variational Diffusion Models.
+
 ## Disentangled Image Generation
 `DC-IGN` **Deep Convolutional Inverse Graphics Network**<br>
 Tejas D. Kulkarni, Will Whitney, Pushmeet Kohli, Joshua B. Tenenbaum. <br>
@@ -377,6 +397,14 @@ Samuli Laine.<br>
 ICLR 2018 Workshop. [[PDF](https://openreview.net/forum?id=BJslDBkwG)]
 
 # Two-stage Generation Models
+`VQ-VAE` **Neural Discrete Representation Learning**<br>
+_Aaron van den Oord, Oriol Vinyals, Koray Kavukcuoglu_<br>
+NeurIPS 2017. [[PDF](https://arxiv.org/abs/1711.00937)]
+
+`VQ-VAE-2` **Generating Diverse High-Fidelity Images with VQ-VAE-2**<br>
+_Ali Razavi, Aaron van den Oord, Oriol Vinyals_<br>
+NeurIPS 2019. [[PDF](https://arxiv.org/abs/1906.00446)]
+
 `VQGAN` **Taming Transformers for High-Resolution Image Synthesis**<br>
 Patrick Esser, Robin Rombach, Björn Ommer.<br>
 CVPR 2021. [[PDF](https://arxiv.org/abs/2012.09841)] [[Project](https://compvis.github.io/taming-transformers/)] Cited:`236`
@@ -417,9 +445,33 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2204.01931)] Cited:`0`
 _Taehoon Kim, Gwangmo Song, Sihaeng Lee, Sangyun Kim, Yewon Seo, Soonyoung Lee, Seung Hwan Kim, Honglak Lee, Kyunghoon Bae_<br>
 CVPR 2022. [[PDF](https://arxiv.org/abs/2111.11133)] Cited:`0`
 
-<!-- Vector Quantized Diffusion Model for Text-to-Image Synthesis?
+**Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes.**<br>
+_Sam Bond-Taylor, Peter Hessey, Hiroshi Sasaki, Toby P. Breckon, Chris G. Willcocks_<br>
+arxiv 2021. [[PDF](https://arxiv.org/abs/2111.12701)]
 
-`DALLE2` -->
+`MaskGIT` **MaskGIT: Masked Generative Image Transformer**<br>
+_Huiwen Chang, Han Zhang, Lu Jiang, Ce Liu, William T. Freeman_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2202.04200)] Cited:`10`
+
+**Imagebart: Bidirectional context with multinomial diffusion for autoregressive image synthesis.**<br>
+_Patrick Esser, Robin Rombach, Andreas Blattmann, Björn Ommer_<br>
+NeruIPS 2021. [[PDF](https://arxiv.org/abs/2108.08827)]
+
+**Vector Quantized Diffusion Model for Text-to-Image Synthesis**<br>
+_Shuyang Gu, Dong Chen, Jianmin Bao, Fang Wen, Bo Zhang, Dongdong Chen, Lu Yuan, Baining Guo_<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2111.14822)]
+
+`Text2Human` **Text2Human: Text-Driven Controllable Human Image Generation**<br>
+_Yuming Jiang, Shuai Yang, Haonan Qiu, Wayne Wu, Chen Change Loy, Ziwei Liu_<br>
+SIGGRAPH 2022. [[PDF](https://arxiv.org/abs/2205.15996)]
+
+`RQ-VAE` **Autoregressive image generation using residual quantization**<br>
+_Doyup Lee, Chiheon Kim, Saehoon Kim, Minsu Cho, Wook-Shin Han_<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2203.01941)]
+
+**Draft-and-Revise: Effective Image Generation with Contextual RQ-Transformer**<br>
+
+
 
 # Image Manipulation with Deep Generative Model
 ## GAN Inversion
@@ -1077,7 +1129,12 @@ OpenAI 2022. [[PDF](https://cdn.openai.com/papers/dall-e-2.pdf)]
 CVPR 2022. [[PDF](https://arxiv.org/abs/2111.11133)] Cited:`0`
 
 **CLIP-GEN: Language-Free Training of a Text-to-Image Generator with CLIP**<br>
+_Zihao Wang, Wei Liu, Qian He, Xinglong Wu, Zili Yi_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2203.00386)]
 
+**Pretraining is All You Need for Image-to-Image Translation**<br>
+_Tengfei Wang, Ting Zhang, Bo Zhang, Hao Ouyang, Dong Chen, Qifeng Chen, Fang Wen_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2205.12952)]
 
 # Others
 
