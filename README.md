@@ -152,11 +152,57 @@ NeurIPS 2016. [[PDF](https://arxiv.org/abs/1606.04934)] Cited:`1256`
 NeurIPS 2020. [[PDF](https://arxiv.org/abs/2007.03898)] Cited:`277`
 
 ## Diffusion Models
-DDPM
+**Improved techniques for training score-based generative models.**<br>
+_Yang Song, Stefano Ermon_<br>
+NeurIPS 2020. [[PDF](https://arxiv.org/abs/2006.09011)]
 
-Improved-DDPM
+`DDPM` **Denoising Diffusion Probabilistic Models**<br>
+_Jonathan Ho, Ajay Jain, Pieter Abbeel_<br>
+NeurIPS 2020. [[PDF](https://arxiv.org/abs/2006.11239)]
 
-Variational Diffusion Models.
+**Score-based generative modeling through stochastic differential equations**<br>
+_Yang Song, Jascha Sohl-Dickstein, Diederik P Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole_<br>
+ICLR 2021. [[PDF](https://arxiv.org/abs/2011.13456)]
+
+`Improved-DDPM` **Improved Denoising Diffusion Probabilistic Models**<br>
+_Alex Nichol, Prafulla Dhariwal_<br>
+ICML 2021. [[PDF](https://arxiv.org/abs/2102.09672)]
+
+**Variational Diffusion Models.**<br>
+_Diederik P. Kingma, Tim Salimans, Ben Poole, Jonathan Ho_<br>
+NeurIPS 2021. [[PDF](https://arxiv.org/abs/2107.00630)]
+
+`Guided-Diffusion` **Diffusion Models Beat GANs on Image Synthesis**<br>
+_Prafulla Dhariwal, Alex Nichol_<br>
+NeurIPS 2021. [[PDF](https://arxiv.org/abs/2105.05233)]
+
+**Classifier-Free Diffusion Guidance.**<br>
+_Jonathan Ho, Tim Salimans_<br>
+NeurIPS 2021. [[PDF](https://arxiv.org/abs/2207.12598)]
+
+**SDEdit: Image Synthesis and Editing with Stochastic Differential Equations**<br>
+_Chenlin Meng, Yutong He, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon_<br>
+ICLR 2022. [[PDF](https://arxiv.org/abs/2108.01073)]
+
+**DiffusionCLIP: Text-guided Image Manipulation Using Diffusion Models**<br>
+_Gwanghyun Kim, Taesung Kwon, Jong Chul Ye_<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2110.02711)]
+
+**Blended Diffusion: Text-driven Editing of Natural Images**<br>
+_Omri Avrahami, Dani Lischinski, Ohad Fried_<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2111.14818)]
+
+**GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models**<br>
+_Alex Nichol, Prafulla Dhariwal, Aditya Ramesh, Pranav Shyam, Pamela Mishkin, Bob McGrew, Ilya Sutskever, Mark Chen_<br>
+ICML 2022. [[PDF](https://arxiv.org/abs/2112.10741)]
+
+**Palette: Image-to-Image diffusion models.**<br>
+_Chitwan Saharia, William Chan, Huiwen Chang, Chris A. Lee, Jonathan Ho, Tim Salimans, David J. Fleet, Mohammad Norouzi_<br>
+SIGGRAPH 2022. [[PDF](https://arxiv.org/abs/2111.05826)]
+
+**RePaint: Inpainting using Denoising Diffusion Probabilistic Models**<br>
+_Andreas Lugmayr, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, Luc Van Gool_<br>
+CVPR 2022 [[PDF](https://arxiv.org/abs/2201.09865)]
 
 ## Disentangled Image Generation
 `DC-IGN` **Deep Convolutional Inverse Graphics Network**<br>
@@ -357,6 +403,10 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2203.08612)] Cited:`1`
 _Gihyun Kwon, Jong Chul Ye_<br>
 arxiv 2022. [[PDF](https://arxiv.org/abs/2203.09301)] Cited:`1`
 
+**A Closer Look at Few-shot Image Generation**<br>
+_Yunqing Zhao, Henghui Ding, Houjing Huang, Ngai-Man Cheung_<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2205.03805)]
+
 ## VAEs
 **Variational Inference with Normalizing Flows**<br>
 *Danilo Jimenez Rezende, Shakir Mohamed*<br>
@@ -460,6 +510,10 @@ NeruIPS 2021. [[PDF](https://arxiv.org/abs/2108.08827)] Cited:`26`
 **Vector Quantized Diffusion Model for Text-to-Image Synthesis**<br>
 _Shuyang Gu, Dong Chen, Jianmin Bao, Fang Wen, Bo Zhang, Dongdong Chen, Lu Yuan, Baining Guo_<br>
 CVPR 2022. [[PDF](https://arxiv.org/abs/2111.14822)] Cited:`29`
+
+**Improved Vector Quantized Diffusion Models**<br>
+_Zhicong Tang, Shuyang Gu, Jianmin Bao, Dong Chen, Fang Wen_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2205.16007)]
 
 `Text2Human` **Text2Human: Text-Driven Controllable Human Image Generation**<br>
 _Yuming Jiang, Shuai Yang, Haonan Qiu, Wayne Wu, Chen Change Loy, Ziwei Liu_<br>
