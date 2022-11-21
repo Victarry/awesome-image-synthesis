@@ -1190,6 +1190,47 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2203.00386)] Cited:`6`
 _Tengfei Wang, Ting Zhang, Bo Zhang, Hao Ouyang, Dong Chen, Qifeng Chen, Fang Wen_<br>
 arxiv 2022. [[PDF](https://arxiv.org/abs/2205.12952)] Cited:`2`
 
+## Text-guided Image Editing
+**SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations**<br>
+_Chenlin Meng, Yutong He, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon_<br>
+ICLR 2022. [[PDF](https://arxiv.org/abs/2108.01073)]
+
+**Blended Diffusion for Text-driven Editing of Natural Images**<br>
+_Omri Avrahami, Dani Lischinski, Ohad Fried_<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2111.14818)]
+
+**DiffusionCLIP: Text-guided Image Manipulation Using Diffusion Models**<br>
+_Gwanghyun Kim, Taesung Kwon, Jong Chul Ye_<br>
+CVPR 2022. [[PDF](https://arxiv.org/abs/2110.02711)]
+
+**Text2LIVE: text-driven layered image and video editing.**<br>
+_Bar-Tal, Omer and Ofri-Amar, Dolev and Fridman, Rafail and Kasten, Yoni and Dekel, Tali_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2204.02491)]
+
+`Textual Inversion` **An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion**<br>
+_Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H. Bermano, Gal Chechik, Daniel Cohen-Or_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2208.01618)]
+
+`DreamBooth` **DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation**<br>
+_Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, Kfir Aberman_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2208.12242)]
+
+**Prompt-to-Prompt Image Editing with Cross-Attention Control**<br>
+_Amir Hertz, Ron Mokady, Jay Tenenbaum, Kfir Aberman, Yael Pritch, and Daniel Cohen-Or_<br>
+ICLR 2023. [[PDF](https://openreview.net/forum?id=_CDixzkzeyb)]
+
+**Imagic: Text-Based Real Image Editing with Diffusion Models**<br>
+_Bahjat Kawar, Shiran Zada, Oran Lang, Omer Tov, Huiwen Chang, Tali Dekel, Inbar Mosseri, Michal Irani_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2210.09276)]
+
+**UniTune: Text-Driven Image Editing by Fine Tuning an Image Generation Model on a Single Image**<br>
+_Dani Valevski, Matan Kalman, Yossi Matias, Yaniv Leviathan_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2210.09477)]
+
+**InstructPix2Pix: Learning to Follow Image Editing Instructions**<br>
+_Tim Brooks, Aleksander Holynski, Alexei A. Efros_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2211.09800)]
+
 # Others
 
 ## Single Image Generation
