@@ -1161,7 +1161,6 @@ CVPR 2022. [[PDF](https://arxiv.org/abs/2104.00567)] Cited:`7`
 *Hou, Xianxu, Zhang Xiaokang, Li Yudong, Shen Linlin*<br>
 TMM 2022. [[PDF](https://ieeexplore.ieee.org/document/9737433/)]
 
-## Multimodal Pretraining Based
 **FuseDream: Training-Free Text-to-Image Generationwith Improved CLIP+GAN Space Optimization**<br>
 Xingchao Liu, Chengyue Gong, Lemeng Wu, Shujian Zhang, Hao Su, Qiang Liu<br>
 arxiv 2021. [[PDF](https://arxiv.org/abs/2112.01573)] Cited:`19`
@@ -1186,9 +1185,23 @@ CVPR 2022. [[PDF](https://arxiv.org/abs/2111.11133)] Cited:`0`
 _Zihao Wang, Wei Liu, Qian He, Xinglong Wu, Zili Yi_<br>
 arxiv 2022. [[PDF](https://arxiv.org/abs/2203.00386)] Cited:`6`
 
+**Muse: Text-To-Image Generation via Masked Generative Transformers**<br>
+_Huiwen Chang, Han Zhang, Jarred Barber, AJ Maschinot, Jose Lezama, Lu Jiang, Ming-Hsuan Yang, Kevin Murphy, William T. Freeman, Michael Rubinstein, Yuanzhen Li, Dilip Krishnan_<br>
+arxiv 2023. [[PDF](https://arxiv.org/abs/2301.00704)]
+
+## Multimodal Pretraining Based
+
 **Pretraining is All You Need for Image-to-Image Translation**<br>
 _Tengfei Wang, Ting Zhang, Bo Zhang, Hao Ouyang, Dong Chen, Qifeng Chen, Fang Wen_<br>
 arxiv 2022. [[PDF](https://arxiv.org/abs/2205.12952)] Cited:`2`
+
+**NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion**<br>
+_Chenfei Wu, Jian Liang, Lei Ji, Fan Yang, Yuejian Fang, Daxin Jiang, Nan Duan_<br>
+ECCV 2022.  [[PDF](https://arxiv.org/abs/2111.12417)]
+
+**NUWA-Infinity: Autoregressive over Autoregressive Generation for Infinite Visual Synthesis**<br>
+_Chenfei Wu, Jian Liang, Xiaowei Hu, Zhe Gan, Jianfeng Wang, Lijuan Wang, Zicheng Liu, Yuejian Fang, Nan Duan_<br>
+NIPS 2022. [[PDF](https://arxiv.org/abs/2207.09814)]
 
 ## Text-guided Image Editing
 **SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations**<br>
@@ -1230,6 +1243,10 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2210.09477)]
 **InstructPix2Pix: Learning to Follow Image Editing Instructions**<br>
 _Tim Brooks, Aleksander Holynski, Alexei A. Efros_<br>
 arxiv 2022. [[PDF](https://arxiv.org/abs/2211.09800)]
+
+**Tune-A-Video: Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation**
+_Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Weixian Lei, Yuchao Gu, Wynne Hsu, Ying Shan, Xiaohu Qie, Mike Zheng Shou_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2212.11565)]
 
 # Others
 
