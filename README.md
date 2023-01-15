@@ -407,6 +407,10 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2203.09301)] Cited:`2`
 _Yunqing Zhao, Henghui Ding, Houjing Huang, Ngai-Man Cheung_<br>
 CVPR 2022. [[PDF](https://arxiv.org/abs/2205.03805)] Cited:`2`
 
+**Domain Expansion of Image Generators**<br>
+_Yotam Nitzan, Michaël Gharbi, Richard Zhang, Taesung Park, Jun-Yan Zhu, Daniel Cohen-Or, Eli Shechtman_<br>
+arxiv 2023. [[PDF](https://arxiv.org/abs/2301.05225)]
+
 ## VAEs
 **Variational Inference with Normalizing Flows**<br>
 *Danilo Jimenez Rezende, Shakir Mohamed*<br>
@@ -1244,7 +1248,21 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2210.09477)]
 _Tim Brooks, Aleksander Holynski, Alexei A. Efros_<br>
 arxiv 2022. [[PDF](https://arxiv.org/abs/2211.09800)]
 
-**Tune-A-Video: Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation**
+## Text-to-Video
+
+**Imagen video: High definition video generation with diffusion models**<br>
+_Jonathan Ho, William Chan, Chitwan Saharia, Jay Whang, Ruiqi Gao, Alexey Gritsenko, Diederik P. Kingma, Ben Poole, Mohammad Norouzi, David J. Fleet, Tim Salimans_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2210.02303)] [[Project](https://imagen.research.google/video/)]
+
+**Video diffusion models.**<br>
+_Jonathan Ho, Tim Salimans, Alexey Gritsenko, William Chan, Mohammad Norouzi, David J. Fleet_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2204.03458)]
+
+**Make-a-video: Text-to-video generation without text-video data**<br>
+_Uriel Singer, Adam Polyak, Thomas Hayes, Xi Yin, Jie An, Songyang Zhang, Qiyuan Hu, Harry Yang, Oron Ashual, Oran Gafni, Devi Parikh, Sonal Gupta, Yaniv Taigman_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2209.14792)]
+
+**Tune-A-Video: Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation**<br>
 _Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Weixian Lei, Yuchao Gu, Wynne Hsu, Ying Shan, Xiaohu Qie, Mike Zheng Shou_<br>
 arxiv 2022. [[PDF](https://arxiv.org/abs/2212.11565)]
 
