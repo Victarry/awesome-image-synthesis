@@ -1248,6 +1248,10 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2210.09477)]
 _Tim Brooks, Aleksander Holynski, Alexei A. Efros_<br>
 arxiv 2022. [[PDF](https://arxiv.org/abs/2211.09800)]
 
+**Uncovering the Disentanglement Capability in Text-to-Image Diffusion Models**<br>
+_Qiucheng Wu, Yujian Liu, Handong Zhao, Ajinkya Kale, Trung Bui, Tong Yu, Zhe Lin, Yang Zhang, Shiyu Chang_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2212.08698)]
+
 ## Text-to-Video
 
 **Imagen video: High definition video generation with diffusion models**<br>
