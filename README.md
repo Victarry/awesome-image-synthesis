@@ -421,6 +421,10 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2203.09301)] Cited:`2`
 _Yunqing Zhao, Henghui Ding, Houjing Huang, Ngai-Man Cheung_<br>
 CVPR 2022. [[PDF](https://arxiv.org/abs/2205.03805)] Cited:`2`
 
+**Diffusion Guided Domain Adaptation of Image Generators**<br>
+_Kunpeng Song, Ligong Han, Bingchen Liu, Dimitris Metaxas, Ahmed Elgammal_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2212.04473)]
+
 **Domain Expansion of Image Generators**<br>
 _Yotam Nitzan, Michaël Gharbi, Richard Zhang, Taesung Park, Jun-Yan Zhu, Daniel Cohen-Or, Eli Shechtman_<br>
 arxiv 2023. [[PDF](https://arxiv.org/abs/2301.05225)]
@@ -1266,6 +1270,10 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2211.09800)]
 _Qiucheng Wu, Yujian Liu, Handong Zhao, Ajinkya Kale, Trung Bui, Tong Yu, Zhe Lin, Yang Zhang, Shiyu Chang_<br>
 arxiv 2022. [[PDF](https://arxiv.org/abs/2212.08698)]
 
+**Multi-Concept Customization of Text-to-Image Diffusion**<br>
+_Nupur Kumari, Bingliang Zhang, Richard Zhang, Eli Shechtman, Jun-Yan Zhu_<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2212.04488)]
+
 ## Text-to-Video
 
 **Imagen video: High definition video generation with diffusion models**<br>
@@ -1326,3 +1334,5 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2203.12691)] Cited:`2`
 **Synthesizing the preferred inputs for neurons in neural networks via deep generator networks.**<br>
 
 **Generating Images with Perceptual Similarity Metrics based on Deep Networks.**<br>
+
+**VectorFusion Text-to-SVG by Abstracting Pixel-Based Diffusion Models**<br>
