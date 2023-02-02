@@ -54,6 +54,20 @@ NeurIPS 2021. [[PDF](https://arxiv.org/abs/2106.12423)] [[Project](https://nvlab
 Bowen Zhang, Shuyang Gu, Bo Zhang, Jianmin Bao, Dong Chen, Fang Wen, Yong Wang, Baining Guo<br>
 CVPR 2022. [[PDF](https://arxiv.org/abs/2112.10762)] Cited:`11`
 
+**StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets**<br>
+Axel Sauer, Katja Schwarz, Andreas Geiger<br>
+SIGGRAPH 2022. [[PDF](https://arxiv.org/abs/2202.00273)]
+<details>
+<summary>summary</summary>
+1. Propose architecture changes based on Projected GANs. (1) Regularization: Only appying path length regularization after model has been sufficiently trained. Blur all images with gaussian filter for the first 200k images. (2) Reduce latent code z dimension to 64 and preserve w code to 512-d. (3) Use pretrained class embdding as conditioning and set it learnable.
+2. Design a progressive growing strategy to StyleGAN3.
+3. Leverage classifier guidance.
+</details>
+
+**StyleGAN-T: Unlocking the Power of GANs for Fast Large-Scale Text-to-Image Synthesis**<br>
+_Axel Sauer, Tero Karras, Samuli Laine, Andreas Geiger, Timo Aila_<br>
+arxiv 2023. [[PDF](https://arxiv.org/abs/2301.09515)]
+
 ## GAN Objective
 **A Large-Scale Study on Regularization and Normalization in GANs**<br>
 *Karol Kurach, Mario Lucic, Xiaohua Zhai, Marcin Michalski, Sylvain Gelly*<br>
