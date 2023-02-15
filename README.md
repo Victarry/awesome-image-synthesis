@@ -1071,6 +1071,10 @@ ECCV 2020. [[PDF](https://arxiv.org/abs/2003.04858)] Cited:`33`
 Taesung Park, Alexei A. Efros, Richard Zhang, Jun-Yan Zhu.<br>
 ECCV 2020. [[PDF](https://arxiv.org/abs/2007.15651)] Cited:`316`
 
+**The spatially-correlative loss for various image translation tasks**<br>
+_Chuanxia Zheng, Tat-Jen Cham, Jianfei Cai._ <br>
+CVPR 2021. [[PDF](https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_The_Spatially-Correlative_Loss_for_Various_Image_Translation_Tasks_CVPR_2021_paper.html)]
+
 **Unsupervised Image-to-Image Translation with Generative Prior**<br>
 Shuai Yang, Liming Jiang, Ziwei Liu and Chen Change Loy. <br>
 CVPR 2022. [[PDF](https://arxiv.org/abs/2204.03641)] Cited:`0`
@@ -1273,6 +1277,12 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2212.08698)]
 **Multi-Concept Customization of Text-to-Image Diffusion**<br>
 _Nupur Kumari, Bingliang Zhang, Richard Zhang, Eli Shechtman, Jun-Yan Zhu_<br>
 arxiv 2022. [[PDF](https://arxiv.org/abs/2212.04488)]
+
+**Zero-shot Image-to-Image Translation**<br>
+[[Project](https://pix2pixzero.github.io/)]
+
+**Null-text Inversion for Editing Real Images using Guided Diffusion Models**<br>
+[[PDF](https://arxiv.org/abs/2211.09794)] [[Project](https://null-text-inversion.github.io/)]
 
 ## Text-to-Video
 
