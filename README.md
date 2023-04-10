@@ -64,9 +64,6 @@ SIGGRAPH 2022. [[PDF](https://arxiv.org/abs/2202.00273)]
 3. Leverage classifier guidance.
 </details>
 
-**StyleGAN-T: Unlocking the Power of GANs for Fast Large-Scale Text-to-Image Synthesis**<br>
-_Axel Sauer, Tero Karras, Samuli Laine, Andreas Geiger, Timo Aila_<br>
-arxiv 2023. [[PDF](https://arxiv.org/abs/2301.09515)]
 
 ## GAN Objective
 **A Large-Scale Study on Regularization and Normalization in GANs**<br>
@@ -334,9 +331,6 @@ Axel Sauer, Kashyap Chitta, Jens Müller, Andreas Geiger<br>
 [[PDF](https://arxiv.org/abs/2111.01007)] [[Project](https://sites.google.com/view/projected-gan/)] [[Pytorch](https://github.com/autonomousvision/projected_gan)] Cited:`31`
 
 ## GAN Adaptation
-```mermaid
-flowchart TB
-```
 **Transferring GANs: generating images from limited data.**<br>
 Yaxing Wang, Chenshen Wu, Luis Herranz, Joost van de Weijer, Abel Gonzalez-Garcia, Bogdan Raducanu.<br>
 ECCV 2018. [[PDF](https://arxiv.org/abs/1805.01677)] Cited:`141`
@@ -1163,7 +1157,11 @@ ICCV 2017. [[PDF](https://arxiv.org/abs/1612.03242)] Cited:`1929`
 *Han Zhang, Tao Xu, Hongsheng Li, Shaoting Zhang, Xiaogang Wang, Xiaolei Huang, Dimitris Metaxas*<br>
 TPAMI 2018. [[PDF](https://arxiv.org/abs/1710.10916)] Cited:`654`
 
-`AttnGAN` **AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks**
+**MirrorGAN: Learning Text-to-image Generation by Redescription**<Br>
+_Tingting Qiao, Jing Zhang, Duanqing Xu, Dacheng Tao_<br>
+CVPR 2019. [[PDF](https://arxiv.org/abs/1903.05854)]
+
+`AttnGAN` **AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks**<br>
 *Tao Xu, Pengchuan Zhang, Qiuyuan Huang, Han Zhang, Zhe Gan, Xiaolei Huang, Xiaodong He.*<br>
 CVPR 2018. [[PDF](https://arxiv.org/abs/1711.10485)] Cited:`812`
 
@@ -1190,6 +1188,14 @@ TMM 2022. [[PDF](https://ieeexplore.ieee.org/document/9737433/)]
 **FuseDream: Training-Free Text-to-Image Generationwith Improved CLIP+GAN Space Optimization**<br>
 Xingchao Liu, Chengyue Gong, Lemeng Wu, Shujian Zhang, Hao Su, Qiang Liu<br>
 arxiv 2021. [[PDF](https://arxiv.org/abs/2112.01573)] Cited:`19`
+
+**StyleGAN-T: Unlocking the Power of GANs for Fast Large-Scale Text-to-Image Synthesis**<br>
+_Axel Sauer, Tero Karras, Samuli Laine, Andreas Geiger, Timo Aila_<br>
+arxiv 2023. [[PDF](https://arxiv.org/abs/2301.09515)]
+
+`GigaGAN`**Scaling up GANs for Text-to-Image Synthesis**<br>
+_Minguk Kang, Jun-Yan Zhu, Richard Zhang, Jaesik Park, Eli Shechtman, Sylvain Paris, Taesung Park_
+CVPR 2023. [[PDF](https://arxiv.org/abs/2303.05511)]
 
 `DALLE` **Zero-Shot Text-to-Image Generation**<br>
 Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, Ilya Sutskever.<br>
