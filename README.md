@@ -20,15 +20,15 @@ NeurIPS 2014. [[PDF](https://arxiv.org/abs/1406.2661)] [[Tutorial](https://arxiv
 
 `DCGAN` **Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks.** <br>
 Alec Radford, Luke Metz, Soumith Chintala. <br>
-ICLR 2016. [[PDF](https://arxiv.org/abs/1511.06434)] Cited:`11654`
+ICLR 2016. [[PDF](https://arxiv.org/abs/1511.06434)] Cited:`11655`
 
 `PG-GAN` **Progressive Growing of GANs for Improved Quality, Stability, and Variation.** <br>
 Tero Karras, Timo Aila, Samuli Laine, Jaakko Lehtinen.<br>
-ICLR 2018. [[PDF](https://arxiv.org/abs/1710.10196)] Cited:`5108`
+ICLR 2018. [[PDF](https://arxiv.org/abs/1710.10196)] Cited:`5109`
 
 `StyleGAN` **A Style-Based Generator Architecture for Generative Adversarial Networks.** <br>
 Tero Karras, Samuli Laine, Timo Aila. <br>
-CVPR 2019. [[PDF](https://arxiv.org/abs/1812.04948)] Cited:`5590`
+CVPR 2019. [[PDF](https://arxiv.org/abs/1812.04948)] Cited:`5598`
 
 `BigGAN` **Large Scale GAN Training for High Fidelity Natural Image Synthesis.** <br>
 Andrew Brock, Jeff Donahue, Karen Simonyan. <br>
@@ -36,11 +36,11 @@ ICLR 2019. [[PDF](https://arxiv.org/abs/1809.11096)] Cited:`3631`
 
 `StyleGAN2` **Analyzing and Improving the Image Quality of StyleGAN.**<br>
 Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila. <br>
-CVPR 2020. [[PDF](https://arxiv.org/abs/1912.04958)] Cited:`3024`
+CVPR 2020. [[PDF](https://arxiv.org/abs/1912.04958)] Cited:`3028`
 
 `VQGAN` **Taming Transformers for High-Resolution Image Synthesis**<br>
 Patrick Esser, Robin Rombach, Björn Ommer.<br>
-CVPR 2021. [[PDF](https://arxiv.org/abs/2012.09841)] [[Project](https://compvis.github.io/taming-transformers/)] Cited:`717`
+CVPR 2021. [[PDF](https://arxiv.org/abs/2012.09841)] [[Project](https://compvis.github.io/taming-transformers/)] Cited:`720`
 
 `TransGAN` **TransGAN: Two Transformers Can Make One Strong GAN, and That Can Scale Up**<br>
 Yifan Jiang, Shiyu Chang, Zhangyang Wang.<br>
@@ -48,7 +48,7 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2102.07074)] [[Pytorch](https://github.c
 
 `StyleGAN3` **Alias-Free Generative Adversarial Networks.**<br>
 Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakko Lehtinen, Timo Aila. <br>
-NeurIPS 2021. [[PDF](https://arxiv.org/abs/2106.12423)] [[Project](https://nvlabs.github.io/stylegan3/)] Cited:`587`
+NeurIPS 2021. [[PDF](https://arxiv.org/abs/2106.12423)] [[Project](https://nvlabs.github.io/stylegan3/)] Cited:`588`
 
 **StyleSwin: Transformer-based GAN for High-resolution Image Generation**<br>
 Bowen Zhang, Shuyang Gu, Bo Zhang, Jianmin Bao, Dong Chen, Fang Wen, Yong Wang, Baining Guo<br>
@@ -76,7 +76,7 @@ ICLR 2017. [[PDF](https://arxiv.org/abs/1609.03126)] Cited:`978`
 
 **Towards Principled Methods for Training Generative Adversarial Networks**<br>
 Martin Arjovsky, Léon Bottou<br>
-ICLR 2017. [[PDF](https://arxiv.org/abs/1701.04862)] Cited:`1708`
+ICLR 2017. [[PDF](https://arxiv.org/abs/1701.04862)] Cited:`1709`
 
 <!-- https://towardsdatascience.com/gan-objective-functions-gans-and-their-variations-ad77340bce3c -->
 `LSGAN` **Least Squares Generative Adversarial Networks.**<br>
@@ -93,7 +93,7 @@ Axiv 2017. [[PDF](https://arxiv.org/abs/1705.02894)] Cited:`256`
 
 `AC-GAN` **Conditional Image Synthesis With Auxiliary Classifier GANs** <br>
 Augustus Odena, Christopher Olah, Jonathon Shlens. <br>
-ICML 2017. [[PDF](https://arxiv.org/abs/1610.09585)] Cited:`2566`
+ICML 2017. [[PDF](https://arxiv.org/abs/1610.09585)] Cited:`2567`
 
 **cGANs with Projection Discriminator**<br>
 Takeru Miyato, Masanori Koyama. <br>
@@ -107,7 +107,7 @@ ICML 2019. [[PDF](https://arxiv.org/abs/1903.02271)] [[Tensorflow](https://githu
 ## Autoencoder-based framework
 `VAE` **Auto-Encoding Variational Bayes.**<br>
 Diederik P.Kingma, Max Welling.<br>
-ICLR 2014. [[PDF](https://arxiv.org/abs/1312.6114)] Cited:`21416`
+ICLR 2014. [[PDF](https://arxiv.org/abs/1312.6114)] Cited:`21424`
 
 `AAE` **Adversarial Autoencoders.**<br>
 Alireza Makhzani, Jonathon Shlens, Navdeep Jaitly, Ian Goodfellow, Brendan Frey.<br>
@@ -115,7 +115,7 @@ arxiv 2015. [[PDF](https://arxiv.org/abs/1511.05644)] Cited:`1581`
 
 `VAE/GAN` **Autoencoding beyond pixels using a learned similarity metric.** <br>
 Anders Boesen Lindbo Larsen, Søren Kaae Sønderby, Hugo Larochelle, Ole Winther.<br>
-ICML 2016. [[PDF](https://arxiv.org/abs/1512.09300)] Cited:`1712`
+ICML 2016. [[PDF](https://arxiv.org/abs/1512.09300)] Cited:`1713`
 
 `VampPrior` **VAE with a VampPrior** <br>
 Jakub M. Tomczak, Max Welling.<br>
@@ -152,7 +152,7 @@ CVPR 2020. [[PDF](https://arxiv.org/abs/2004.04467)] Cited:`175`
 ## VAEs
 **Variational Inference with Normalizing Flows**<br>
 *Danilo Jimenez Rezende, Shakir Mohamed*<br>
-ICML 2015. [[PDF](https://arxiv.org/abs/1505.05770)] Cited:`2658`
+ICML 2015. [[PDF](https://arxiv.org/abs/1505.05770)] Cited:`2660`
 
 **Improved Variational Inference with Inverse Autoregressive Flow**<br>
 *Diederik P. Kingma, Tim Salimans, Rafal Jozefowicz, Xi Chen, Ilya Sutskever, Max Welling*<br>
@@ -169,15 +169,15 @@ NeurIPS 2020. [[PDF](https://arxiv.org/abs/2006.09011)] Cited:`377`
 
 `DDPM` **Denoising Diffusion Probabilistic Models**<br>
 _Jonathan Ho, Ajay Jain, Pieter Abbeel_<br>
-NeurIPS 2020. [[PDF](https://arxiv.org/abs/2006.11239)] Cited:`1983`
+NeurIPS 2020. [[PDF](https://arxiv.org/abs/2006.11239)] Cited:`1990`
 
 **Score-based generative modeling through stochastic differential equations**<br>
 _Yang Song, Jascha Sohl-Dickstein, Diederik P Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole_<br>
-ICLR 2021. [[PDF](https://arxiv.org/abs/2011.13456)] Cited:`969`
+ICLR 2021. [[PDF](https://arxiv.org/abs/2011.13456)] Cited:`973`
 
 `Improved-DDPM` **Improved Denoising Diffusion Probabilistic Models**<br>
 _Alex Nichol, Prafulla Dhariwal_<br>
-ICML 2021. [[PDF](https://arxiv.org/abs/2102.09672)] Cited:`663`
+ICML 2021. [[PDF](https://arxiv.org/abs/2102.09672)] Cited:`664`
 
 **Variational Diffusion Models.**<br>
 _Diederik P. Kingma, Tim Salimans, Ben Poole, Jonathan Ho_<br>
@@ -185,11 +185,11 @@ NeurIPS 2021. [[PDF](https://arxiv.org/abs/2107.00630)] Cited:`250`
 
 `Guided-Diffusion` **Diffusion Models Beat GANs on Image Synthesis**<br>
 _Prafulla Dhariwal, Alex Nichol_<br>
-NeurIPS 2021. [[PDF](https://arxiv.org/abs/2105.05233)] Cited:`1160`
+NeurIPS 2021. [[PDF](https://arxiv.org/abs/2105.05233)] Cited:`1163`
 
 **Classifier-Free Diffusion Guidance.**<br>
 _Jonathan Ho, Tim Salimans_<br>
-NeurIPS 2021. [[PDF](https://arxiv.org/abs/2207.12598)] Cited:`423`
+NeurIPS 2021. [[PDF](https://arxiv.org/abs/2207.12598)] Cited:`424`
 
 **SDEdit: Image Synthesis and Editing with Stochastic Differential Equations**<br>
 _Chenlin Meng, Yutong He, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon_<br>
@@ -201,11 +201,11 @@ CVPR 2022. [[PDF](https://arxiv.org/abs/2110.02711)] Cited:`114`
 
 **Blended Diffusion: Text-driven Editing of Natural Images**<br>
 _Omri Avrahami, Dani Lischinski, Ohad Fried_<br>
-CVPR 2022. [[PDF](https://arxiv.org/abs/2111.14818)] Cited:`156`
+CVPR 2022. [[PDF](https://arxiv.org/abs/2111.14818)] Cited:`157`
 
 **GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models**<br>
 _Alex Nichol, Prafulla Dhariwal, Aditya Ramesh, Pranav Shyam, Pamela Mishkin, Bob McGrew, Ilya Sutskever, Mark Chen_<br>
-ICML 2022. [[PDF](https://arxiv.org/abs/2112.10741)] Cited:`657`
+ICML 2022. [[PDF](https://arxiv.org/abs/2112.10741)] Cited:`659`
 
 **Palette: Image-to-Image diffusion models.**<br>
 _Chitwan Saharia, William Chan, Huiwen Chang, Chris A. Lee, Jonathan Ho, Tim Salimans, David J. Fleet, Mohammad Norouzi_<br>
@@ -213,7 +213,7 @@ SIGGRAPH 2022. [[PDF](https://arxiv.org/abs/2111.05826)] Cited:`293`
 
 **RePaint: Inpainting using Denoising Diffusion Probabilistic Models**<br>
 _Andreas Lugmayr, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, Luc Van Gool_<br>
-CVPR 2022 [[PDF](https://arxiv.org/abs/2201.09865)] Cited:`203`
+CVPR 2022 [[PDF](https://arxiv.org/abs/2201.09865)] Cited:`204`
 
 ## Disentangled Image Generation
 `DC-IGN` **Deep Convolutional Inverse Graphics Network**<br>
@@ -242,12 +242,12 @@ ICLR 2018. [[PDF](https://openreview.net/pdf?id=By-7dz-AZ)]
 
 **Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations.**<br>
 Francesco Locatello, Stefan Bauer, Mario Lucic, Gunnar Rätsch, Sylvain Gelly, Bernhard Schölkopf, Olivier Bachem.<br>
-ICML(best paper award) 2019. [[PDF](https://arxiv.org/abs/1811.12359)] Cited:`986`
+ICML(best paper award) 2019. [[PDF](https://arxiv.org/abs/1811.12359)] Cited:`987`
 
 ## Regularization / Limited Data
 `WGAN-GP` **Improved training of wasserstein gans**<br>
 Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, Aaron Courville.<br>
-NeurIPS 2017. [[PDF](https://arxiv.org/abs/1704.00028)] Cited:`7052`
+NeurIPS 2017. [[PDF](https://arxiv.org/abs/1704.00028)] Cited:`7057`
 
 **The Numerics of GANs**<br>
 *Lars Mescheder, Sebastian Nowozin, Andreas Geiger*<br>
@@ -277,7 +277,7 @@ The author claim this is due to consistency regularization further enforce the d
 
 **Differentiable Augmentation for Data-Efficient GAN Training.** <br>
 Zhao Shengyu, Liu Zhijian, Lin Ji, Zhu Jun-Yan, Han Song.<br>
-NeurIPS 2020.  [[PDF](https://arxiv.org/abs/2006.10738)] [[Project](https://hanlab.mit.edu/projects/data-efficient-gans/)]<br> Cited:`322`
+NeurIPS 2020.  [[PDF](https://arxiv.org/abs/2006.10738)] [[Project](https://hanlab.mit.edu/projects/data-efficient-gans/)]<br> Cited:`323`
 
 `ICR-GAN` **Improved consistency regularization for GANs.** <br>
 Zhengli Zhao, Sameer Singh, Honglak Lee, Zizhao Zhang, Augustus Odena, Han Zhang. <br>
@@ -292,7 +292,7 @@ Experiment: the augmentation to image is same as CR-GAN, the augmentation to lat
 
 `StyleGAN-ADA` **Training Generative Adversarial Networks with Limited Data.**<br>
 Tero Karras, Miika Aittala, Janne Hellsten, Samuli Laine, Jaakko Lehtinen, Timo Aila. <br>
-NeurIPS 2020. [[PDF](https://arxiv.org/abs/2006.06676)] [[Tensorflow](https://github.com/NVlabs/stylegan2-ada)] [[Pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch)] Cited:`940`
+NeurIPS 2020. [[PDF](https://arxiv.org/abs/2006.06676)] [[Tensorflow](https://github.com/NVlabs/stylegan2-ada)] [[Pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch)] Cited:`942`
 <!-- <details>
 <summary>summary</summary>
 Motivation: <br>
@@ -311,11 +311,11 @@ NeurIPS 2021. [[PDF](https://arxiv.org/abs/2111.06849)] Cited:`35`
 ## Metric
 `Inception-Score/IS` **Improved Techniques for Training GANs**
 Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung, Alec Radford, Xi Chen. <br>
-NeurIPS 2016. [[PDF](https://arxiv.org/abs/1606.03498)] Cited:`6712`
+NeurIPS 2016. [[PDF](https://arxiv.org/abs/1606.03498)] Cited:`6717`
 
 `FID, TTUR` **GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium**<br>
 Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, Sepp Hochreiter. <br>
-NeurIPS 2017. [[PDF](https://arxiv.org/abs/1706.08500)] Cited:`6573`
+NeurIPS 2017. [[PDF](https://arxiv.org/abs/1706.08500)] Cited:`6580`
 
 `SWD` **Sliced Wasserstein Generative Models**
 Jiqing Wu, Zhiwu Huang, Dinesh Acharya, Wen Li, Janine Thoma, Danda Pani Paudel, Luc Van Gool. <br>
@@ -333,15 +333,15 @@ Axel Sauer, Kashyap Chitta, Jens Müller, Andreas Geiger<br>
 ## GAN Adaptation
 **Transferring GANs: generating images from limited data.**<br>
 Yaxing Wang, Chenshen Wu, Luis Herranz, Joost van de Weijer, Abel Gonzalez-Garcia, Bogdan Raducanu.<br>
-ECCV 2018. [[PDF](https://arxiv.org/abs/1805.01677)] Cited:`186`
+ECCV 2018. [[PDF](https://arxiv.org/abs/1805.01677)] Cited:`188`
 
 **Image Generation From Small Datasets via Batch Statistics Adaptation.**<br>
 Atsuhiro Noguchi, Tatsuya Harada.<br>
-ICCV 2019 [[PDF](https://arxiv.org/abs/1904.01774)] Cited:`130`
+ICCV 2019 [[PDF](https://arxiv.org/abs/1904.01774)] Cited:`131`
 
 **Freeze Discriminator: A Simple Baseline for Fine-tuning GANs.**<br>
 Sangwoo Mo, Minsu Cho, Jinwoo Shin.<br>
-CVPRW 2020 [[PDF](https://arxiv.org/abs/2002.10964)] [[Pytorch](https://github.com/sangwoomo/FreezeD)] Cited:`125`
+CVPRW 2020 [[PDF](https://arxiv.org/abs/2002.10964)] [[Pytorch](https://github.com/sangwoomo/FreezeD)] Cited:`126`
 
 **Resolution dependant GAN interpolation for controllable image synthesis between domains.**<br>
 Justin N. M. Pinkney, Doron Adler<br>
@@ -349,11 +349,11 @@ NeruIPS workshop 2020. [[PDF](https://arxiv.org/abs/2010.05334)] Cited:`78`
 
 **Few-shot image generation with elastic weight consolidation.**
 Yijun Li, Richard Zhang, Jingwan Lu, Eli Shechtman<br>
-NeruIPS 2020. [[PDF](https://arxiv.org/abs/2012.02780)] Cited:`88`
+NeruIPS 2020. [[PDF](https://arxiv.org/abs/2012.02780)] Cited:`89`
 
 **Minegan: effective knowledge transfer from gans to target domains with few images.**
 *Yaxing Wang, Abel Gonzalez-Garcia, David Berga, Luis Herranz, Fahad Shahbaz Khan, Joost van de Weijer*<br>
-CVPR 2020. [[PDF](https://arxiv.org/abs/1912.05270)] Cited:`119`
+CVPR 2020. [[PDF](https://arxiv.org/abs/1912.05270)] Cited:`120`
 
 **One-Shot Domain Adaptation For Face Generation**<br>
 _Chao Yang, Ser-Nam Lim_<br>
@@ -373,7 +373,7 @@ TOG/SIGGRAPH 2021. [[PDF](https://guoxiansong.github.io/homepage/paper/AgileGAN.
 
 **Few-shot Image Generation via Cross-domain Correspondence**<br>
 Utkarsh Ojha, Yijun Li, Jingwan Lu, Alexei A. Efros, Yong Jae Lee, Eli Shechtman, Richard Zhang.<br>
-CVPR 2021. [[PDF](https://arxiv.org/abs/2104.06820)] Cited:`114`
+CVPR 2021. [[PDF](https://arxiv.org/abs/2104.06820)] Cited:`115`
 
 **StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators**<br>
 Rinon Gal, Or Patashnik, Haggai Maron, Gal Chechik, Daniel Cohen-Or.<br>
@@ -389,15 +389,15 @@ arXiv 2021. [[PDF](https://arxiv.org/abs/2111.09876)] Cited:`17`
 
 **Mind the Gap: Domain Gap Control for Single Shot Domain Adaptation for Generative Adversarial Networks**<br>
 _Peihao Zhu, Rameen Abdal, John Femiani, Peter Wonka_<br>
-ICLR 2022. [[PDF](https://arxiv.org/abs/2110.08398)] Cited:`35`
+ICLR 2022. [[PDF](https://arxiv.org/abs/2110.08398)] Cited:`36`
 
 **Few Shot Generative Model Adaption via Relaxed Spatial Structural Alignment**<br>
 _Jiayu Xiao, Liang Li, Chaofei Wang, Zheng-Jun Zha, Qingming Huang_<br>
-CVPR 2022. [[PDF](https://arxiv.org/abs/2203.04121)] Cited:`15`
+CVPR 2022. [[PDF](https://arxiv.org/abs/2203.04121)] Cited:`16`
 
 **JoJoGAN: One Shot Face Stylization**<br>
 _Min Jin Chong, David Forsyth_<br>
-arxiv 2022. [[PDF](https://arxiv.org/abs/2112.11641)] Cited:`30`
+arxiv 2022. [[PDF](https://arxiv.org/abs/2112.11641)] Cited:`31`
 
 **When why and which pretrained GANs are useful?**<br>
 *Timofey Grigoryev, Andrey Voynov, Artem Babenko*<br>
@@ -413,7 +413,7 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2203.09301)] Cited:`7`
 
 **A Closer Look at Few-shot Image Generation**<br>
 _Yunqing Zhao, Henghui Ding, Houjing Huang, Ngai-Man Cheung_<br>
-CVPR 2022. [[PDF](https://arxiv.org/abs/2205.03805)] Cited:`14`
+CVPR 2022. [[PDF](https://arxiv.org/abs/2205.03805)] Cited:`15`
 
 **Diffusion Guided Domain Adaptation of Image Generators**<br>
 _Kunpeng Song, Ligong Han, Bingchen Liu, Dimitris Metaxas, Ahmed Elgammal_<br>
@@ -426,7 +426,7 @@ arxiv 2023. [[PDF](https://arxiv.org/abs/2301.05225)] Cited:`3`
 ## VAEs
 **Variational Inference with Normalizing Flows**<br>
 *Danilo Jimenez Rezende, Shakir Mohamed*<br>
-ICML 2015. [[PDF](https://arxiv.org/abs/1505.05770)] Cited:`2658`
+ICML 2015. [[PDF](https://arxiv.org/abs/1505.05770)] Cited:`2660`
 
 **Improved Variational Inference with Inverse Autoregressive Flow**<br>
 *Diederik P. Kingma, Tim Salimans, Rafal Jozefowicz, Xi Chen, Ilya Sutskever, Max Welling*<br>
@@ -465,19 +465,19 @@ ICLR 2018 Workshop. [[PDF](https://openreview.net/forum?id=BJslDBkwG)]
 # Two-stage Generation Models
 `VQ-VAE` **Neural Discrete Representation Learning**<br>
 _Aaron van den Oord, Oriol Vinyals, Koray Kavukcuoglu_<br>
-NeurIPS 2017. [[PDF](https://arxiv.org/abs/1711.00937)] Cited:`1869`
+NeurIPS 2017. [[PDF](https://arxiv.org/abs/1711.00937)] Cited:`1871`
 
 `VQ-VAE-2` **Generating Diverse High-Fidelity Images with VQ-VAE-2**<br>
 _Ali Razavi, Aaron van den Oord, Oriol Vinyals_<br>
-NeurIPS 2019. [[PDF](https://arxiv.org/abs/1906.00446)] Cited:`875`
+NeurIPS 2019. [[PDF](https://arxiv.org/abs/1906.00446)] Cited:`876`
 
 `VQGAN` **Taming Transformers for High-Resolution Image Synthesis**<br>
 Patrick Esser, Robin Rombach, Björn Ommer.<br>
-CVPR 2021. [[PDF](https://arxiv.org/abs/2012.09841)] [[Project](https://compvis.github.io/taming-transformers/)] Cited:`717`
+CVPR 2021. [[PDF](https://arxiv.org/abs/2012.09841)] [[Project](https://compvis.github.io/taming-transformers/)] Cited:`720`
 
 `DALLE` **Zero-Shot Text-to-Image Generation**<br>
 Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, Ilya Sutskever.<br>
-ICML 2021. [[PDF](https://arxiv.org/abs/2102.12092)] Cited:`1396`
+ICML 2021. [[PDF](https://arxiv.org/abs/2102.12092)] Cited:`1401`
 
 **The Image Local Autoregressive Transformer**<br>
 _Chenjie Cao, Yuxin Hong, Xiang Li, Chengrong Wang, Chengming Xu, XiangYang Xue, Yanwei Fu_<br>
@@ -525,7 +525,7 @@ NeruIPS 2021. [[PDF](https://arxiv.org/abs/2108.08827)] Cited:`62`
 
 **Vector Quantized Diffusion Model for Text-to-Image Synthesis**<br>
 _Shuyang Gu, Dong Chen, Jianmin Bao, Fang Wen, Bo Zhang, Dongdong Chen, Lu Yuan, Baining Guo_<br>
-CVPR 2022. [[PDF](https://arxiv.org/abs/2111.14822)] Cited:`166`
+CVPR 2022. [[PDF](https://arxiv.org/abs/2111.14822)] Cited:`167`
 
 **Improved Vector Quantized Diffusion Models**<br>
 _Zhicong Tang, Shuyang Gu, Jianmin Bao, Dong Chen, Fang Wen_<br>
@@ -580,11 +580,11 @@ Limitation: Layer-wise inversion is not performed on StyleGAN.
 
 **Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?** <br>
 Rameen Abdal, Yipeng Qin, Peter Wonka. <br>
-ICCV 2019. [[PDF](https://arxiv.org/abs/1904.03189)] Cited:`703`
+ICCV 2019. [[PDF](https://arxiv.org/abs/1904.03189)] Cited:`704`
 
 **Image2StyleGAN++: How to Edit the Embedded Images?**<br>
 Rameen Abdal, Yipeng Qin, Peter Wonka. <br>
-CVPR 2020. [[PDF](https://arxiv.org/abs/1911.11544)] Cited:`355`
+CVPR 2020. [[PDF](https://arxiv.org/abs/1911.11544)] Cited:`356`
 
 <!-- mGANPrior -->
 
@@ -608,7 +608,7 @@ Experiment:
 
 **Editing in Style: Uncovering the Local Semantics of GANs**<br>
 Edo Collins, Raja Bala, Bob Price, Sabine Süsstrunk. <br>
-CVPR 2020. [[PDF](https://arxiv.org/abs/2004.14367)] [[Pytorch](https://github.com/cyrilzakka/GANLocalEditing)] Cited:`188`
+CVPR 2020. [[PDF](https://arxiv.org/abs/2004.14367)] [[Pytorch](https://github.com/cyrilzakka/GANLocalEditing)] Cited:`189`
 <details>
 <summary>summary</summary>
 StyleGAN's style code controls the global style of images, so how to make local manipulation based on style code? 
@@ -631,11 +631,11 @@ Minyoung Huh,Richard Zhang,Jun-Yan Zhu,Sylvain Paris,Aaron Hertzmann<br>
 ECCV 2020. [[PDF](https://arxiv.org/abs/2005.01703)] Cited:`72`
 
 `pSp,pixel2style2pixel` **Encoding in style: a stylegan encoder for image-to-image translation.**<br>
-CVPR 2021. [[PDF](https://arxiv.org/abs/2008.00951)] [[Pytorch](https://github.com/eladrich/pixel2style2pixel)] Cited:`560`
+CVPR 2021. [[PDF](https://arxiv.org/abs/2008.00951)] [[Pytorch](https://github.com/eladrich/pixel2style2pixel)] Cited:`562`
 
 `e4e, encode for editing` **Designing an encoder for StyleGAN image manipulation.**<br>
 Omer Tov, Yuval Alaluf, Yotam Nitzan, Or Patashnik, Daniel Cohen-Or.<br>
-SIGGRAPH 2021. [[PDF](https://arxiv.org/abs/2102.02766)] Cited:`347`
+SIGGRAPH 2021. [[PDF](https://arxiv.org/abs/2102.02766)] Cited:`348`
 
 `ReStyle` **Restyle: A residual-based stylegan encoder via iterative refinement.**<br>
 Yuval Alaluf, Or Patashnik, Daniel Cohen-Or. <br>
@@ -679,7 +679,7 @@ ICLR 2020. [[PDF](https://arxiv.org/abs/2001.10238)] Cited:`103`
 
 `InterFaceGAN` **Interpreting the Latent Space of GANs for Semantic Face Editing**<br>
 Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou. <br>
-CVPR 2020. [[PDF](https://arxiv.org/abs/1907.10786)] [[Project](https://genforce.github.io/interfacegan/)] Cited:`692`
+CVPR 2020. [[PDF](https://arxiv.org/abs/1907.10786)] [[Project](https://genforce.github.io/interfacegan/)] Cited:`693`
 
 **Enjoy your editing: Controllable gans for image editing via latent space navigation**<br>
 Peiye Zhuang, Oluwasanmi Koyejo, Alexander G. Schwing<br>
@@ -695,7 +695,7 @@ CVPR 2021. [[PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Dis
 
 `StyleSpace` **StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation**<br>
 Zongze Wu, Dani Lischinski, Eli Shechtman. <br>
-CVPR 2021. [[PDF](https://arxiv.org/abs/2011.12799)] Cited:`260`
+CVPR 2021. [[PDF](https://arxiv.org/abs/2011.12799)] Cited:`261`
 
 `StyleFlow` **StyleFlow: Attribute-conditioned Exploration of StyleGAN-Generated Images using Conditional Continuous Normalizing Flows** <br>
 Rameen Abdal, Peihao Zhu, Niloy Mitra, Peter Wonka. <br>
@@ -743,7 +743,7 @@ ICML 2020. [[PDF](https://arxiv.org/abs/2002.03754)] Cited:`248`
 
 `GANSpace`**GANSpace: Discovering Interpretable GAN Controls**<br>
 Erik Härkönen, Aaron Hertzmann, Jaakko Lehtinen, Sylvain Paris.<br>
-NeurIPS 2020 [[PDF](https://arxiv.org/abs/2004.02546)] [[Pytorch](https://github.com/harskish/ganspace)] Cited:`521`
+NeurIPS 2020 [[PDF](https://arxiv.org/abs/2004.02546)] [[Pytorch](https://github.com/harskish/ganspace)] Cited:`522`
 
 **The Hessian Penalty: A Weak Prior for Unsupervised Disentanglement**<br>
 William Peebles, John Peebles, Jun-Yan Zhu, Alexei Efros, Antonio Torralba<br>
@@ -823,11 +823,11 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2202.09649)] Cited:`12`
 ## CLIP based
 **StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery**<br>
 _Or Patashnik, Zongze Wu, Eli Shechtman, Daniel Cohen-Or, Dani Lischinski_<br>
-ICCV 2021. [[PDF](https://arxiv.org/abs/2103.17249)] [[Pytorch](https://github.com/orpatashnik/StyleCLIP)] Cited:`519`
+ICCV 2021. [[PDF](https://arxiv.org/abs/2103.17249)] [[Pytorch](https://github.com/orpatashnik/StyleCLIP)] Cited:`521`
 
 `TargetCLIP`**Image-Based CLIP-Guided Essence Transfer**<br>
 _Chefer, Hila and Benaim, Sagie and Paiss, Roni and Wolf, Lior_<br>
-arxiv 2021. [[PDF](https://arxiv.org/abs/2110.12427)] Cited:`24`
+arxiv 2021. [[PDF](https://arxiv.org/abs/2110.12427)] Cited:`25`
 
 **CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders.**<br>
 Kevin Frans, L.B. Soros, Olaf Witkowski.<br>
@@ -860,7 +860,7 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2202.05822)] Cited:`36`
 ## Inversion-based Animation
 **A good image generator is what you need for high-resolution video synthesis**<br>
 Yu Tian, Jian Ren, Menglei Chai, Kyle Olszewski, Xi Peng, Dimitris N. Metaxas, Sergey Tulyakov. <br>
-ICLR 2021. [[PDF](https://arxiv.org/abs/2104.15069)] Cited:`79`
+ICLR 2021. [[PDF](https://arxiv.org/abs/2104.15069)] Cited:`80`
 
 **Latent Image Animator: Learning to animate image via latent space navigation.**<br>
 *Yaohui Wang, Di Yang, Francois Bremond, Antitza Dantcheva.*<br>
@@ -871,7 +871,7 @@ ICLR 2022. [[PDF](https://openreview.net/forum?id=7r6kDq0mK_)]
 
 `pix2pix` **Image-to-Image Translation with Conditional Adversarial Networks**<br>
 Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros.<br>
-CVPR 2017. [[PDF](https://arxiv.org/abs/1611.07004)] Cited:`14240`
+CVPR 2017. [[PDF](https://arxiv.org/abs/1611.07004)] Cited:`14245`
 
 ### Semantic Image Synthesis
 
@@ -881,11 +881,11 @@ ICCV 2017. [[PDF](https://arxiv.org/abs/1707.09405)] Cited:`846`
 
 `pix2pixHD` **High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs**<br>
 Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro.<br>
-CVPR 2018. [[PDF](https://arxiv.org/abs/1711.11585)] Cited:`2848`
+CVPR 2018. [[PDF](https://arxiv.org/abs/1711.11585)] Cited:`2851`
 
 `SPADE` **Semantic Image Synthesis with Spatially-Adaptive Normalization**<br>
 Taesung Park, Ming-Yu Liu, Ting-Chun Wang, Jun-Yan Zhu.<br>
-CVPR 2019. [[PDF](https://arxiv.org/abs/1903.07291)] Cited:`1729`
+CVPR 2019. [[PDF](https://arxiv.org/abs/1903.07291)] Cited:`1732`
 
 `SEAN` **SEAN: Image Synthesis with Semantic Region-Adaptive Normalization**<br>
 Peihao Zhu, Rameen Abdal, Yipeng Qin, Peter Wonka.<br>
@@ -905,7 +905,7 @@ TPAMI 2021. [[PDF](https://arxiv.org/pdf/2012.04644.pdf)]
 
 **Spatially-adaptive pixelwise networks for fast image translation.**<br>
 Tamar Rott Shaham, Michael Gharbi, Richard Zhang, Eli Shechtman, Tomer Michaeli<br>
-CVPR 2021. [[PDF](https://arxiv.org/abs/2012.02992)] Cited:`43`
+CVPR 2021. [[PDF](https://arxiv.org/abs/2012.02992)] Cited:`44`
 
 **High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network**<br>
 Jie Liang, Hui Zeng, Lei Zhang. <br>
@@ -914,7 +914,7 @@ CVPR 2021. [[PDF](https://arxiv.org/abs/2105.09188)] Cited:`34`
 ### Image Inpainting
 **Context encoders: Feature learning by inpainting.**<br>
 _Deepak Pathak, Philipp Krahenbuhl, Jeff Donahue, Trevor Darrell, Alexei A. Efros_<br>
-CVPR 2016. [[PDF](https://arxiv.org/abs/1604.07379)] Cited:`4213`
+CVPR 2016. [[PDF](https://arxiv.org/abs/1604.07379)] Cited:`4215`
 
 **Globally and locally consistent image completion.**<br>
 _Satoshi Iizuka, Edgar Simo-Serra, Hiroshi Ishikawa_<br>
@@ -938,7 +938,7 @@ CVPR 2018. [[PDF](https://arxiv.org/abs/1801.07892)] Cited:`1672`
 
 **Free-form image inpainting with gated convolution.**<br>
 _Jiahui Yu, Zhe Lin, Jimei Yang, Xiaohui Shen, Xin Lu, Thomas Huang_<br>
-ICCV 2019. [[PDF](https://arxiv.org/abs/1806.03589)] Cited:`1101`
+ICCV 2019. [[PDF](https://arxiv.org/abs/1806.03589)] Cited:`1102`
 
 **Edgeconnect: Generative image inpainting with adversarial edge learning.**<br>
 _Kamyar Nazeri, Eric Ng, Tony Joseph, Faisal Z. Qureshi, Mehran Ebrahimi_<br>
@@ -1006,7 +1006,7 @@ NeurIPS 2017. [[PDF](https://arxiv.org/abs/1703.00848)] Cited:`2110`
 
 `CycleGAN` **Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks**<br>
 *Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros.*<br>
-ICCV 2017. [[PDF](https://arxiv.org/abs/1703.10593)] Cited:`3427`
+ICCV 2017. [[PDF](https://arxiv.org/abs/1703.10593)] Cited:`3432`
 
 `DiscoGAN` **Learning to Discover Cross-Domain Relations with Generative Adversarial Networks**<br>
 Taeksoo Kim, Moonsu Cha, Hyunsoo Kim, Jung Kwon Lee, Jiwon Kim.<br>
@@ -1063,7 +1063,7 @@ ECCV 2020. [[PDF](https://arxiv.org/abs/2003.04858)] Cited:`59`
 
 `CUT` **Contrastive Learning for Unpaired Image-to-Image Translation**<br>
 Taesung Park, Alexei A. Efros, Richard Zhang, Jun-Yan Zhu.<br>
-ECCV 2020. [[PDF](https://arxiv.org/abs/2007.15651)] Cited:`534`
+ECCV 2020. [[PDF](https://arxiv.org/abs/2007.15651)] Cited:`535`
 
 **The spatially-correlative loss for various image translation tasks**<br>
 _Chuanxia Zheng, Tat-Jen Cham, Jianfei Cai._ <br>
@@ -1115,7 +1115,7 @@ ECCV 2020. [[PDF](https://arxiv.org/abs/2007.07431)] Cited:`51`
 ## Few-shot Image Generation
 **Attribute Group Editing for Reliable Few-shot Image Generation.**<br>
 *Guanqi Ding, Xinzhe Han, Shuhui Wang, Shuzhe Wu, Xin Jin, Dandan Tu, Qingming Huang*<br>
-CVPR 2022. [[PDF](https://arxiv.org/abs/2203.08422)] Cited:`3`
+CVPR 2022. [[PDF](https://arxiv.org/abs/2203.08422)] Cited:`4`
 
 ## Style Transfer
 `WCT` **Universal Style Transfer via Feature Transforms**<br>
@@ -1199,7 +1199,7 @@ CVPR 2023. [[PDF](https://arxiv.org/abs/2303.05511)] Cited:`9`
 
 `DALLE` **Zero-Shot Text-to-Image Generation**<br>
 Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, Ilya Sutskever.<br>
-ICML 2021. [[PDF](https://arxiv.org/abs/2102.12092)] Cited:`1396`
+ICML 2021. [[PDF](https://arxiv.org/abs/2102.12092)] Cited:`1401`
 
 `GLIDE` **GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models**<br>
 *Alex Nichol, Prafulla Dhariwal, Aditya Ramesh, Pranav Shyam, Pamela Mishkin, Bob McGrew, Ilya Sutskever, Mark Chen*<br>
@@ -1229,7 +1229,7 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2205.12952)] Cited:`44`
 
 **NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion**<br>
 _Chenfei Wu, Jian Liang, Lei Ji, Fan Yang, Yuejian Fang, Daxin Jiang, Nan Duan_<br>
-ECCV 2022.  [[PDF](https://arxiv.org/abs/2111.12417)] Cited:`94`
+ECCV 2022.  [[PDF](https://arxiv.org/abs/2111.12417)] Cited:`95`
 
 **NUWA-Infinity: Autoregressive over Autoregressive Generation for Infinite Visual Synthesis**<br>
 _Chenfei Wu, Jian Liang, Xiaowei Hu, Zhe Gan, Jianfeng Wang, Lijuan Wang, Zicheng Liu, Yuejian Fang, Nan Duan_<br>
@@ -1242,7 +1242,7 @@ ICLR 2022. [[PDF](https://arxiv.org/abs/2108.01073)] Cited:`164`
 
 **Blended Diffusion for Text-driven Editing of Natural Images**<br>
 _Omri Avrahami, Dani Lischinski, Ohad Fried_<br>
-CVPR 2022. [[PDF](https://arxiv.org/abs/2111.14818)] Cited:`156`
+CVPR 2022. [[PDF](https://arxiv.org/abs/2111.14818)] Cited:`157`
 
 **DiffusionCLIP: Text-guided Image Manipulation Using Diffusion Models**<br>
 _Gwanghyun Kim, Taesung Kwon, Jong Chul Ye_<br>
@@ -1254,11 +1254,11 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2204.02491)] Cited:`68`
 
 `Textual Inversion` **An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion**<br>
 _Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H. Bermano, Gal Chechik, Daniel Cohen-Or_<br>
-arxiv 2022. [[PDF](https://arxiv.org/abs/2208.01618)] Cited:`175`
+arxiv 2022. [[PDF](https://arxiv.org/abs/2208.01618)] Cited:`176`
 
 `DreamBooth` **DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation**<br>
 _Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, Kfir Aberman_<br>
-arxiv 2022. [[PDF](https://arxiv.org/abs/2208.12242)] Cited:`226`
+arxiv 2022. [[PDF](https://arxiv.org/abs/2208.12242)] Cited:`228`
 
 **Prompt-to-Prompt Image Editing with Cross-Attention Control**<br>
 _Amir Hertz, Ron Mokady, Jay Tenenbaum, Kfir Aberman, Yael Pritch, and Daniel Cohen-Or_<br>
@@ -1266,7 +1266,7 @@ ICLR 2023. [[PDF](https://openreview.net/forum?id=_CDixzkzeyb)]
 
 **Imagic: Text-Based Real Image Editing with Diffusion Models**<br>
 _Bahjat Kawar, Shiran Zada, Oran Lang, Omer Tov, Huiwen Chang, Tali Dekel, Inbar Mosseri, Michal Irani_<br>
-arxiv 2022. [[PDF](https://arxiv.org/abs/2210.09276)] Cited:`130`
+arxiv 2022. [[PDF](https://arxiv.org/abs/2210.09276)] Cited:`131`
 
 **UniTune: Text-Driven Image Editing by Fine Tuning an Image Generation Model on a Single Image**<br>
 _Dani Valevski, Matan Kalman, Yossi Matias, Yaniv Leviathan_<br>
@@ -1294,7 +1294,7 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2212.04488)] Cited:`35`
 
 **Imagen video: High definition video generation with diffusion models**<br>
 _Jonathan Ho, William Chan, Chitwan Saharia, Jay Whang, Ruiqi Gao, Alexey Gritsenko, Diederik P. Kingma, Ben Poole, Mohammad Norouzi, David J. Fleet, Tim Salimans_<br>
-arxiv 2022. [[PDF](https://arxiv.org/abs/2210.02303)] [[Project](https://imagen.research.google/video/)] Cited:`155`
+arxiv 2022. [[PDF](https://arxiv.org/abs/2210.02303)] [[Project](https://imagen.research.google/video/)] Cited:`156`
 
 **Video diffusion models.**<br>
 _Jonathan Ho, Tim Salimans, Alexey Gritsenko, William Chan, Mohammad Norouzi, David J. Fleet_<br>
@@ -1306,7 +1306,7 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2209.14792)] Cited:`147`
 
 **Tune-A-Video: Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation**<br>
 _Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Weixian Lei, Yuchao Gu, Wynne Hsu, Ying Shan, Xiaohu Qie, Mike Zheng Shou_<br>
-arxiv 2022. [[PDF](https://arxiv.org/abs/2212.11565)] Cited:`26`
+arxiv 2022. [[PDF](https://arxiv.org/abs/2212.11565)] Cited:`27`
 
 # Others
 
@@ -1314,11 +1314,11 @@ arxiv 2022. [[PDF](https://arxiv.org/abs/2212.11565)] Cited:`26`
 
 `DIP` **Deep Image Prior**<br>
 Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky. <br>
-CVPR 2018 [[PDF](https://arxiv.org/abs/1711.10925)] [[Project](https://dmitryulyanov.github.io/deep_image_prior)] Cited:`1977`
+CVPR 2018 [[PDF](https://arxiv.org/abs/1711.10925)] [[Project](https://dmitryulyanov.github.io/deep_image_prior)] Cited:`1979`
 
 `SinGAN` **SinGAN: Learning a Generative Model from a Single Natural Image**<br>
 Tamar Rott Shaham, Tali Dekel, Tomer Michaeli. <br>
-ICCV 2019 Best Paper. [[PDF](https://arxiv.org/abs/1905.01164)] [[Project](https://tamarott.github.io/SinGAN.htm)] Cited:`547`
+ICCV 2019 Best Paper. [[PDF](https://arxiv.org/abs/1905.01164)] [[Project](https://tamarott.github.io/SinGAN.htm)] Cited:`549`
 
 `TuiGAN` **TuiGAN: Learning Versatile Image-to-Image Translation with Two Unpaired Images** <br>
 Jianxin Lin, Yingxue Pang, Yingce Xia, Zhibo Chen, Jiebo Luo. <br>
