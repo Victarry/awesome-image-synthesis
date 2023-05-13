@@ -1,0 +1,4387 @@
+{
+    "papers": [
+        {
+            "title": "Generative adversarial nets.",
+            "authors": [
+                "Ian J. Goodfellow",
+                "Jean Pouget-Abadie",
+                "Mehdi Mirza",
+                "Bing Xu",
+                "David Warde-Farley",
+                "Sherjil Ozair",
+                "Aaron Courville",
+                "Yoshua Bengio*"
+            ],
+            "conference": "NeurIPS 2014",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1406.2661",
+                "tutorial": "https://arxiv.org/abs/1701.00160"
+            }
+        },
+        {
+            "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks.",
+            "authors": [
+                "Alec Radford",
+                "Luke Metz",
+                "Soumith Chintala"
+            ],
+            "conference": "ICLR 2016",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1511.06434",
+                "cited": "11591"
+            },
+            "model": "DCGAN"
+        },
+        {
+            "title": "Progressive Growing of GANs for Improved Quality, Stability, and Variation.",
+            "authors": [
+                "Tero Karras",
+                "Timo Aila",
+                "Samuli Laine",
+                "Jaakko Lehtinen"
+            ],
+            "conference": "ICLR 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1710.10196",
+                "cited": "5073"
+            },
+            "model": "PG-GAN"
+        },
+        {
+            "title": "A Style-Based Generator Architecture for Generative Adversarial Networks.",
+            "authors": [
+                "Tero Karras",
+                "Samuli Laine",
+                "Timo Aila"
+            ],
+            "conference": "CVPR 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1812.04948",
+                "cited": "5514"
+            },
+            "model": "StyleGAN"
+        },
+        {
+            "title": "Large Scale GAN Training for High Fidelity Natural Image Synthesis.",
+            "authors": [
+                "Andrew Brock",
+                "Jeff Donahue",
+                "Karen Simonyan"
+            ],
+            "conference": "ICLR 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1809.11096",
+                "cited": "3604"
+            },
+            "model": "BigGAN"
+        },
+        {
+            "title": "Analyzing and Improving the Image Quality of StyleGAN.",
+            "authors": [
+                "Tero Karras",
+                "Samuli Laine",
+                "Miika Aittala",
+                "Janne Hellsten",
+                "Jaakko Lehtinen",
+                "Timo Aila"
+            ],
+            "conference": "CVPR 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1912.04958",
+                "cited": "2965"
+            },
+            "model": "StyleGAN2"
+        },
+        {
+            "title": "Taming Transformers for High-Resolution Image Synthesis",
+            "authors": [
+                "Patrick Esser",
+                "Robin Rombach",
+                "Björn Ommer"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2012.09841",
+                "project": "https://compvis.github.io/taming-transformers/",
+                "cited": "694"
+            },
+            "model": "VQGAN"
+        },
+        {
+            "title": "TransGAN: Two Transformers Can Make One Strong GAN, and That Can Scale Up",
+            "authors": [
+                "Yifan Jiang",
+                "Shiyu Chang",
+                "Zhangyang Wang"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2102.07074",
+                "pytorch": "https://github.com/asarigun/TransGAN",
+                "cited": "157"
+            },
+            "model": "TransGAN"
+        },
+        {
+            "title": "Alias-Free Generative Adversarial Networks.",
+            "authors": [
+                "Tero Karras",
+                "Miika Aittala",
+                "Samuli Laine",
+                "Erik Härkönen",
+                "Janne Hellsten",
+                "Jaakko Lehtinen",
+                "Timo Aila"
+            ],
+            "conference": "NeurIPS 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2106.12423",
+                "project": "https://nvlabs.github.io/stylegan3/",
+                "cited": "568"
+            },
+            "model": "StyleGAN3"
+        },
+        {
+            "title": "StyleSwin: Transformer-based GAN for High-resolution Image Generation",
+            "authors": [
+                "Bowen Zhang",
+                "Shuyang Gu",
+                "Bo Zhang",
+                "Jianmin Bao",
+                "Dong Chen",
+                "Fang Wen",
+                "Yong Wang",
+                "Baining Guo"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2112.10762",
+                "cited": "49"
+            },
+            "model": "StyleSwin"
+        },
+        {
+            "title": "Scaling StyleGAN to Large Diverse Datasets",
+            "authors": [
+                "Axel Sauer",
+                "Katja Schwarz",
+                "Andreas Geiger"
+            ],
+            "conference": "SIGGRAPH 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2202.00273",
+                "cited": "118"
+            },
+            "model": "StyleGAN-XL"
+        },
+        {
+            "title": "A Large-Scale Study on Regularization and Normalization in GANs",
+            "authors": [
+                "Karol Kurach",
+                "Mario Lucic",
+                "Xiaohua Zhai",
+                "Marcin Michalski",
+                "Sylvain Gelly"
+            ],
+            "conference": "ICML 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1807.04720",
+                "cited": "141"
+            }
+        },
+        {
+            "title": "Energy-based Generative Adversarial Networks",
+            "authors": [
+                "Junbo Zhao",
+                "Michael Mathieu",
+                "Yann LeCun"
+            ],
+            "conference": "ICLR 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1609.03126",
+                "cited": "978"
+            },
+            "model": "EB-GAN"
+        },
+        {
+            "title": "Towards Principled Methods for Training Generative Adversarial Networks",
+            "authors": [
+                "Martin Arjovsky",
+                "Léon Bottou"
+            ],
+            "conference": "ICLR 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1701.04862",
+                "cited": "1696"
+            }
+        },
+        {
+            "title": "Least Squares Generative Adversarial Networks",
+            "authors": [
+                "Xudong Mao",
+                "Qing Li",
+                "Haoran Xie",
+                "Raymond Y.K. Lau",
+                "Zhen Wang",
+                "Stephen Paul Smolley"
+            ],
+            "conference": "ICCV 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1611.04076",
+                "cited": "3504"
+            },
+            "model": "LSGAN"
+        },
+        {
+            "title": "Wasserstein GAN",
+            "authors": [
+                "Martin Arjovsky",
+                "Soumith Chintala",
+                "Léon Bottou"
+            ],
+            "conference": "ICML 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1701.07875",
+                "cited": "3159"
+            },
+            "model": "WGAN"
+        },
+        {
+            "title": "Geometric GAN",
+            "authors": [
+                "Jae Hyun Lim",
+                "Jong Chul Ye"
+            ],
+            "conference": "Axiv 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1705.02894",
+                "cited": "252"
+            },
+            "model": "GGAN"
+        },
+        {
+            "title": "Conditional Image Synthesis With Auxiliary Classifier GANs",
+            "authors": [
+                "Augustus Odena",
+                "Christopher Olah",
+                "Jonathon Shlens"
+            ],
+            "conference": "ICML 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1610.09585",
+                "cited": "2550"
+            },
+            "model": "AC-GAN"
+        },
+        {
+            "title": "cGANs with Projection Discriminator",
+            "authors": [
+                "Takeru Miyato",
+                "Masanori Koyama"
+            ],
+            "conference": "ICLR 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1802.05637",
+                "cited": "636"
+            }
+        },
+        {
+            "title": "High-Fidelity Image Generation With Fewer Labels",
+            "authors": [
+                "Mario Lucic*",
+                "Michael Tschannen*",
+                "Marvin Ritter*",
+                "Xiaohua Zhai",
+                "Olivier Bachem",
+                "Sylvain Gelly"
+            ],
+            "conference": "ICML 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1903.02271",
+                "project": "https://github.com/google/compare_gan",
+                "cited": "123"
+            },
+            "model": "S³-GAN"
+        },
+        {
+            "title": "Variational Inference with Normalizing Flows",
+            "authors": [
+                "Danilo Jimenez Rezende",
+                "Shakir Mohamed"
+            ],
+            "conference": "ICML 2015",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1505.05770",
+                "cited": "2623"
+            }
+        },
+        {
+            "title": "Improved Variational Inference with Inverse Autoregressive Flow",
+            "authors": [
+                "Diederik P. Kingma",
+                "Tim Salimans",
+                "Rafal Jozefowicz",
+                "Xi Chen",
+                "Ilya Sutskever",
+                "Max Welling"
+            ],
+            "conference": "NeurIPS 2016",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1606.04934",
+                "cited": "1449"
+            }
+        },
+        {
+            "title": "NVAE: A Deep Hierarchical Variational Autoencoder",
+            "authors": [
+                "Arash Vahdat",
+                "Jan Kautz"
+            ],
+            "conference": "NeurIPS 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2007.03898",
+                "cited": "439"
+            }
+        },
+        {
+            "title": "Improved techniques for training score-based generative models.",
+            "authors": [
+                "Yang Song",
+                "Stefano Ermon"
+            ],
+            "conference": "NeurIPS 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2006.09011",
+                "cited": "365"
+            }
+        },
+        {
+            "title": "Denoising Diffusion Probabilistic Models",
+            "authors": [
+                "Jonathan Ho",
+                "Ajay Jain",
+                "Pieter Abbeel"
+            ],
+            "conference": "NeurIPS 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2006.11239",
+                "cited": "1852"
+            },
+            "model": "DDPM"
+        },
+        {
+            "title": "Score-based generative modeling through stochastic differential equations",
+            "authors": [
+                "Yang Song",
+                "Jascha Sohl-Dickstein",
+                "Diederik P Kingma",
+                "Abhishek Kumar",
+                "Stefano Ermon",
+                "Ben Poole"
+            ],
+            "conference": "ICLR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2011.13456",
+                "cited": "915"
+            }
+        },
+        {
+            "title": "Improved Denoising Diffusion Probabilistic Models",
+            "authors": [
+                "Alex Nichol",
+                "Prafulla Dhariwal"
+            ],
+            "conference": "ICML 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2102.09672",
+                "cited": "631"
+            },
+            "model": "Improved-DDPM"
+        },
+        {
+            "title": "Variational Diffusion Models.",
+            "authors": [
+                "Diederik P. Kingma",
+                "Tim Salimans",
+                "Ben Poole",
+                "Jonathan Ho"
+            ],
+            "conference": "NeurIPS 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2107.00630",
+                "cited": "244"
+            }
+        },
+        {
+            "title": "Diffusion Models Beat GANs on Image Synthesis",
+            "authors": [
+                "Prafulla Dhariwal",
+                "Alex Nichol"
+            ],
+            "conference": "NeurIPS 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2105.05233",
+                "cited": "1094"
+            },
+            "model": "Guided-Diffusion"
+        },
+        {
+            "title": "Classifier-Free Diffusion Guidance.",
+            "authors": [
+                "Jonathan Ho",
+                "Tim Salimans"
+            ],
+            "conference": "NeurIPS 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2207.12598",
+                "cited": "399"
+            }
+        },
+        {
+            "title": "SDEdit: Image Synthesis and Editing with Stochastic Differential Equations",
+            "authors": [
+                "Chenlin Meng",
+                "Yutong He",
+                "Yang Song",
+                "Jiaming Song",
+                "Jiajun Wu",
+                "Jun-Yan Zhu",
+                "Stefano Ermon"
+            ],
+            "conference": "ICLR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2108.01073",
+                "cited": "152"
+            }
+        },
+        {
+            "title": "DiffusionCLIP: Text-guided Image Manipulation Using Diffusion Models",
+            "authors": [
+                "Gwanghyun Kim",
+                "Taesung Kwon",
+                "Jong Chul Ye"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2110.02711",
+                "cited": "101"
+            }
+        },
+        {
+            "title": "Blended Diffusion: Text-driven Editing of Natural Images",
+            "authors": [
+                "Omri Avrahami",
+                "Dani Lischinski",
+                "Ohad Fried"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2111.14818",
+                "cited": "148"
+            }
+        },
+        {
+            "title": "GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models",
+            "authors": [
+                "Alex Nichol",
+                "Prafulla Dhariwal",
+                "Aditya Ramesh",
+                "Pranav Shyam",
+                "Pamela Mishkin",
+                "Bob McGrew",
+                "Ilya Sutskever",
+                "Mark Chen"
+            ],
+            "conference": "ICML 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2112.10741",
+                "cited": "615"
+            }
+        },
+        {
+            "title": "Palette: Image-to-Image diffusion models.",
+            "authors": [
+                "Chitwan Saharia",
+                "William Chan",
+                "Huiwen Chang",
+                "Chris A. Lee",
+                "Jonathan Ho",
+                "Tim Salimans",
+                "David J. Fleet",
+                "Mohammad Norouzi"
+            ],
+            "conference": "SIGGRAPH 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2111.05826",
+                "cited": "274"
+            }
+        },
+        {
+            "title": "RePaint: Inpainting using Denoising Diffusion Probabilistic Models",
+            "authors": [
+                "Andreas Lugmayr",
+                "Martin Danelljan",
+                "Andres Romero",
+                "Fisher Yu",
+                "Radu Timofte",
+                "Luc Van Gool"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2201.09865",
+                "cited": "194"
+            }
+        },
+        {
+            "title": "Deep Convolutional Inverse Graphics Network",
+            "authors": [
+                "Tejas D. Kulkarni",
+                "Will Whitney",
+                "Pushmeet Kohli",
+                "Joshua B. Tenenbaum"
+            ],
+            "conference": "NeurIPS 2015",
+            "links": {
+                "pdf": "Deep Convolutional Inverse Graphics Network"
+            },
+            "model": "DC-IGN"
+        },
+        {
+            "title": "InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets",
+            "authors": [
+                "Xi Chen",
+                "Yan Duan",
+                "Rein Houthooft",
+                "John Schulman",
+                "Ilya Sutskever",
+                "Pieter Abbeel"
+            ],
+            "conference": "NeurIPS 2016",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1606.03657",
+                "cited": "3573"
+            },
+            "model": "InfoGAN"
+        },
+        {
+            "title": "beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework",
+            "authors": [
+                "I. Higgins",
+                "L. Matthey",
+                "Arka Pal",
+                "Christopher P. Burgess",
+                "Xavier Glorot",
+                "M. Botvinick",
+                "S. Mohamed",
+                "Alexander Lerchner"
+            ],
+            "conference": "ICLR 2017",
+            "links": {
+                "pdf": "https://openreview.net/forum?id=Sy2fzU9gl"
+            },
+            "model": "Beta-VAE"
+        },
+        {
+            "title": "Understanding disentangling in β-VAE",
+            "authors": [
+                "Christopher P. Burgess",
+                "Irina Higgins",
+                "Arka Pal",
+                "Loic Matthey",
+                "Nick Watters",
+                "Guillaume Desjardins",
+                "Alexander Lerchner"
+            ],
+            "conference": "NeurIPS 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1804.03599",
+                "cited": "318"
+            },
+            "model": "AnnealedVAE"
+        },
+        {
+            "title": "Disentangling by Factorising",
+            "authors": [
+                "Hyunjik Kim",
+                "Andriy Mnih"
+            ],
+            "conference": "NeurIPS 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1802.05983",
+                "cited": "986"
+            },
+            "model": "Factor-VAE"
+        },
+        {
+            "title": "A framework for the quantitative evaluation of disentangled representations.",
+            "authors": [
+                "Cian Eastwood",
+                "Christopher K. I. Williams"
+            ],
+            "conference": "ICLR 2018",
+            "links": {
+                "pdf": "https://openreview.net/pdf?id=By-7dz-AZ"
+            },
+            "model": "DCI"
+        },
+        {
+            "title": "Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations.",
+            "authors": [
+                "Francesco Locatello",
+                "Stefan Bauer",
+                "Mario Lucic",
+                "Gunnar Rätsch",
+                "Sylvain Gelly",
+                "Bernhard Schölkopf",
+                "Olivier Bachem"
+            ],
+            "conference": "ICML(best paper award) 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1811.12359",
+                "cited": "974"
+            }
+        },
+        {
+            "title": "Improved training of wasserstein gans",
+            "authors": [
+                "Ishaan Gulrajani",
+                "Faruk Ahmed",
+                "Martin Arjovsky",
+                "Vincent Dumoulin",
+                "Aaron Courville"
+            ],
+            "conference": "NeurIPS 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1704.00028",
+                "cited": "7006"
+            },
+            "model": "WGAN-GP"
+        },
+        {
+            "title": "The Numerics of GANs",
+            "authors": [
+                "Lars Mescheder",
+                "Sebastian Nowozin",
+                "Andreas Geiger"
+            ],
+            "conference": "NeurIPS 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1705.10461",
+                "cited": "390"
+            }
+        },
+        {
+            "title": "Which Training Methods for GANs do actually Converge?",
+            "authors": [
+                "Lars Mescheder",
+                "Andreas Geiger",
+                "Sebastian Nowozin"
+            ],
+            "conference": "ICML 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1801.04406",
+                "cited": "1085"
+            },
+            "model": "R1-regularization"
+        },
+        {
+            "title": "Spectral Normalization for Generative Adversarial Networks.",
+            "authors": [
+                "Takeru Miyato",
+                "Toshiki Kataoka",
+                "Masanori Koyama",
+                "Yuichi Yoshida"
+            ],
+            "conference": "ICLR 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1802.05957",
+                "cited": "3378"
+            },
+            "model": "SN-GAN"
+        },
+        {
+            "title": "Consistency regularization for generative adversarial networks.",
+            "authors": [
+                "Han Zhang",
+                "Zizhao Zhang",
+                "Augustus Odena",
+                "Honglak Lee"
+            ],
+            "conference": "ICLR 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1910.12027",
+                "cited": "192"
+            },
+            "model": "CR-GAN"
+        },
+        {
+            "title": "Differentiable Augmentation for Data-Efficient GAN Training",
+            "authors": [
+                "Zhao Shengyu",
+                "Liu Zhijian",
+                "Lin Ji",
+                "Zhu Jun-Yan",
+                "Han Song"
+            ],
+            "conference": "NeurIPS 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2006.10738",
+                "project": "https://hanlab.mit.edu/projects/data-efficient-gans/"
+            },
+            "cited": "316"
+        },
+        {
+            "title": "Improved consistency regularization for GANs",
+            "authors": [
+                "Zhengli Zhao",
+                "Sameer Singh",
+                "Honglak Lee",
+                "Zizhao Zhang",
+                "Augustus Odena",
+                "Han Zhang"
+            ],
+            "conference": "AAAI 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2002.04724"
+            },
+            "cited": "86"
+        },
+        {
+            "title": "Training Generative Adversarial Networks with Limited Data",
+            "authors": [
+                "Tero Karras",
+                "Miika Aittala",
+                "Janne Hellsten",
+                "Samuli Laine",
+                "Jaakko Lehtinen",
+                "Timo Aila"
+            ],
+            "conference": "NeurIPS 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2006.06676",
+                "tensorflow": "https://github.com/NVlabs/stylegan2-ada",
+                "pytorch": "https://github.com/NVlabs/stylegan2-ada-pytorch"
+            },
+            "cited": "921"
+        },
+        {
+            "title": "Gradient Normalization for Generative Adversarial Networks",
+            "authors": [
+                "Yi-Lun Wu",
+                "Hong-Han Shuai",
+                "Zhi-Rui Tam",
+                "Hong-Yu Chiu"
+            ],
+            "conference": "ICCV 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2109.02235"
+            },
+            "cited": "23"
+        },
+        {
+            "title": "Deceive D: Adaptive Pseudo Augmentation for GAN Training with Limited Data",
+            "authors": [
+                "Liming Jiang",
+                "Bo Dai",
+                "Wayne Wu",
+                "Chen Change Loy"
+            ],
+            "conference": "NeurIPS 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2111.06849"
+            },
+            "cited": "35"
+        },
+        {
+            "title": "Improved Techniques for Training GANs",
+            "authors": [
+                "Tim Salimans",
+                "Ian Goodfellow",
+                "Wojciech Zaremba",
+                "Vicki Cheung",
+                "Alec Radford",
+                "Xi Chen"
+            ],
+            "conference": "NeurIPS 2016",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1606.03498"
+            },
+            "metric": "Inception-Score/IS",
+            "cited": "6678"
+        },
+        {
+            "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+            "authors": [
+                "Martin Heusel",
+                "Hubert Ramsauer",
+                "Thomas Unterthiner",
+                "Bernhard Nessler",
+                "Sepp Hochreiter"
+            ],
+            "conference": "NeurIPS 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1706.08500"
+            },
+            "metric": "FID, TTUR",
+            "cited": "6472"
+        },
+        {
+            "title": "Sliced Wasserstein Generative Models",
+            "authors": [
+                "Jiqing Wu",
+                "Zhiwu Huang",
+                "Dinesh Acharya",
+                "Wen Li",
+                "Janine Thoma",
+                "Danda Pani Paudel",
+                "Luc Van Gool"
+            ],
+            "conference": "CVPR 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1706.02631"
+            },
+            "metric": "SWD",
+            "cited": "0"
+        },
+        {
+            "title": "Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis",
+            "authors": [
+                "Bingchen Liu",
+                "Yizhe Zhu",
+                "Kunpeng Song",
+                "Ahmed Elgammal"
+            ],
+            "conference": "ICLR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2101.04775"
+            },
+            "fast_convergence": "FastGAN",
+            "cited": "109"
+        },
+        {
+            "title": "Projected GANs Converge Faster",
+            "authors": [
+                "Axel Sauer",
+                "Kashyap Chitta",
+                "Jens Müller",
+                "Andreas Geiger"
+            ],
+            "links": {
+                "pdf": "https://arxiv.org/abs/2111.01007",
+                "project": "https://sites.google.com/view/projected-gan/",
+                "pytorch": "https://github.com/autonomousvision/projected_gan"
+            },
+            "cited": "72",
+            "fast_convergence": "ProjectedGAN"
+        },
+        {
+            "title": "Transferring GANs: generating images from limited data",
+            "authors": [
+                "Yaxing Wang",
+                "Chenshen Wu",
+                "Luis Herranz",
+                "Joost van de Weijer",
+                "Abel Gonzalez-Garcia",
+                "Bogdan Raducanu"
+            ],
+            "conference": "ECCV 2018",
+            "links": {
+                "pdf": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Wang_Transferring_GANs_Generating_Images_from_Limited_Data_ECCV_2018_paper.pdf"
+            },
+            "cited": "185"
+        },
+        {
+            "title": "Image Generation From Small Datasets via Batch Statistics Adaptation",
+            "authors": [
+                "Atsuhiro Noguchi",
+                "Tatsuya Harada"
+            ],
+            "conference": "ICCV 2019",
+            "links": {
+                "pdf": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Noguchi_Image_Generation_From_Small_Datasets_via_Batch_Statistics_Adaptation_ICCV_2019_paper.pdf"
+            },
+            "cited": "129"
+        },
+        {
+            "title": "Freeze Discriminator: A Simple Baseline for Fine-tuning GANs",
+            "authors": [
+                "Sangwoo Mo",
+                "Minsu Cho",
+                "Jinwoo Shin"
+            ],
+            "conference": "CVPRW 2020",
+            "links": {
+                "pdf": "https://openaccess.thecvf.com/content_CVPRW_2020/papers/w52/Mo_Freeze_Discriminator_A_Simple_Baseline_for_Fine-tuning_GANs_CVPRW_2020_paper.pdf",
+                "pytorch": "https://github.com/POSTECH-CVLab/FreezeD"
+            },
+            "cited": "124"
+        },
+        {
+            "title": "Resolution dependant GAN interpolation for controllable image synthesis between domains",
+            "authors": [
+                "Justin N. M. Pinkney",
+                "Doron Adler"
+            ],
+            "conference": "NeurIPS workshop 2020",
+            "links": {
+                "pdf": "https://arxiv.org/pdf/2012.02921.pdf"
+            },
+            "cited": "74"
+        },
+        {
+            "title": "Few-shot image generation with elastic weight consolidation",
+            "authors": [
+                "Yijun Li",
+                "Richard Zhang",
+                "Jingwan Lu",
+                "Eli Shechtman"
+            ],
+            "conference": "NeurIPS 2020",
+            "links": {
+                "pdf": "https://proceedings.neurips.cc/paper/2020/file/3c7d5c3a5ddc6b48f5afad4b9f7e61e7-Paper.pdf"
+            },
+            "cited": "85"
+        },
+        {
+            "title": "Minegan: effective knowledge transfer from gans to target domains with few images",
+            "authors": [
+                "Yaxing Wang",
+                "Abel Gonzalez-Garcia",
+                "David Berga",
+                "Luis Herranz",
+                "Fahad Shahbaz Khan",
+                "Joost van de Weijer"
+            ],
+            "conference": "CVPR 2020",
+            "links": {
+                "pdf": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_MineGAN_Effective_Knowledge_Transfer_From_GANs_to_Target_Domains_With_CVPR_2020_paper.pdf"
+            },
+            "cited": "117"
+        },
+        {
+            "title": "One-Shot Domain Adaptation For Face Generation",
+            "authors": [
+                "Chao Yang",
+                "Ser-Nam Lim"
+            ],
+            "conference": "CVPR 2020",
+            "links": {
+                "pdf": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_One-Shot_Domain_Adaptation_for_Face_Generation_CVPR_2020_paper.pdf"
+            },
+            "cited": "20"
+        },
+        {
+            "title": "Unsupervised image-to-image translation via pre-trained StyleGAN2 network",
+            "authors": [
+                "Jialu Huang",
+                "Jing Liao",
+                "Sam Kwong"
+            ],
+            "conference": "TMM 2021",
+            "links": {
+                "pdf": "https://ieeexplore.ieee.org/document/9402307"
+            },
+            "cited": "30"
+        },
+        {
+            "title": "Few-shot Adaptation of Generative Adversarial Networks",
+            "authors": [
+                "Esther Robb",
+                "Wen-Sheng Chu",
+                "Abhishek Kumar",
+                "Jia-Bin Huang"
+            ],
+            "conference": "arxiv 2020",
+            "links": {
+                "pdf": "https://arxiv.org/pdf/2006.06668.pdf"
+            },
+            "cited": "48"
+        },
+        {
+            "title": "AgileGAN: stylizing portraits by inversion-consistent transfer learning",
+            "authors": [
+                "Guoxian Song",
+                "Linjie Luo",
+                "Jing Liu",
+                "Wan-Chun Ma",
+                "Chunpong Lai",
+                "Chuanxia Zheng",
+                "Tat-Jen Cham"
+            ],
+            "conference": "TOG/SIGGRAPH 2021",
+            "links": {
+                "pdf": "https://dl.acm.org/doi/pdf/10.1145/3450626.3459860",
+                "project": "https://cgv.cs.nthu.edu.tw/projects/AgileGAN/"
+            }
+        },
+        {
+            "title": "Few-shot Image Generation via Cross-domain Correspondence",
+            "authors": [
+                "Utkarsh Ojha",
+                "Yijun Li",
+                "Jingwan Lu",
+                "Alexei A. Efros",
+                "Yong Jae Lee",
+                "Eli Shechtman",
+                "Richard Zhang"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ojha_Few-Shot_Image_Generation_via_Cross-Domain_Correspondence_CVPR_2021_paper.pdf"
+            },
+            "cited": "109"
+        },
+        {
+            "title": "StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators",
+            "authors": [
+                "Rinon Gal",
+                "Or Patashnik",
+                "Haggai Maron",
+                "Gal Chechik",
+                "Daniel Cohen-Or"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/pdf/2104.14754.pdf",
+                "project": "https://github.com/ringlayer/StyleGAN-NADA"
+            },
+            "cited": "206"
+        },
+        {
+            "title": "Stylealign: Analysis and Applications of Aligned StyleGAN Models",
+            "authors": [
+                "Zongze Wu",
+                "Yotam Nitzan",
+                "Eli Shechtman",
+                "Dani Lischinski"
+            ],
+            "conference": "ICLR 2022",
+            "links": {
+                "pdf": "https://openreview.net/pdf?id=-lMJKlrr4Og"
+            },
+            "cited": "28"
+        },
+        {
+            "title": "One-Shot Generative Domain Adaptation",
+            "authors": [
+                "Ceyuan Yang",
+                "Yujun Shen*",
+                "Zhiyi Zhang",
+                "Yinghao Xu",
+                "Jiapeng Zhu",
+                "Zhirong Wu",
+                "Bolei Zhou"
+            ],
+            "conference": "arXiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/pdf/2106.06627.pdf"
+            },
+            "cited": "17"
+        },
+        {
+            "title": "Mind the Gap: Domain Gap Control for Single Shot Domain Adaptation for Generative Adversarial Networks",
+            "authors": [
+                "Peihao Zhu",
+                "Rameen Abdal",
+                "John Femiani",
+                "Peter Wonka"
+            ],
+            "conference": "ICLR 2022",
+            "links": {
+                "pdf": "https://openreview.net/pdf?id=HJlJhJF6JBl"
+            },
+            "cited": "34"
+        },
+        {
+            "title": "Few Shot Generative Model Adaption via Relaxed Spatial Structural Alignment",
+            "authors": [
+                "Jiayu Xiao",
+                "Liang Li",
+                "Chaofei Wang",
+                "Zheng-Jun Zha",
+                "Qingming Huang"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://openaccess.thecvf.com/content/CVPR2022/papers/Xiao_Few_Shot_Generative_Model_Adaption_via_Relaxed_Spatial_Structural_Alignment_CVPR_2022_paper.pdf"
+            },
+            "cited": "10"
+        },
+        {
+            "title": "JoJoGAN: One Shot Face Stylization",
+            "authors": [
+                "Min Jin Chong",
+                "David Forsyth"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2112.11641"
+            },
+            "cited": "28",
+            "model": "JoJoGAN"
+        },
+        {
+            "title": "When why and which pretrained GANs are useful?",
+            "authors": [
+                "Timofey Grigoryev",
+                "Andrey Voynov",
+                "Artem Babenko"
+            ],
+            "conference": "ICLR 2022",
+            "links": {
+                "pdf": "https://openreview.net/forum?id=4Ycr8oeCoIh"
+            },
+            "cited": "N/A",
+            "model": "pretrained GANs"
+        },
+        {
+            "title": "CtlGAN: Few-shot Artistic Portraits Generation with Contrastive Transfer Learning",
+            "authors": [
+                "Yue Wang",
+                "Ran Yi",
+                "Ying Tai",
+                "Chengjie Wang",
+                "Lizhuang Ma"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2203.08612"
+            },
+            "cited": "4",
+            "model": "CtlGAN"
+        },
+        {
+            "title": "One-Shot Adaptation of GAN in Just One CLIP",
+            "authors": [
+                "Gihyun Kwon",
+                "Jong Chul Ye"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2203.09301"
+            },
+            "cited": "7",
+            "model": "One-Shot Adaptation GAN"
+        },
+        {
+            "title": "A Closer Look at Few-shot Image Generation",
+            "authors": [
+                "Yunqing Zhao",
+                "Henghui Ding",
+                "Houjing Huang",
+                "Ngai-Man Cheung"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2205.03805"
+            },
+            "cited": "14",
+            "model": "Few-shot Image Generation"
+        },
+        {
+            "title": "Diffusion Guided Domain Adaptation of Image Generators",
+            "authors": [
+                "Kunpeng Song",
+                "Ligong Han",
+                "Bingchen Liu",
+                "Dimitris Metaxas",
+                "Ahmed Elgammal"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2212.04473"
+            },
+            "cited": "4",
+            "model": "Diffusion Guided Domain Adaptation"
+        },
+        {
+            "title": "Domain Expansion of Image Generators",
+            "authors": [
+                "Yotam Nitzan",
+                "Michaël Gharbi",
+                "Richard Zhang",
+                "Taesung Park",
+                "Jun-Yan Zhu",
+                "Daniel Cohen-Or",
+                "Eli Shechtman"
+            ],
+            "conference": "arxiv 2023",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2301.05225"
+            },
+            "cited": "2",
+            "model": "Domain Expansion of Image Generators"
+        },
+        {
+            "title": "Variational Inference with Normalizing Flows",
+            "authors": [
+                "Danilo Jimenez Rezende",
+                "Shakir Mohamed"
+            ],
+            "conference": "ICML 2015",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1505.05770"
+            },
+            "cited": "2623",
+            "model": "VAE"
+        },
+        {
+            "title": "Improved Variational Inference with Inverse Autoregressive Flow",
+            "authors": [
+                "Diederik P. Kingma",
+                "Tim Salimans",
+                "Rafal Jozefowicz",
+                "Xi Chen",
+                "Ilya Sutskever",
+                "Max Welling"
+            ],
+            "conference": "NeurIPS 2016",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1606.04934"
+            },
+            "cited": "1449",
+            "model": "VAE"
+        },
+        {
+            "title": "NVAE: A Deep Hierarchical Variational Autoencoder",
+            "authors": [
+                "Arash Vahdat",
+                "Jan Kautz"
+            ],
+            "conference": "NeurIPS 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2007.03898"
+            },
+            "cited": "439",
+            "model": "VAE"
+        },
+        {
+            "title": "Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space",
+            "authors": [
+                "Anh Nguyen",
+                "Jeff Clune",
+                "Yoshua Bengio",
+                "Alexey Dosovitskiy",
+                "Jason Yosinski"
+            ],
+            "conference": "CVPR 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1612.00005"
+            },
+            "cited": "592",
+            "model": "Generative Networks"
+        },
+        {
+            "title": "Optimizing the Latent Space of Generative Networks",
+            "authors": [
+                "Piotr Bojanowski",
+                "Armand Joulin",
+                "David Lopez-Paz",
+                "Arthur Szlam"
+            ],
+            "conference": "ICML 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1707.05776"
+            },
+            "cited": "325",
+            "model": "GLO"
+        },
+        {
+            "title": "Non-Adversarial Image Synthesis with Generative Latent Nearest Neighbors",
+            "authors": [
+                "Yedid Hoshen",
+                "Jitendra Malik"
+            ],
+            "conference": "CVPR 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1812.08985"
+            },
+            "cited": "48",
+            "model": "Generative Latent Nearest Neighbors"
+        },
+        {
+            "title": "Sampling generative networks: Notes on a few effective techniques.",
+            "authors": [
+                "Tom White"
+            ],
+            "conference": "arxiv 2016",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1609.04468v2"
+            },
+            "cited": "136",
+            "model": "Latent Interpolation"
+        },
+        {
+            "title": "Latent space oddity: on the curvature of deep generative models",
+            "authors": [
+                "Georgios Arvanitidis",
+                "Lars Kai Hansen",
+                "Søren Hauberg"
+            ],
+            "conference": "ICLR 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1710.11379"
+            },
+            "cited": "184",
+            "model": "Latent Interpolation"
+        },
+        {
+            "title": "Feature-Based Metrics for Exploring the Latent Space of Generative Models",
+            "authors": [
+                "Samuli Laine"
+            ],
+            "conference": "ICLR 2018 Workshop",
+            "links": {
+                "pdf": "https://openreview.net/forum?id=BJslDBkwG"
+            },
+            "cited": "N/A",
+            "model": "Latent Interpolation"
+        },
+        {
+            "title": "Neural Discrete Representation Learning",
+            "authors": [
+                "Aaron van den Oord",
+                "Oriol Vinyals",
+                "Koray Kavukcuoglu"
+            ],
+            "conference": "NeurIPS 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1711.00937"
+            },
+            "cited": "1823",
+            "model": "VQ-VAE"
+        },
+        {
+            "title": "Generating Diverse High-Fidelity Images with VQ-VAE-2",
+            "authors": [
+                "Ali Razavi",
+                "Aaron van den Oord",
+                "Oriol Vinyals"
+            ],
+            "conference": "NeurIPS 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1906.00446"
+            },
+            "cited": "858",
+            "model": "VQ-VAE-2"
+        },
+        {
+            "title": "Taming Transformers for High-Resolution Image Synthesis",
+            "authors": [
+                "Patrick Esser",
+                "Robin Rombach",
+                "Björn Ommer"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2012.09841",
+                "project": "https://compvis.github.io/taming-transformers/"
+            },
+            "cited": "694",
+            "model": "VQGAN"
+        },
+        {
+            "title": "Zero-Shot Text-to-Image Generation",
+            "authors": [
+                "Aditya Ramesh",
+                "Mikhail Pavlov",
+                "Gabriel Goh",
+                "Scott Gray",
+                "Chelsea Voss",
+                "Alec Radford",
+                "Mark Chen",
+                "Ilya Sutskever"
+            ],
+            "conference": "ICML 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2102.12092"
+            },
+            "cited": "1348",
+            "model": "DALLE"
+        },
+        {
+            "title": "The Image Local Autoregressive Transformer",
+            "authors": [
+                "Chenjie Cao",
+                "Yuxin Hong",
+                "Xiang Li",
+                "Chengrong Wang",
+                "Chengming Xu",
+                "XiangYang Xue",
+                "Yanwei Fu"
+            ],
+            "conference": "NeurIPS 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2106.02514"
+            },
+            "cited": "7",
+            "model": ""
+        },
+        {
+            "title": "Masked Generative Image Transformer",
+            "authors": [
+                "Huiwen Chang",
+                "Han Zhang",
+                "Lu Jiang",
+                "Ce Liu",
+                "William T. Freeman"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2202.04200"
+            },
+            "cited": "92",
+            "model": "MaskGIT"
+        },
+        {
+            "title": "VQGAN-CLIP: Open Domain Image Generation and Editing with Natural Language Guidance",
+            "authors": [
+                "Katherine Crowson",
+                "Stella Biderman",
+                "Daniel Kornis",
+                "Dashiell Stander",
+                "Eric Hallahan",
+                "Louis Castricato",
+                "Edward Raff"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2204.08583"
+            },
+            "cited": "122",
+            "model": "VQGAN-CLIP"
+        },
+        {
+            "title": "Autoregressive Semantic Scene Editing with Transformers at High Resolutions",
+            "authors": [
+                "Difan Liu",
+                "Sandesh Shetty",
+                "Tobias Hinz",
+                "Matthew Fisher",
+                "Richard Zhang",
+                "Taesung Park",
+                "Evangelos Kalogerakis"
+            ],
+            "conference": "SIGGRAPH 2022",
+            "links": {
+                "pytorch": "https://github.com/DifanLiu/ASSET"
+            },
+            "cited": "",
+            "model": "ASSET"
+        },
+        {
+            "title": "CLIP-GEN: Language-Free Training of a Text-to-Image Generator with CLIP",
+            "authors": [
+                "Zihao Wang",
+                "Wei Liu",
+                "Qian He",
+                "Xinglong Wu",
+                "Zili Yi"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2203.00386"
+            },
+            "cited": "24",
+            "model": "CLIP-GEN"
+        },
+        {
+            "title": "Reduce Information Loss in Transformers for Pluralistic Image Inpainting",
+            "authors": [
+                "Qiankun Liu",
+                "Zhentao Tan",
+                "Dongdong Chen",
+                "Qi Chu",
+                "Xiyang Dai",
+                "Yinpeng Chen",
+                "Mengchen Liu",
+                "Lu Yuan",
+                "Nenghai Yu"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pytorch": "https://github.com/liuqk3/PUT"
+            },
+            "cited": "",
+            "model": "PUT"
+        },
+        {
+            "title": "High-Quality Pluralistic Image Completion via Code Shared VQGAN",
+            "authors": [
+                "Chuanxia Zheng",
+                "Guoxian Song",
+                "Tat-Jen Cham",
+                "Jianfei Cai",
+                "Dinh Phung",
+                "Linjie Luo"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2204.01931"
+            },
+            "cited": "3",
+            "model": ""
+        },
+        {
+            "title": "L-Verse: Bidirectional Generation Between Image and Text",
+            "authors": [
+                "Taehoon Kim",
+                "Gwangmo Song",
+                "Sihaeng Lee",
+                "Sangyun Kim",
+                "Yewon Seo",
+                "Soonyoung Lee",
+                "Seung Hwan Kim",
+                "Honglak Lee",
+                "Kyunghoon Bae"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2111.11133"
+            },
+            "cited": "6"
+        },
+        {
+            "title": "Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes.",
+            "authors": [
+                "Sam Bond-Taylor",
+                "Peter Hessey",
+                "Hiroshi Sasaki",
+                "Toby P. Breckon",
+                "Chris G. Willcocks"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2111.12701"
+            },
+            "cited": "22"
+        },
+        {
+            "title": "MaskGIT: Masked Generative Image Transformer",
+            "authors": [
+                "Huiwen Chang",
+                "Han Zhang",
+                "Lu Jiang",
+                "Ce Liu",
+                "William T. Freeman"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2202.04200"
+            },
+            "cited": "92"
+        },
+        {
+            "title": "Imagebart: Bidirectional context with multinomial diffusion for autoregressive image synthesis.",
+            "authors": [
+                "Patrick Esser",
+                "Robin Rombach",
+                "Andreas Blattmann",
+                "Björn Ommer"
+            ],
+            "conference": "NeruIPS 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2108.08827"
+            },
+            "cited": "62"
+        },
+        {
+            "title": "Vector Quantized Diffusion Model for Text-to-Image Synthesis",
+            "authors": [
+                "Shuyang Gu",
+                "Dong Chen",
+                "Jianmin Bao",
+                "Fang Wen",
+                "Bo Zhang",
+                "Dongdong Chen",
+                "Lu Yuan",
+                "Baining Guo"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2111.14822"
+            },
+            "cited": "160"
+        },
+        {
+            "title": "Improved Vector Quantized Diffusion Models",
+            "authors": [
+                "Zhicong Tang",
+                "Shuyang Gu",
+                "Jianmin Bao",
+                "Dong Chen",
+                "Fang Wen"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2205.16007"
+            },
+            "cited": "24"
+        },
+        {
+            "title": "Text2Human: Text-Driven Controllable Human Image Generation",
+            "authors": [
+                "Yuming Jiang",
+                "Shuai Yang",
+                "Haonan Qiu",
+                "Wayne Wu",
+                "Chen Change Loy",
+                "Ziwei Liu"
+            ],
+            "conference": "SIGGRAPH 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2205.15996"
+            },
+            "cited": "29"
+        },
+        {
+            "title": "Autoregressive image generation using residual quantization",
+            "authors": [
+                "Doyup Lee",
+                "Chiheon Kim",
+                "Saehoon Kim",
+                "Minsu Cho",
+                "Wook-Shin Han"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2203.01941"
+            },
+            "cited": "34"
+        },
+        {
+            "title": "Generative Visual Manipulation on the Natural Image Manifold",
+            "authors": [
+                "Jun-Yan Zhu",
+                "Philipp Krähenbühl",
+                "Eli Shechtman",
+                "Alexei A. Efros"
+            ],
+            "conference": "ECCV 2016",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1609.03552",
+                "github": "https://github.com/junyanz/iGAN"
+            },
+            "cited": "1199"
+        },
+        {
+            "title": "Invertible Conditional GANs for image editing",
+            "authors": [
+                "Guim Perarnau",
+                "Joost van de Weijer",
+                "Bogdan Raducanu",
+                "Jose M. Álvarez"
+            ],
+            "conference": "NIPS 2016 Workshop",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1611.06355"
+            },
+            "cited": "550"
+        },
+        {
+            "title": "Neural photo editing with introspective adversarial networks",
+            "authors": [
+                "Andrew Brock",
+                "Theodore Lim",
+                "J.M. Ritchie",
+                "Nick Weston"
+            ],
+            "conference": "ICLR 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1609.07093"
+            },
+            "cited": "391"
+        },
+        {
+            "title": "Inverting The Generator of A Generative Adversarial Network.",
+            "authors": [
+                "Antonia Creswell",
+                "Anil Anthony Bharath"
+            ],
+            "conference": "NeurIPS 2016 Workshop",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1611.05644"
+            },
+            "cited": "262"
+        },
+        {
+            "title": "Semantic Photo Manipulation with a Generative Image Prior",
+            "authors": [
+                "David Bau",
+                "Hendrik Strobelt",
+                "William Peebles",
+                "Jonas Wulff",
+                "Bolei Zhou",
+                "Jun-Yan Zhu",
+                "Antonio Torralba"
+            ],
+            "conference": "SIGGRAPH 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2005.07727"
+            },
+            "cited": "267"
+        },
+        {
+            "title": "Seeing What a GAN Cannot Generate.",
+            "authors": [
+                "David Bau",
+                "Jun-Yan Zhu",
+                "Jonas Wulff",
+                "William Peebles",
+                "Hendrik Strobelt",
+                "Bolei Zhou",
+                "Antonio Torralba"
+            ],
+            "conference": "ICCV 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1910.11626"
+            },
+            "cited": "198"
+        },
+        {
+            "title": "Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?",
+            "authors": [
+                "Rameen Abdal",
+                "Yipeng Qin",
+                "Peter Wonka"
+            ],
+            "conference": "ICCV 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1904.03189"
+            },
+            "cited": "689"
+        },
+        {
+            "title": "Image2StyleGAN++: How to Edit the Embedded Images?",
+            "authors": [
+                "Rameen Abdal",
+                "Yipeng Qin",
+                "Peter Wonka"
+            ],
+            "conference": "CVPR 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1911.11544"
+            },
+            "cited": "347"
+        },
+        {
+            "title": "In-Domain GAN Inversion for Real Image Editing",
+            "authors": [
+                "Jiapeng Zhu",
+                "Yujun Shen",
+                "Deli Zhao",
+                "Bolei Zhou"
+            ],
+            "conference": "ECCV 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2004.00049"
+            },
+            "cited": "400"
+        },
+        {
+            "title": "Editing in Style: Uncovering the Local Semantics of GANs",
+            "authors": [
+                "Edo Collins",
+                "Raja Bala",
+                "Bob Price",
+                "Sabine Süsstrunk"
+            ],
+            "conference": "CVPR 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2004.14367",
+                "github": "https://github.com/cyrilzakka/GANLocalEditing"
+            },
+            "cited": "185"
+        },
+        {
+            "title": "Improving Inversion and Generation Diversity in StyleGAN using a Gaussianized Latent Space",
+            "authors": [
+                "Jonas Wulff",
+                "Antonio Torralba"
+            ],
+            "conference": "arxiv 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2009.06529"
+            },
+            "cited": "33"
+        },
+        {
+            "title": "Improved StyleGAN Embedding: Where are the Good Latents?",
+            "authors": [
+                "Peihao Zhu",
+                "Rameen Abdal",
+                "Yipeng Qin",
+                "John Femiani",
+                "Peter Wonka"
+            ],
+            "conference": "arxiv 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2012.09036"
+            },
+            "cited": "52"
+        },
+        {
+            "title": "Transforming and Projecting Images into Class-conditional Generative Networks",
+            "authors": [
+                "Minyoung Huh",
+                "Richard Zhang",
+                "Jun-Yan Zhu",
+                "Sylvain Paris",
+                "Aaron Hertzmann"
+            ],
+            "conference": "ECCV 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2005.01703"
+            },
+            "cited": "68"
+        },
+        {
+            "title": "Encoding in style: a stylegan encoder for image-to-image translation.",
+            "authors": [
+                "Tero Karras",
+                "Samuli Laine",
+                "Miika Aittala",
+                "Janne Hellsten",
+                "Jaakko Lehtinen",
+                "Timo Aila"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2008.00951",
+                "github": "https://github.com/eladrich/pixel2style2pixel"
+            },
+            "cited": "544"
+        },
+        {
+            "title": "Designing an encoder for StyleGAN image manipulation.",
+            "authors": [
+                "Omer Tov",
+                "Yuval Alaluf",
+                "Yotam Nitzan",
+                "Or Patashnik",
+                "Daniel Cohen-Or"
+            ],
+            "conference": "SIGGRAPH 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2102.02766"
+            },
+            "cited": "335"
+        },
+        {
+            "title": "Restyle: A residual-based stylegan encoder via iterative refinement.",
+            "authors": [
+                "Yuval Alaluf",
+                "Or Patashnik",
+                "Daniel Cohen-Or"
+            ],
+            "conference": "ICCV 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2104.02699",
+                "project": "https://yuval-alaluf.github.io/restyle-encoder/"
+            },
+            "cited": "189"
+        },
+        {
+            "title": "Collaborative Learning for Faster StyleGAN Embedding.",
+            "authors": [
+                "Shanyan Guan",
+                "Ying Tai",
+                "Bingbing Ni",
+                "Feida Zhu",
+                "Feiyue Huang",
+                "Xiaokang Yang"
+            ],
+            "conference": "arxiv 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2007.01758"
+            },
+            "cited": "76"
+        },
+        {
+            "title": "Pivotal Tuning for Latent-based Editing of Real Images",
+            "authors": [
+                "Daniel Roich",
+                "Ron Mokady",
+                "Amit H. Bermano",
+                "Daniel Cohen-Or"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2106.05744"
+            },
+            "cited": "185"
+        },
+        {
+            "title": "HyperStyle: StyleGAN Inversion with HyperNetworks for Real Image Editing.",
+            "authors": [
+                "Yuval Alaluf",
+                "Omer Tov",
+                "Ron Mokady",
+                "Rinon Gal",
+                "Amit H. Bermano"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2111.15666",
+                "project": "https://yuval-alaluf.github.io/hyperstyle/"
+            },
+            "cited": "99"
+        },
+        {
+            "title": "High-Fidelity GAN Inversion for Image Attribute Editing",
+            "authors": [
+                "Tengfei Wang",
+                "Yong Zhang",
+                "Yanbo Fan",
+                "Jue Wang",
+                "Qifeng Chen"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2109.06590"
+            },
+            "cited": "94"
+        },
+        {
+            "title": "GAN Dissection: Visualizing and Understanding Generative Adversarial Networks",
+            "authors": [
+                "David Bau",
+                "Jun-Yan Zhu",
+                "Hendrik Strobelt",
+                "Bolei Zhou",
+                "Joshua B. Tenenbaum",
+                "William T. Freeman",
+                "Antonio Torralba"
+            ],
+            "conference": "ICLR 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1811.10597",
+                "project": "http://gandissect.csail.mit.edu/"
+            },
+            "cited": "322"
+        },
+        {
+            "title": "On the \"steerability\" of generative adversarial networks.",
+            "authors": [
+                "Ali Jahanian",
+                "Lucy Chai",
+                "Phillip Isola"
+            ],
+            "conference": "ICLR 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1907.07171",
+                "project": "https://ali-design.github.io/gan_steerability/",
+                "pytorch": "https://github.com/ali-design/gan_steerability"
+            },
+            "cited": "301"
+        },
+        {
+            "title": "Controlling generative models with continuous factors of variations.",
+            "authors": [
+                "Antoine Plumerault",
+                "Hervé Le Borgne",
+                "Céline Hudelot"
+            ],
+            "conference": "ICLR 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2001.10238"
+            },
+            "cited": "102"
+        },
+        {
+            "title": "InterFaceGAN Interpreting the Latent Space of GANs for Semantic Face Editing",
+            "authors": [
+                "Yujun Shen",
+                "Jinjin Gu",
+                "Xiaoou Tang",
+                "Bolei Zhou"
+            ],
+            "conference": "CVPR 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1907.10786",
+                "project": "https://genforce.github.io/interfacegan/"
+            },
+            "cited": "683"
+        },
+        {
+            "title": "Enjoy your editing: Controllable gans for image editing via latent space navigation",
+            "authors": [
+                "Peiye Zhuang",
+                "Oluwasanmi Koyejo",
+                "Alexander G. Schwing"
+            ],
+            "conference": "ICLR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2102.01187"
+            },
+            "cited": "42"
+        },
+        {
+            "title": "Only a matter of style: Age transformation using a style-based regression model.",
+            "authors": [
+                "Yuval Alaluf",
+                "Or Patashnik",
+                "Daniel Cohen-Or"
+            ],
+            "conference": "SIGGRAPH 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2102.02754"
+            },
+            "cited": "62"
+        },
+        {
+            "title": "Discovering Interpretable Latent Space Directions of GANs Beyond Binary Attributes.",
+            "authors": [
+                "Huiting Yang",
+                "Liangyu Chai",
+                "Qiang Wen",
+                "Shuang Zhao",
+                "Zixun Sun",
+                "Shengfeng He"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Discovering_Interpretable_Latent_Space_Directions_of_GANs_Beyond_Binary_Attributes_CVPR_2021_paper.pdf"
+            }
+        },
+        {
+            "title": "StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation",
+            "authors": [
+                "Zongze Wu",
+                "Dani Lischinski",
+                "Eli Shechtman"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2011.12799"
+            },
+            "cited": "250"
+        },
+        {
+            "title": "StyleFlow: Attribute-conditioned Exploration of StyleGAN-Generated Images using Conditional Continuous Normalizing Flows",
+            "authors": [
+                "Rameen Abdal",
+                "Peihao Zhu",
+                "Niloy Mitra",
+                "Peter Wonka"
+            ],
+            "conference": "SIGGRAPH 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2008.02401"
+            },
+            "cited": "299"
+        },
+        {
+            "title": "A Latent Transformer for Disentangled Face Editing in Images and Videos.",
+            "authors": [
+                "Xu Yao",
+                "Alasdair Newson",
+                "Yann Gousseau",
+                "Pierre Hellier"
+            ],
+            "conference": "ICCV 2021",
+            "links": {
+                "pdf": "https://openaccess.thecvf.com/content/ICCV2021/html/Yao_A_Latent_Transformer_for_Disentangled_Face_Editing_in_Images_and_ICCV_2021_paper.html",
+                "arxiv": "https://arxiv.org/abs/2106.11895",
+                "github": "https://github.com/InterDigitalInc/latent-transformer"
+            },
+            "cited": "42"
+        },
+        {
+            "title": "Controllable and Compositional Generation with Latent-Space Energy-Based Models.",
+            "authors": [
+                "Weili Nie",
+                "Arash Vahdat",
+                "Anima Anandkumar"
+            ],
+            "conference": "NeurIPS 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2110.10873"
+            },
+            "cited": "19"
+        },
+        {
+            "title": "EditGAN: High-Precision Semantic Image Editing",
+            "authors": [
+                "Huan Ling",
+                "Karsten Kreis",
+                "Daiqing Li",
+                "Seung Wook Kim",
+                "Antonio Torralba",
+                "Sanja Fidler"
+            ],
+            "conference": "NeurIPS 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2111.03186"
+            },
+            "cited": "84"
+        },
+        {
+            "title": "StyleFusion: A Generative Model for Disentangling Spatial Segments",
+            "authors": [
+                "Omer Kafri",
+                "Or Patashnik",
+                "Yuval Alaluf",
+                "Daniel Cohen-Or"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2107.07437"
+            },
+            "cited": "18"
+        },
+        {
+            "title": "Unsupervised Discovery of Interpretable Directions in the GAN Latent Space",
+            "authors": [
+                "Andrey Voynov",
+                "Artem Babenko"
+            ],
+            "conference": "ICML 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2002.03754"
+            },
+            "cited": "243"
+        },
+        {
+            "title": "GANSpace: Discovering Interpretable GAN Controls",
+            "authors": [
+                "Erik Härkönen",
+                "Aaron Hertzmann",
+                "Jaakko Lehtinen",
+                "Sylvain Paris"
+            ],
+            "conference": "NeurIPS 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2004.02546",
+                "pytorch": "https://github.com/harskish/ganspace"
+            },
+            "cited": "509"
+        },
+        {
+            "title": "The Hessian Penalty: A Weak Prior for Unsupervised Disentanglement",
+            "authors": [
+                "William Peebles",
+                "John Peebles",
+                "Jun-Yan Zhu",
+                "Alexei Efros",
+                "Antonio Torralba"
+            ],
+            "conference": "ECCV 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2008.10599",
+                "project": "https://www.wpeebles.com/hessian-penalty"
+            },
+            "cited": "78"
+        },
+        {
+            "title": "GAN Steerability without optimization.",
+            "authors": [
+                "Nurit Spingarn-Eliezer",
+                "Ron Banner",
+                "Tomer Michaeli"
+            ],
+            "conference": "ICLR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2012.05328"
+            },
+            "cited": "35"
+        },
+        {
+            "title": "The Geometry of Deep Generative Image Models and its Applications",
+            "authors": [
+                "Binxu Wang",
+                "Carlos R. Ponce"
+            ],
+            "conference": "ICLR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2101.06006"
+            },
+            "cited": "24"
+        },
+        {
+            "title": "Closed-Form Factorization of Latent Semantics in GANs",
+            "authors": [
+                "Yujun Shen",
+                "Bolei Zhou"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2007.06600",
+                "project": "https://genforce.github.io/sefa/"
+            },
+            "cited": "338"
+        },
+        {
+            "title": "Navigating the GAN Parameter Space for Semantic Image Editing",
+            "authors": [
+                "Anton Cherepkov",
+                "Andrey Voynov",
+                "Artem Babenko"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2011.13786",
+                "pytorch": "https://github.com/yandex-research/navigan"
+            },
+            "cited": "36"
+        },
+        {
+            "title": "EigenGAN: Layer-Wise Eigen-Learning for GANs.",
+            "authors": [
+                "Zhenliang He",
+                "Meina Kan",
+                "Shiguang Shan"
+            ],
+            "conference": "ICCV 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2104.12476",
+                "github": "https://github.com/LynnHo/EigenGAN-Tensorflow"
+            },
+            "cited": "27"
+        },
+        {
+            "title": "Toward a Visual Concept Vocabulary for GAN Latent Space.",
+            "authors": [
+                "Sarah Schwettmann",
+                "Evan Hernandez",
+                "David Bau",
+                "Samuel Klein",
+                "Jacob Andreas",
+                "Antonio Torralba"
+            ],
+            "conference": "ICCV 2021",
+            "links": {
+                "pdf": "https://openaccess.thecvf.com/content/ICCV2021/html/Schwettmann_Toward_a_Visual_Concept_Vocabulary_for_GAN_Latent_Space_ICCV_2021_paper.html",
+                "project": "https://visualvocab.csail.mit.edu/"
+            }
+        },
+        {
+            "title": "WarpedGANSpace: Finding Non-linear RBF Paths in GAN Latent Space.",
+            "authors": [
+                "Christos Tzelepis",
+                "Georgios Tzimiropoulos",
+                "Ioannis Patras"
+            ],
+            "conference": "ICCV 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2109.13357",
+                "github": "https://github.com/chi0tzp/WarpedGANSpace"
+            },
+            "cited": "25"
+        },
+        {
+            "title": "OroJaR: Orthogonal Jacobian Regularization for Unsupervised Disentanglement in Image Generation.",
+            "authors": [
+                "Yuxiang Wei",
+                "Yupeng Shi",
+                "Xiao Liu",
+                "Zhilong Ji",
+                "Yuan Gao",
+                "Zhongqin Wu",
+                "Wangmeng Zuo"
+            ],
+            "conference": "ICCV 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2108.07668",
+                "github": "https://github.com/csyxwei/OroJaR"
+            },
+            "cited": "24"
+        },
+        {
+            "title": "Optimizing Latent Space Directions For GAN-based Local Image Editing.",
+            "authors": [
+                "Ehsan Pajouheshgar",
+                "Tong Zhang",
+                "Sabine Süsstrunk"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2111.12583",
+                "pytorch": "https://github.com/IVRL/LELSD"
+            },
+            "cited": "2"
+        },
+        {
+            "title": "Discovering Density-Preserving Latent Space Walks in GANs for Semantic Image Transformations.",
+            "authors": [
+                "Guanyue Li",
+                "Yi Liu",
+                "Xiwen Wei",
+                "Yang Zhang",
+                "Si Wu",
+                "Yong Xu",
+                "Hau San Wong"
+            ],
+            "conference": "ACM MM 2021",
+            "links": {
+                "pdf": "https://dl.acm.org/doi/abs/10.1145/3474085.3475293"
+            }
+        },
+        {
+            "title": "Disentangled Representations from Non-Disentangled Models",
+            "authors": [
+                "Valentin Khrulkov",
+                "Leyla Mirvakhabova",
+                "Ivan Oseledets",
+                "Artem Babenko"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2102.06204"
+            },
+            "cited": "8"
+        },
+        {
+            "title": "Do Not Escape From the Manifold: Discovering the Local Coordinates on the Latent Space of GANs.",
+            "authors": [
+                "Jaewoong Choi",
+                "Changyeon Yoon",
+                "Junho Lee",
+                "Jung Ho Park",
+                "Geonho Hwang",
+                "Myungjoo Kang"
+            ],
+            "conference": "ICLR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2106.06959"
+            },
+            "cited": "9"
+        },
+        {
+            "title": "Learning Disentangled Representation by Exploiting Pretrained Generative Models: A Contrastive Learning View",
+            "authors": [
+                "Xuanchi Ren",
+                "Tao Yang",
+                "Yuwang Wang",
+                "Wenjun Zeng"
+            ],
+            "conference": "ICLR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2102.10543"
+            },
+            "cited": "13"
+        },
+        {
+            "title": "Rayleigh EigenDirections (REDs): GAN latent space traversals for multidimensional features.",
+            "authors": [
+                "Guha Balakrishnan",
+                "Raghudeep Gadde",
+                "Aleix Martinez",
+                "Pietro Perona"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/pdf/2201.10423.pdf"
+            }
+        },
+        {
+            "title": "Low-Rank Subspaces in GANs",
+            "authors": [
+                "Jiapeng Zhu",
+                "Ruili Feng",
+                "Yujun Shen",
+                "Deli Zhao",
+                "Zhengjun Zha",
+                "Jingren Zhou",
+                "Qifeng Chen"
+            ],
+            "conference": "NeurIPS 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2106.04488"
+            },
+            "cited": "32"
+        },
+        {
+            "title": "Region-Based Semantic Factorization in GANs",
+            "authors": [
+                "Jiapeng Zhu",
+                "Yujun Shen",
+                "Yinghao Xu",
+                "Deli Zhao",
+                "Qifeng Chen"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2202.09649"
+            },
+            "cited": "11"
+        },
+        {
+            "title": "StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery",
+            "authors": [
+                "Or Patashnik",
+                "Zongze Wu",
+                "Eli Shechtman",
+                "Daniel Cohen-Or",
+                "Dani Lischinski"
+            ],
+            "conference": "ICCV 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2103.17249",
+                "pytorch": "https://github.com/orpatashnik/StyleCLIP"
+            },
+            "cited": "505"
+        },
+        {
+            "title": "TargetCLIPImage-Based CLIP-Guided Essence Transfer",
+            "authors": [
+                "Hila Chefer",
+                "Sagie Benaim",
+                "Roni Paiss",
+                "Lior Wolf"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2110.12427"
+            },
+            "cited": "24"
+        },
+        {
+            "title": "CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders.",
+            "authors": [
+                "Kevin Frans",
+                "L.B. Soros",
+                "Olaf Witkowski"
+            ],
+            "conference": "Arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2106.14843"
+            },
+            "cited": "79"
+        },
+        {
+            "title": "CLIP2StyleGAN: Unsupervised Extraction of StyleGAN Edit Directions.",
+            "authors": [
+                "Omer Kafri",
+                "Or Patashnik",
+                "Yuval Alaluf",
+                "Daniel Cohen-Or"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2112.05219"
+            },
+            "cited": "39"
+        },
+        {
+            "title": "FEAT: Face Editing with Attention",
+            "authors": [
+                "Xianxu Hou",
+                "Linlin Shen",
+                "Or Patashnik",
+                "Daniel Cohen-Or",
+                "Hui Huang"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2202.02713"
+            },
+            "cited": "7"
+        },
+        {
+            "title": "StyleCLIPDraw: Coupling Content and Style in Text-to-Drawing Translation",
+            "authors": [
+                "Peter Schaldenbrand",
+                "Zhixuan Liu",
+                "Jean Oh"
+            ],
+            "conference": "NeurIPS 2021 Workshop",
+            "links": {
+                "pdf": "https://github.com/pschaldenbrand/StyleCLIPDraw"
+            }
+        },
+        {
+            "title": "CLIPstyler: Image Style Transfer with a Single Text Condition",
+            "authors": [
+                "Gihyun Kwon",
+                "Jong Chul Ye"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2112.00374"
+            },
+            "cited": "73"
+        },
+        {
+            "title": "HairCLIP: Design Your Hair by Text and Reference Image",
+            "authors": [
+                "Tianyi Wei",
+                "Dongdong Chen",
+                "Wenbo Zhou",
+                "Jing Liao",
+                "Zhentao Tan",
+                "Lu Yuan",
+                "Weiming Zhang",
+                "Nenghai Yu"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2112.05142"
+            },
+            "cited": "31"
+        },
+        {
+            "title": "CLIPasso: Semantically-Aware Object Sketching",
+            "authors": [
+                "Yael Vinker",
+                "Ehsan Pajouheshgar",
+                "Jessica Y. Bo",
+                "Roman Christian Bachmann",
+                "Amit Haim Bermano",
+                "Daniel Cohen-Or",
+                "Amir Zamir",
+                "Ariel Shamir"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2202.05822"
+            },
+            "cited": "35"
+        },
+        {
+            "title": "A good image generator is what you need for high-resolution video synthesis",
+            "authors": [
+                "Yu Tian",
+                "Jian Ren",
+                "Menglei Chai",
+                "Kyle Olszewski",
+                "Xi Peng",
+                "Dimitris N. Metaxas",
+                "Sergey Tulyakov"
+            ],
+            "conference": "ICLR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2104.15069"
+            },
+            "cited": "76"
+        },
+        {
+            "title": "Latent Image Animator: Learning to animate image via latent space navigation.",
+            "authors": [
+                "Yaohui Wang",
+                "Di Yang",
+                "Francois Bremond",
+                "Antitza Dantcheva"
+            ],
+            "conference": "ICLR 2022",
+            "links": {
+                "pdf": "https://openreview.net/forum?id=7r6kDq0mK_"
+            }
+        },
+        {
+            "title": "pix2pix Image-to-Image Translation with Conditional Adversarial Networks",
+            "authors": [
+                "Phillip Isola",
+                "Jun-Yan Zhu",
+                "Tinghui Zhou",
+                "Alexei A. Efros"
+            ],
+            "conference": "CVPR 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1611.07004"
+            },
+            "cited": "14118"
+        },
+        {
+            "title": "Photographic Image Synthesis with Cascaded Refinement Networks",
+            "authors": [
+                "Qifeng Chen",
+                "Vladlen Koltun"
+            ],
+            "conference": "ICCV 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1707.09405"
+            },
+            "cited": "841",
+            "model": "CRN"
+        },
+        {
+            "title": "High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs",
+            "authors": [
+                "Ting-Chun Wang",
+                "Ming-Yu Liu",
+                "Jun-Yan Zhu",
+                "Andrew Tao",
+                "Jan Kautz",
+                "Bryan Catanzaro"
+            ],
+            "conference": "CVPR 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1711.11585"
+            },
+            "cited": "2821",
+            "model": "pix2pixHD"
+        },
+        {
+            "title": "Semantic Image Synthesis with Spatially-Adaptive Normalization",
+            "authors": [
+                "Taesung Park",
+                "Ming-Yu Liu",
+                "Ting-Chun Wang",
+                "Jun-Yan Zhu"
+            ],
+            "conference": "CVPR 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1903.07291"
+            },
+            "cited": "1707",
+            "model": "SPADE"
+        },
+        {
+            "title": "SEAN: Image Synthesis with Semantic Region-Adaptive Normalization",
+            "authors": [
+                "Peihao Zhu",
+                "Rameen Abdal",
+                "Yipeng Qin",
+                "Peter Wonka"
+            ],
+            "conference": "CVPR 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1911.12861"
+            },
+            "cited": "277",
+            "model": "SEAN"
+        },
+        {
+            "title": "You Only Need Adversarial Supervision for Semantic Image Synthesis",
+            "authors": [
+                "Vadim Sushko",
+                "Edgar Schönfeld",
+                "Dan Zhang",
+                "Juergen Gall",
+                "Bernt Schiele",
+                "Anna Khoreva"
+            ],
+            "conference": "ICLR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2012.04781"
+            },
+            "cited": "86"
+        },
+        {
+            "title": "Diverse Semantic Image Synthesis via Probability Distribution Modeling",
+            "authors": [
+                "Zhentao Tan",
+                "Menglei Chai",
+                "Dongdong Chen",
+                "Jing Liao",
+                "Qi Chu",
+                "Bin Liu",
+                "Gang Hua",
+                "Nenghai Yu"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2103.06878"
+            },
+            "cited": "24"
+        },
+        {
+            "title": "Efficient Semantic Image Synthesis via Class-Adaptive Normalization",
+            "authors": [
+                "Zhentao Tan",
+                "Dongdong Chen",
+                "Qi Chu",
+                "Menglei Chai",
+                "Jing Liao",
+                "Mingming He",
+                "Lu Yuan",
+                "Gang Hua",
+                "Nenghai Yu"
+            ],
+            "conference": "TPAMI 2021",
+            "links": {
+                "pdf": "https://arxiv.org/pdf/2012.04644.pdf"
+            }
+        },
+        {
+            "title": "Spatially-adaptive pixelwise networks for fast image translation.",
+            "authors": [
+                "Tamar Rott Shaham",
+                "Michael Gharbi",
+                "Richard Zhang",
+                "Eli Shechtman",
+                "Tomer Michaeli"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2012.02992"
+            },
+            "cited": "42"
+        },
+        {
+            "title": "High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network",
+            "authors": [
+                "Jie Liang",
+                "Hui Zeng",
+                "Lei Zhang"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2105.09188"
+            },
+            "cited": "34"
+        },
+        {
+            "title": "Context Encoders: Feature Learning by Inpainting",
+            "authors": [
+                "Deepak Pathak",
+                "Philipp Krahenbuhl",
+                "Jeff Donahue",
+                "Trevor Darrell",
+                "Alexei A. Efros"
+            ],
+            "conference": "CVPR 2016",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1604.07379"
+            },
+            "cited": "4186"
+        },
+        {
+            "title": "Globally and Locally Consistent Image Completion",
+            "authors": [
+                "Satoshi Iizuka",
+                "Edgar Simo-Serra",
+                "Hiroshi Ishikawa"
+            ],
+            "conference": "SIGGRAPH 2017",
+            "links": {
+                "pdf": "http://iizuka.cs.tsukuba.ac.jp/projects/completion/data/completion_sig2017.pdf"
+            }
+        },
+        {
+            "title": "Semantic Image Inpainting with Deep Generative Models",
+            "authors": [
+                "Raymond A. Yeh",
+                "Chen Chen",
+                "Teck Yian Lim",
+                "Alexander G. Schwing",
+                "Mark Hasegawa-Johnson",
+                "Minh N. Do"
+            ],
+            "conference": "CVPR 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1607.07539"
+            },
+            "cited": "1035"
+        },
+        {
+            "title": "High-Resolution Image Inpainting using Multi-Scale Neural Patch Synthesis",
+            "authors": [
+                "Chao Yang",
+                "Xin Lu",
+                "Zhe Lin",
+                "Eli Shechtman",
+                "Oliver Wang",
+                "Hao Li"
+            ],
+            "conference": "CVPR 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1611.09969"
+            },
+            "cited": "675"
+        },
+        {
+            "title": "Spg-net: Segmentation prediction and guidance network for image inpainting.",
+            "authors": [
+                "Yuhang Song",
+                "Chao Yang",
+                "Yeji Shen",
+                "Peng Wang",
+                "Qin Huang",
+                "C.-C. Jay Kuo"
+            ],
+            "conference": "BMVC 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1805.03356"
+            },
+            "cited": "131",
+            "model": "Spg-net"
+        },
+        {
+            "title": "Generative image inpainting with contextual attention",
+            "authors": [
+                "Jiahui Yu",
+                "Zhe Lin",
+                "Jimei Yang",
+                "Xiaohui Shen",
+                "Xin Lu",
+                "Thomas S. Huang"
+            ],
+            "conference": "CVPR 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1801.07892"
+            },
+            "cited": "1659",
+            "model": "Contextual attention"
+        },
+        {
+            "title": "Free-form image inpainting with gated convolution.",
+            "authors": [
+                "Jiahui Yu",
+                "Zhe Lin",
+                "Jimei Yang",
+                "Xiaohui Shen",
+                "Xin Lu",
+                "Thomas Huang"
+            ],
+            "conference": "ICCV 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1806.03589"
+            },
+            "cited": "1091",
+            "model": "Gated convolution"
+        },
+        {
+            "title": "Edgeconnect: Generative image inpainting with adversarial edge learning.",
+            "authors": [
+                "Kamyar Nazeri",
+                "Eric Ng",
+                "Tony Joseph",
+                "Faisal Z. Qureshi",
+                "Mehran Ebrahimi"
+            ],
+            "conference": "ICCV 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1901.00212"
+            },
+            "cited": "488",
+            "model": "Edgeconnect"
+        },
+        {
+            "title": "Pluralistic Image Completion",
+            "authors": [
+                "Chuanxia Zheng",
+                "Tat-Jen Cham",
+                "Jianfei Cai"
+            ],
+            "conference": "CVPR 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1903.04227"
+            },
+            "cited": "315",
+            "model": "Pluralistic image completion"
+        },
+        {
+            "title": "Rethinking image inpainting via a mutual encoder-decoder with feature equalizations.",
+            "authors": [
+                "Hongyu Liu",
+                "Bin Jiang",
+                "Yibing Song",
+                "Wei Huang",
+                "Chao Yang"
+            ],
+            "conference": "ECCV 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2007.06929"
+            },
+            "cited": "152",
+            "model": "Mutual encoder-decoder"
+        },
+        {
+            "title": "High-Fidelity Pluralistic Image Completion with Transformers",
+            "authors": [
+                "Ziyu Wan",
+                "Jingbo Zhang",
+                "Dongdong Chen",
+                "Jing Liao"
+            ],
+            "conference": "ICCV 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2103.14031"
+            },
+            "cited": "97",
+            "model": "Transformers"
+        },
+        {
+            "title": "Reduce Information Loss in Transformers for Pluralistic Image Inpainting",
+            "authors": [
+                "Qiankun Liu",
+                "Zhentao Tan",
+                "Dongdong Chen",
+                "Qi Chu",
+                "Xiyang Dai",
+                "Yinpeng Chen",
+                "Mengchen Liu",
+                "Lu Yuan",
+                "Nenghai Yu"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2205.05076"
+            },
+            "cited": "19",
+            "model": "Transformers"
+        },
+        {
+            "title": "Deep Identity-Aware Transfer of Facial Attributes",
+            "authors": [
+                "Mu Li",
+                "Wangmeng Zuo",
+                "David Zhang"
+            ],
+            "conference": "arxiv 2016",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1610.05586"
+            },
+            "cited": "138",
+            "model": "Facial attribute transfer"
+        },
+        {
+            "title": "Sketch Your Own GAN",
+            "authors": [
+                "Sheng-Yu Wang",
+                "David Bau",
+                "Jun-Yan Zhu"
+            ],
+            "conference": "ICCV 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2108.02774"
+            },
+            "cited": "38",
+            "model": "Sketch GAN"
+        },
+        {
+            "title": "High-Resolution Daytime Translation Without Domain Labels",
+            "authors": [
+                "I. Anokhin",
+                "P. Solovev",
+                "D. Korzhenkov",
+                "A. Kharlamov",
+                "T. Khakhulin",
+                "A. Silvestrov",
+                "S. Nikolenko",
+                "V. Lempitsky",
+                "G. Sterkin"
+            ],
+            "conference": "CVPR 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2003.08791"
+            },
+            "cited": "53"
+        },
+        {
+            "title": "Information Bottleneck Disentanglement for Identity Swapping",
+            "authors": [
+                "Gege Gao",
+                "Huaibo Huang",
+                "Chaoyou Fu",
+                "Zhaoyang Li",
+                "Ran He"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://openaccess.thecvf.com/content/CVPR2021/html/Gao_Information_Bottleneck_Disentanglement_for_Identity_Swapping_CVPR_2021_paper.html"
+            }
+        },
+        {
+            "title": "Swapping Autoencoder for Deep Image Manipulation",
+            "authors": [
+                "Taesung Park",
+                "Jun-Yan Zhu",
+                "Oliver Wang",
+                "Jingwan Lu",
+                "Eli Shechtman",
+                "Alexei A. Efros",
+                "Richard Zhang"
+            ],
+            "conference": "NeurIPS 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2007.00653"
+            },
+            "cited": "195"
+        },
+        {
+            "title": "L2M-GAN: Learning to Manipulate Latent Space Semantics for Facial Attribute Editing",
+            "authors": [
+                "Guoxing Yang",
+                "Nanyi Fei",
+                "Mingyu Ding",
+                "Guangzhen Liu",
+                "Zhiwu Lu",
+                "Tao Xiang"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://openaccess.thecvf.com/content/CVPR2021/html/Yang_L2M-GAN_Learning_To_Manipulate_Latent_Space_Semantics_for_Facial_Attribute_CVPR_2021_paper.html"
+            }
+        },
+        {
+            "title": "Coupled Generative Adversarial Networks",
+            "authors": [
+                "Ming-Yu Liu",
+                "Oncel Tuzel"
+            ],
+            "conference": "NeurIPS 2016",
+            "links": {
+                "pdf": "http://arxiv.org/abs/1606.07536"
+            }
+        },
+        {
+            "title": "UNIT Unsupervised Image-to-Image Translation Networks.",
+            "authors": [
+                "Ming-Yu Liu",
+                "Thomas Breuel",
+                "Jan Kautz"
+            ],
+            "conference": "NeurIPS 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1703.00848"
+            },
+            "cited": "2101"
+        },
+        {
+            "title": "CycleGAN Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks",
+            "authors": [
+                "Jun-Yan Zhu",
+                "Taesung Park",
+                "Phillip Isola",
+                "Alexei A. Efros"
+            ],
+            "conference": "ICCV 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1703.10593"
+            },
+            "cited": "3393"
+        },
+        {
+            "title": "DiscoGAN Learning to Discover Cross-Domain Relations with Generative Adversarial Networks",
+            "authors": [
+                "Taeksoo Kim",
+                "Moonsu Cha",
+                "Hyunsoo Kim",
+                "Jung Kwon Lee",
+                "Jiwon Kim"
+            ],
+            "conference": "ICML 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1703.05192"
+            },
+            "cited": "1649"
+        },
+        {
+            "title": "DualGAN: Unsupervised Dual Learning for Image-to-Image Translation",
+            "authors": [
+                "Zili Yi",
+                "Hao Zhang",
+                "Ping Tan",
+                "Minglun Gong"
+            ],
+            "conference": "ICCV 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1704.02510"
+            },
+            "cited": "1621"
+        },
+        {
+            "title": "Toward Multimodal Image-to-Image Translation",
+            "authors": [
+                "Jun-Yan Zhu",
+                "Richard Zhang",
+                "Deepak Pathak",
+                "Trevor Darrell",
+                "Alexei A. Efros",
+                "Oliver Wang",
+                "Eli Shechtman"
+            ],
+            "conference": "NeurIPS 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1711.11586"
+            },
+            "cited": "1074"
+        },
+        {
+            "title": "MUNIT Multimodal Unsupervised Image-to-Image Translation",
+            "authors": [
+                "Xun Huang",
+                "Ming-Yu Liu",
+                "Serge Belongie",
+                "Jan Kautz"
+            ],
+            "conference": "ECCV 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1804.04732"
+            },
+            "cited": "1868",
+            "model": "MUNIT"
+        },
+        {
+            "title": "DRIT Diverse Image-to-Image Translation via Disentangled Representations",
+            "authors": [
+                "Hsin-Ying Lee",
+                "Hung-Yu Tseng",
+                "Jia-Bin Huang",
+                "Maneesh Kumar Singh",
+                "Ming-Hsuan Yang"
+            ],
+            "conference": "ECCV 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1808.00948"
+            },
+            "cited": "1043",
+            "model": "DRIT"
+        },
+        {
+            "title": "Augmented cyclegan: Learning many-to-many mappings from unpaired data.",
+            "authors": [
+                "Amjad Almahairi",
+                "Sai Rajeswar",
+                "Alessandro Sordoni",
+                "Philip Bachman",
+                "Aaron Courville"
+            ],
+            "conference": "ICML 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1802.10151"
+            },
+            "cited": "354",
+            "model": "Augmented CycleGAN"
+        },
+        {
+            "title": "MISO: Mutual Information Loss with Stochastic Style Representations for Multimodal Image-to-Image Translation.",
+            "authors": [
+                "Sanghyeon Na",
+                "Seungjoo Yoo",
+                "Jaegul Choo"
+            ],
+            "conference": "BMVC 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2003.01164"
+            },
+            "cited": "12",
+            "model": "MISO"
+        },
+        {
+            "title": "MSGAN Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis",
+            "authors": [
+                "Qi Mao",
+                "Hsin-Ying Lee",
+                "Hung-Yu Tseng",
+                "Siwei Ma",
+                "Ming-Hsuan Yang"
+            ],
+            "conference": "CVPR 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1811.09458"
+            },
+            "cited": "284",
+            "model": "MSGAN"
+        },
+        {
+            "title": "U-GAT-IT U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation",
+            "authors": [
+                "Junho Kim",
+                "Minjae Kim",
+                "Hyeonwoo Kang",
+                "Kwanghee Lee"
+            ],
+            "conference": "ICLR 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1907.10830"
+            },
+            "cited": "316",
+            "model": "U-GAT-IT"
+        },
+        {
+            "title": "UVC-GAN UVCGAN: UNet Vision Transformer cycle-consistent GAN for unpaired image-to-image translation",
+            "authors": [
+                "Dmitrii Torbunov",
+                "Yi Huang",
+                "Haiwang Yu",
+                "Jin Huang",
+                "Shinjae Yoo",
+                "Meifeng Lin",
+                "Brett Viren",
+                "Yihui Ren"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2204.02703"
+            },
+            "cited": "7",
+            "model": "UVCGAN"
+        },
+        {
+            "title": "Beyond Cycle-consistency DistanceGAN One-Sided Unsupervised Domain Mapping",
+            "authors": [
+                "Sagie Benaim",
+                "Lior Wolf"
+            ],
+            "conference": "NIPS 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1712.06574"
+            },
+            "cited": "220",
+            "model": "DistanceGAN"
+        },
+        {
+            "title": "Council-GAN Breaking the Cycle - Colleagues are all you need",
+            "authors": [
+                "Ori Nizan",
+                "Ayellet Tal"
+            ],
+            "conference": "CVPR 2020",
+            "links": {
+                "pdf": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Nizan_Council-GAN_Breaking_the_Cycle_-_Colleagues_Are_All_You_Need_CVPR_2020_paper.pdf"
+            },
+            "model": "Council-GAN"
+        },
+        {
+            "title": "ACL-GAN Unpaired Image-to-Image Translation using Adversarial Consistency Loss",
+            "authors": [
+                "Yihao Zhao",
+                "Ruihai Wu",
+                "Hao Dong"
+            ],
+            "conference": "ECCV 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2003.00844"
+            },
+            "cited": "57",
+            "model": "ACL-GAN"
+        },
+        {
+            "title": "CUT Contrastive Learning for Unpaired Image-to-Image Translation",
+            "authors": [
+                "Taesung Park",
+                "Alexei A. Efros",
+                "Richard Zhang",
+                "Jun-Yan Zhu"
+            ],
+            "conference": "ECCV 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2007.15651"
+            },
+            "cited": "516",
+            "model": "CUT"
+        },
+        {
+            "title": "The spatially-correlative loss for various image translation tasks",
+            "authors": [
+                "Chuanxia Zheng",
+                "Tat-Jen Cham",
+                "Jianfei Cai"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zheng_The_Spatially-Correlative_Loss_for_Various_Image_Translation_Tasks_CVPR_2021_paper.pdf"
+            },
+            "model": "Spatially-Correlative Loss"
+        },
+        {
+            "title": "Unsupervised Image-to-Image Translation with Generative Prior",
+            "authors": [
+                "Shuai Yang",
+                "Liming Jiang",
+                "Ziwei Liu",
+                "Chen Change Loy"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "link to pdf"
+            },
+            "cited": "7",
+            "model": "Generative Prior"
+        },
+        {
+            "title": "StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation",
+            "authors": [
+                "Yunjey Choi",
+                "Minje Choi",
+                "Munyoung Kim",
+                "Jung-Woo Ha",
+                "Sunghun Kim",
+                "Jaegul Choo"
+            ],
+            "conference": "CVPR 2018",
+            "links": {
+                "pdf": "link to pdf"
+            },
+            "cited": "2701",
+            "model": "StarGAN"
+        },
+        {
+            "title": "DRIT++: Diverse Image-to-Image Translation via Disentangled Representations",
+            "authors": [
+                "Hsin-Ying Lee",
+                "Hung-Yu Tseng",
+                "Qi Mao",
+                "Jia-Bin Huang",
+                "Yu-Ding Lu",
+                "Maneesh Singh",
+                "Ming-Hsuan Yang"
+            ],
+            "conference": "IJCV 2019",
+            "links": {
+                "pdf": "link to pdf"
+            },
+            "cited": "1043",
+            "model": "DRIT++"
+        },
+        {
+            "title": "StarGAN v2: Diverse Image Synthesis for Multiple Domains",
+            "authors": [
+                "Yunjey Choi",
+                "Youngjung Uh",
+                "Jaejun Yoo",
+                "Jung-Woo Ha"
+            ],
+            "conference": "CVPR 2020",
+            "links": {
+                "pdf": "link to pdf"
+            },
+            "cited": "888",
+            "model": "StarGANv2"
+        },
+        {
+            "title": "Smoothing the Disentangled Latent Style Space for Unsupervised Image-to-Image Translation",
+            "authors": [
+                "Yahui Liu",
+                "Enver Sangineto",
+                "Yajing Chen",
+                "Linchao Bao",
+                "Haoxian Zhang",
+                "Nicu Sebe",
+                "Bruno Lepri",
+                "Wei Wang",
+                "Marco De Nadai"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "link to pdf"
+            },
+            "cited": "25",
+            "model": null
+        },
+        {
+            "title": "A Style-aware Discriminator for Controllable Image Translation",
+            "authors": [
+                "Kunhee Kim",
+                "Sanghun Park",
+                "Eunyeong Jeon",
+                "Taehun Kim",
+                "Daijin Kim"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "link to pdf"
+            },
+            "cited": "6",
+            "model": "Style-aware Discriminator"
+        },
+        {
+            "title": "Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer",
+            "authors": [
+                "Shuai Yang",
+                "Liming Jiang",
+                "Ziwei Liu",
+                "Chen Change Loy"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pytorch": "link to code"
+            },
+            "cited": null,
+            "model": "DualStyleGAN"
+        },
+        {
+            "title": "Unsupervised Cross-Domain Image Generation",
+            "authors": [
+                "Yaniv Taigman",
+                "Adam Polyak",
+                "Lior Wolf"
+            ],
+            "conference": "ICLR 2017",
+            "links": {
+                "pdf": "link to pdf"
+            },
+            "cited": "819",
+            "model": null
+        },
+        {
+            "title": "Few-shot unsupervised image-to-image translation.",
+            "authors": [
+                "Ming-Yu Liu",
+                "Xun Huang",
+                "Arun Mallya",
+                "Tero Karras",
+                "Timo Aila",
+                "Jaakko Lehtinen",
+                "Jan Kautz"
+            ],
+            "conference": "ICCV 2019",
+            "links": {
+                "pdf": "link to pdf"
+            },
+            "cited": "431",
+            "model": "FUNIT"
+        },
+        {
+            "title": "Coco-funit:Few-shot unsupervised image translation with a content conditioned style encoder.",
+            "authors": [
+                "Kuniaki Saito",
+                "Kate Saenko",
+                "Ming-Yu Liu"
+            ],
+            "conference": "ECCV 2020",
+            "links": {
+                "pdf": "link to pdf"
+            },
+            "cited": "50",
+            "model": "Coco-funit"
+        },
+        {
+            "title": "Attribute Group Editing for Reliable Few-shot Image Generation.",
+            "authors": [
+                "Guanqi Ding",
+                "Xinzhe Han",
+                "Shuhui Wang",
+                "Shuzhe Wu",
+                "Xin Jin",
+                "Dandan Tu",
+                "Qingming Huang"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "link to pdf"
+            },
+            "cited": "3",
+            "model": "Attribute Group Editing"
+        },
+        {
+            "title": "Universal Style Transfer via Feature Transforms",
+            "authors": [
+                "Yijun Li",
+                "Chen Fang",
+                "Jimei Yang",
+                "Zhaowen Wang",
+                "Xin Lu",
+                "Ming-Hsuan Yang"
+            ],
+            "conference": "NeruIPS 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1705.08086"
+            },
+            "cited": "665",
+            "model": "WCT"
+        },
+        {
+            "title": "Style transfer by relaxed optimal transport and self-similarity.",
+            "authors": [
+                "Nicholas Kolkin",
+                "Jason Salavon",
+                "Greg Shakhnarovich"
+            ],
+            "conference": "CVPR 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1904.12785"
+            },
+            "cited": "147"
+        },
+        {
+            "title": "A Closed-Form Solution to Universal Style Transfer",
+            "authors": [
+                "Ming Lu",
+                "Hao Zhao",
+                "Anbang Yao",
+                "Yurong Chen",
+                "Feng Xu",
+                "Li Zhang"
+            ],
+            "conference": "ICCV 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1906.00668"
+            },
+            "cited": "53"
+        },
+        {
+            "title": "Neural Neighbor Style Transfer",
+            "authors": [
+                "Nicholas Kolkin",
+                "Michal Kucera",
+                "Sylvain Paris",
+                "Daniel Sykora",
+                "Eli Shechtman",
+                "Greg Shakhnarovich"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2203.13215"
+            },
+            "cited": "7"
+        },
+        {
+            "title": "GAN-Supervised Dense Visual Alignment",
+            "authors": [
+                "William Peebles",
+                "Jun-Yan Zhu",
+                "Richard Zhang",
+                "Antonio Torralba",
+                "Alexei Efros",
+                "Eli Shechtman"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2112.05143"
+            },
+            "cited": "24",
+            "model": "GANgealing"
+        },
+        {
+            "title": "Generating images from captions with attention.",
+            "authors": [
+                "Elman Mansimov",
+                "Emilio Parisotto",
+                "Jimmy Lei Ba",
+                "Ruslan Salakhutdinov"
+            ],
+            "conference": "ICLR 2016",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1511.02793"
+            },
+            "cited": "333"
+        },
+        {
+            "title": "Generative Adversarial Text to Image Synthesis",
+            "authors": [
+                "Scott Reed",
+                "Zeynep Akata",
+                "Xinchen Yan",
+                "Lajanugen Logeswaran",
+                "Bernt Schiele",
+                "Honglak Lee>"
+            ],
+            "conference": "ICML 2016",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1605.05396"
+            },
+            "cited": "2484"
+        },
+        {
+            "title": "StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks",
+            "authors": [
+                "Han Zhang",
+                "Tao Xu",
+                "Hongsheng Li",
+                "Shaoting Zhang",
+                "Xiaogang Wang",
+                "Xiaolei Huang",
+                "Dimitris Metaxas"
+            ],
+            "conference": "ICCV 2017",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1612.03242"
+            },
+            "cited": "2174",
+            "model": "StackGAN"
+        },
+        {
+            "title": "StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks",
+            "authors": [
+                "Han Zhang",
+                "Tao Xu",
+                "Hongsheng Li",
+                "Shaoting Zhang",
+                "Xiaogang Wang",
+                "Xiaolei Huang",
+                "Dimitris Metaxas"
+            ],
+            "conference": "TPAMI 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1710.10916"
+            },
+            "cited": "797",
+            "model": "StackGAN++"
+        },
+        {
+            "title": "MirrorGAN: Learning Text-to-image Generation by Redescription",
+            "authors": [
+                "Tingting Qiao",
+                "Jing Zhang",
+                "Duanqing Xu",
+                "Dacheng Tao"
+            ],
+            "conference": "CVPR 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1903.05854"
+            },
+            "cited": "356"
+        },
+        {
+            "title": "AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks",
+            "authors": [
+                "Tao Xu",
+                "Pengchuan Zhang",
+                "Qiuyuan Huang",
+                "Han Zhang",
+                "Zhe Gan",
+                "Xiaolei Huang",
+                "Xiaodong He"
+            ],
+            "conference": "CVPR 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1711.10485"
+            },
+            "cited": "1000",
+            "model": "AttnGAN"
+        },
+        {
+            "title": "DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis",
+            "authors": [
+                "Minfeng Zhu",
+                "Pingbo Pan",
+                "Wei Chen",
+                "Yi Yang"
+            ],
+            "conference": "CVPR 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1904.01310"
+            },
+            "cited": "312",
+            "model": "DM-GAN"
+        },
+        {
+            "title": "Semantics Disentangling for Text-to-Image Generation",
+            "authors": [
+                "Guojun Yin",
+                "Bin Liu",
+                "Lu Sheng",
+                "Nenghai Yu",
+                "Xiaogang Wang",
+                "Jing Shao"
+            ],
+            "conference": "CVPR 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1904.01480"
+            },
+            "cited": "125",
+            "model": "SD-GAN"
+        },
+        {
+            "title": "A Simple and Effective Baseline for Text-to-Image Synthesis",
+            "authors": [
+                "Ming Tao",
+                "Hao Tang",
+                "Fei Wu",
+                "Xiaoyuan Jing",
+                "Bingkun Bao",
+                "Changsheng Xu"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2008.05865"
+            },
+            "cited": "42",
+            "model": "DF-GAN"
+        },
+        {
+            "title": "Text to Image Generation with Semantic-Spatial Aware GAN",
+            "authors": [
+                "Kai Hu",
+                "Wentong Liao",
+                "Michael Ying Yang",
+                "Bodo Rosenhahn"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2104.00567"
+            },
+            "cited": "24",
+            "model": "Semantic-Spatial Aware GAN"
+        },
+        {
+            "title": "TextFace: Text-to-Style Mapping based Face Generation and Manipulation",
+            "authors": [
+                "Hou, Xianxu",
+                "Zhang Xiaokang",
+                "Li Yudong",
+                "Shen Linlin"
+            ],
+            "conference": "TMM 2022",
+            "links": {
+                "pdf": "https://ieeexplore.ieee.org/document/9737433/"
+            },
+            "model": "TextFace"
+        },
+        {
+            "title": "FuseDream: Training-Free Text-to-Image Generation with Improved CLIP+GAN Space Optimization",
+            "authors": [
+                "Xingchao Liu",
+                "Chengyue Gong",
+                "Lemeng Wu",
+                "Shujian Zhang",
+                "Hao Su",
+                "Qiang Liu"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2112.01573"
+            },
+            "cited": "41",
+            "model": "FuseDream"
+        },
+        {
+            "title": "StyleGAN-T: Unlocking the Power of GANs for Fast Large-Scale Text-to-Image Synthesis",
+            "authors": [
+                "Axel Sauer",
+                "Tero Karras",
+                "Samuli Laine",
+                "Andreas Geiger",
+                "Timo Aila"
+            ],
+            "conference": "arxiv 2023",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2301.09515"
+            },
+            "cited": "16",
+            "model": "StyleGAN-T"
+        },
+        {
+            "title": "Scaling up GANs for Text-to-Image Synthesis",
+            "authors": [
+                "Minguk Kang",
+                "Jun-Yan Zhu",
+                "Richard Zhang",
+                "Jaesik Park",
+                "Eli Shechtman",
+                "Sylvain Paris",
+                "Taesung Park"
+            ],
+            "conference": "CVPR 2023",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2303.05511"
+            },
+            "cited": "7",
+            "model": "GigaGAN"
+        },
+        {
+            "title": "Zero-Shot Text-to-Image Generation",
+            "authors": [
+                "Aditya Ramesh",
+                "Mikhail Pavlov",
+                "Gabriel Goh",
+                "Scott Gray",
+                "Chelsea Voss",
+                "Alec Radford",
+                "Mark Chen",
+                "Ilya Sutskever"
+            ],
+            "conference": "ICML 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2102.12092"
+            },
+            "cited": "1348",
+            "model": "DALLE"
+        },
+        {
+            "title": "GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models",
+            "authors": [
+                "Alex Nichol",
+                "Prafulla Dhariwal",
+                "Aditya Ramesh",
+                "Pranav Shyam",
+                "Pamela Mishkin",
+                "Bob McGrew",
+                "Ilya Sutskever",
+                "Mark Chen"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/pdf/2112.10741.pdf",
+                "pytorch": "https://github.com/openai/glide-text2im"
+            },
+            "model": "GLIDE"
+        },
+        {
+            "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+            "authors": [
+                "Aditya Ramesh",
+                "Prafulla Dhariwal",
+                "Alex Nichol",
+                "Casey Chu",
+                "Mark Chen"
+            ],
+            "conference": "OpenAI 2022",
+            "links": {
+                "pdf": "https://cdn.openai.com/papers/dall-e-2.pdf"
+            },
+            "model": "DALLE2"
+        },
+        {
+            "title": "L-Verse: Bidirectional Generation Between Image and Text",
+            "authors": [
+                "Taehoon Kim",
+                "Gwangmo Song",
+                "Sihaeng Lee",
+                "Sangyun Kim",
+                "Yewon Seo",
+                "Soonyoung Lee",
+                "Seung Hwan Kim",
+                "Honglak Lee",
+                "Kyunghoon Bae"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2111.11133"
+            },
+            "cited": "6",
+            "model": "L-Verse"
+        },
+        {
+            "title": "CLIP-GEN: Language-Free Training of a Text-to-Image Generator with CLIP",
+            "authors": [
+                "Zihao Wang",
+                "Wei Liu",
+                "Qian He",
+                "Xinglong Wu",
+                "Zili Yi"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2203.00386"
+            },
+            "cited": "24",
+            "model": "CLIP-GEN"
+        },
+        {
+            "title": "Muse: Text-To-Image Generation via Masked Generative Transformers",
+            "authors": [
+                "Huiwen Chang",
+                "Han Zhang",
+                "Jarred Barber",
+                "AJ Maschinot",
+                "Jose Lezama",
+                "Lu Jiang",
+                "Ming-Hsuan Yang",
+                "Kevin Murphy",
+                "William T. Freeman",
+                "Michael Rubinstein",
+                "Yuanzhen Li",
+                "Dilip Krishnan"
+            ],
+            "conference": "arxiv 2023",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2301.00704"
+            },
+            "cited": "47",
+            "model": "Muse"
+        },
+        {
+            "title": "Pretraining is All You Need for Image-to-Image Translation",
+            "authors": [
+                "Tengfei Wang",
+                "Ting Zhang",
+                "Bo Zhang",
+                "Hao Ouyang",
+                "Dong Chen",
+                "Qifeng Chen",
+                "Fang Wen"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2205.12952"
+            },
+            "cited": "41"
+        },
+        {
+            "title": "NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion",
+            "authors": [
+                "Chenfei Wu",
+                "Jian Liang",
+                "Lei Ji",
+                "Fan Yang",
+                "Yuejian Fang",
+                "Daxin Jiang",
+                "Nan Duan"
+            ],
+            "conference": "ECCV 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2111.12417"
+            },
+            "cited": "91"
+        },
+        {
+            "title": "NUWA-Infinity: Autoregressive over Autoregressive Generation for Infinite Visual Synthesis",
+            "authors": [
+                "Chenfei Wu",
+                "Jian Liang",
+                "Xiaowei Hu",
+                "Zhe Gan",
+                "Jianfeng Wang",
+                "Lijuan Wang",
+                "Zicheng Liu",
+                "Yuejian Fang",
+                "Nan Duan"
+            ],
+            "conference": "NIPS 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2207.09814"
+            },
+            "cited": "17"
+        },
+        {
+            "title": "SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations",
+            "authors": [
+                "Chenlin Meng",
+                "Yutong He",
+                "Yang Song",
+                "Jiaming Song",
+                "Jiajun Wu",
+                "Jun-Yan Zhu",
+                "Stefano Ermon"
+            ],
+            "conference": "ICLR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2108.01073"
+            },
+            "cited": "152"
+        },
+        {
+            "title": "Blended Diffusion for Text-driven Editing of Natural Images",
+            "authors": [
+                "Omri Avrahami",
+                "Dani Lischinski",
+                "Ohad Fried"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2111.14818"
+            },
+            "cited": "148"
+        },
+        {
+            "title": "DiffusionCLIP: Text-guided Image Manipulation Using Diffusion Models",
+            "authors": [
+                "Gwanghyun Kim",
+                "Taesung Kwon",
+                "Jong Chul Ye"
+            ],
+            "conference": "CVPR 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2110.02711"
+            },
+            "cited": "101"
+        },
+        {
+            "title": "Text2LIVE: text-driven layered image and video editing.",
+            "authors": [
+                "Bar-Tal, Omer",
+                "Ofri-Amar, Dolev",
+                "Fridman, Rafail",
+                "Kasten, Yoni",
+                "Dekel, Tali"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2204.02491"
+            },
+            "cited": "63"
+        },
+        {
+            "title": "An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion",
+            "authors": [
+                "Rinon Gal",
+                "Yuval Alaluf",
+                "Yuval Atzmon",
+                "Or Patashnik",
+                "Amit H. Bermano",
+                "Gal Chechik",
+                "Daniel Cohen-Or"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2208.01618"
+            },
+            "cited": "164"
+        },
+        {
+            "title": "DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation",
+            "authors": [
+                "Nataniel Ruiz",
+                "Yuanzhen Li",
+                "Varun Jampani",
+                "Yael Pritch",
+                "Michael Rubinstein",
+                "Kfir Aberman"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2208.12242"
+            },
+            "cited": "202"
+        },
+        {
+            "title": "Prompt-to-Prompt Image Editing with Cross-Attention Control",
+            "authors": [
+                "Amir Hertz",
+                "Ron Mokady",
+                "Jay Tenenbaum",
+                "Kfir Aberman",
+                "Yael Pritch",
+                "Daniel Cohen-Or"
+            ],
+            "conference": "ICLR 2023",
+            "links": {
+                "pdf": "https://openreview.net/forum?id=_CDixzkzeyb"
+            }
+        },
+        {
+            "title": "Imagic: Text-Based Real Image Editing with Diffusion Models",
+            "authors": [
+                "Bahjat Kawar",
+                "Shiran Zada",
+                "Oran Lang",
+                "Omer Tov",
+                "Huiwen Chang",
+                "Tali Dekel",
+                "Inbar Mosseri",
+                "Michal Irani"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2210.09276"
+            },
+            "cited": "120"
+        },
+        {
+            "title": "UniTune: Text-Driven Image Editing by Fine Tuning an Image Generation Model on a Single Image",
+            "authors": [
+                "Dani Valevski",
+                "Matan Kalman",
+                "Yossi Matias",
+                "Yaniv Leviathan"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2210.09477"
+            },
+            "cited": "36"
+        },
+        {
+            "title": "InstructPix2Pix: Learning to Follow Image Editing Instructions",
+            "authors": [
+                "Tim Brooks",
+                "Aleksander Holynski",
+                "Alexei A. Efros"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2211.09800"
+            },
+            "cited": "66"
+        },
+        {
+            "title": "Uncovering the Disentanglement Capability in Text-to-Image Diffusion Models",
+            "authors": [
+                "Qiucheng Wu",
+                "Yujian Liu",
+                "Handong Zhao",
+                "Ajinkya Kale",
+                "Trung Bui",
+                "Tong Yu",
+                "Zhe Lin",
+                "Yang Zhang",
+                "Shiyu Chang"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2212.08698"
+            },
+            "cited": "6"
+        },
+        {
+            "title": "Multi-Concept Customization of Text-to-Image Diffusion",
+            "authors": [
+                "Nupur Kumari",
+                "Bingliang Zhang",
+                "Richard Zhang",
+                "Eli Shechtman",
+                "Jun-Yan Zhu"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2212.04488"
+            },
+            "cited": "29"
+        },
+        {
+            "title": "Zero-shot Image-to-Image Translation",
+            "authors": [
+                "unknown"
+            ],
+            "conference": "Project",
+            "links": {
+                "project": "https://pix2pixzero.github.io/"
+            },
+            "cited": null,
+            "model": null
+        },
+        {
+            "title": "Null-text Inversion for Editing Real Images using Guided Diffusion Models",
+            "authors": [
+                "unknown"
+            ],
+            "conference": "PDF",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2211.09794",
+                "project": "https://null-text-inversion.github.io/"
+            },
+            "cited": "47",
+            "model": null
+        },
+        {
+            "title": "Imagen video: High definition video generation with diffusion models",
+            "authors": [
+                "Jonathan Ho",
+                "William Chan",
+                "Chitwan Saharia",
+                "Jay Whang",
+                "Ruiqi Gao",
+                "Alexey Gritsenko",
+                "Diederik P. Kingma",
+                "Ben Poole",
+                "Mohammad Norouzi",
+                "David J. Fleet",
+                "Tim Salimans"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2210.02303",
+                "project": "https://imagen.research.google/video/"
+            },
+            "cited": "139",
+            "model": null
+        },
+        {
+            "title": "Video diffusion models.",
+            "authors": [
+                "Jonathan Ho",
+                "Tim Salimans",
+                "Alexey Gritsenko",
+                "William Chan",
+                "Mohammad Norouzi",
+                "David J. Fleet"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2204.03458"
+            },
+            "cited": "183",
+            "model": null
+        },
+        {
+            "title": "Make-a-video: Text-to-video generation without text-video data",
+            "authors": [
+                "Uriel Singer",
+                "Adam Polyak",
+                "Thomas Hayes",
+                "Xi Yin",
+                "Jie An",
+                "Songyang Zhang",
+                "Qiyuan Hu",
+                "Harry Yang",
+                "Oron Ashual",
+                "Oran Gafni",
+                "Devi Parikh",
+                "Sonal Gupta",
+                "Yaniv Taigman"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2209.14792"
+            },
+            "cited": "134",
+            "model": null
+        },
+        {
+            "title": "Tune-A-Video: Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation",
+            "authors": [
+                "Jay Zhangjie Wu",
+                "Yixiao Ge",
+                "Xintao Wang",
+                "Weixian Lei",
+                "Yuchao Gu",
+                "Wynne Hsu",
+                "Ying Shan",
+                "Xiaohu Qie",
+                "Mike Zheng Shou"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2212.11565"
+            },
+            "cited": "22",
+            "model": null
+        },
+        {
+            "title": "Deep Image Prior",
+            "authors": [
+                "Dmitry Ulyanov",
+                "Andrea Vedaldi",
+                "Victor Lempitsky"
+            ],
+            "conference": "CVPR 2018",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1711.10925",
+                "project": "https://dmitryulyanov.github.io/deep_image_prior"
+            },
+            "cited": "1947",
+            "model": null
+        },
+        {
+            "title": "SinGAN: Learning a Generative Model from a Single Natural Image",
+            "authors": [
+                "Tamar Rott Shaham",
+                "Tali Dekel",
+                "Tomer Michaeli"
+            ],
+            "conference": "ICCV 2019",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1905.01164",
+                "project": "https://tamarott.github.io/SinGAN.htm"
+            },
+            "cited": "543",
+            "model": null
+        },
+        {
+            "title": "TuiGAN: Learning Versatile Image-to-Image Translation with Two Unpaired Images",
+            "authors": [
+                "Jianxin Lin",
+                "Yingxue Pang",
+                "Yingce Xia",
+                "Zhibo Chen",
+                "Jiebo Luo"
+            ],
+            "conference": "ECCV 2020",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2004.04634"
+            },
+            "cited": "38",
+            "model": null
+        },
+        {
+            "title": "Image Shape Manipulation from a Single Augmented Training Sample",
+            "authors": [
+                "Yael Vinker",
+                "Eliahu Horwitz",
+                "Nir Zabari",
+                "Yedid Hoshen"
+            ],
+            "conference": "ICCV 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2007.01289",
+                "project": "https://www.vision.huji.ac.il/deepsim/",
+                "pytorch": "https://github.com/eliahuhorwitz/DeepSIM"
+            },
+            "cited": "6",
+            "model": "DeepSIM"
+        },
+        {
+            "title": "Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization",
+            "authors": [
+                "Daiqing Li",
+                "Junlin Yang",
+                "Karsten Kreis",
+                "Antonio Torralba",
+                "Sanja Fidler"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2104.05833"
+            },
+            "cited": "76",
+            "model": "SemanticGAN"
+        },
+        {
+            "title": "DatasetGAN: Efﬁcient Labeled Data Factory with Minimal Human Effort",
+            "authors": [
+                "Yuxuan Zhang",
+                "Huan Ling",
+                "Jun Gao",
+                "Kangxue Yin",
+                "Jean-Francois Lafleche",
+                "Adela Barriuso",
+                "Antonio Torralba",
+                "Sanja Fidler"
+            ],
+            "conference": "CVPR 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2104.06490"
+            },
+            "cited": "130",
+            "model": "DatasetGAN"
+        },
+        {
+            "title": "SemanticStyleGAN: Learning Compositional Generative Priors for Controllable Image Synthesis and Editing",
+            "authors": [
+                "Yichun Shi",
+                "Xiao Yang",
+                "Yangyue Wan",
+                "Xiaohui Shen"
+            ],
+            "conference": "arxiv 2021",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2112.02236"
+            },
+            "cited": "22",
+            "model": "SemanticStyleGAN"
+        },
+        {
+            "title": "Learning to generate line drawings that convey geometry and semantics",
+            "authors": [
+                "Caroline Chan",
+                "Fredo Durand",
+                "Phillip Isola"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2203.12691"
+            },
+            "cited": "12",
+            "model": null
+        },
+        {
+            "title": "Synthesizing the preferred inputs for neurons in neural networks via deep generator networks.",
+            "authors": [
+                "Anh Nguyen",
+                "Alexey Dosovitskiy",
+                "Jason Yosinski",
+                "Thomas Brox",
+                "Jeff Clune"
+            ],
+            "conference": "NIPS 2016",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1605.09304"
+            },
+            "cited": null,
+            "model": null
+        },
+        {
+            "title": "Generating Images with Perceptual Similarity Metrics based on Deep Networks.",
+            "authors": [
+                "Alexey Dosovitskiy",
+                "Thomas Brox"
+            ],
+            "conference": "NIPS 2016",
+            "links": {
+                "pdf": "https://arxiv.org/abs/1602.02644"
+            },
+            "cited": null,
+            "model": null
+        },
+        {
+            "title": "VectorFusion Text-to-SVG by Abstracting Pixel-Based Diffusion Models",
+            "authors": [
+                "Ajay Jain",
+                "Amber Xie",
+                "Pieter Abbeel"
+            ],
+            "conference": "arxiv 2022",
+            "links": {
+                "pdf": "https://arxiv.org/abs/2211.11319"
+            },
+            "cited": null,
+            "model": "VectorFusion"
+        }
+    ]
+}

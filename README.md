@@ -34,7 +34,7 @@ CVPR 2019. [[PDF](https://arxiv.org/abs/1812.04948)] Cited:`5598`
 Andrew Brock, Jeff Donahue, Karen Simonyan. <br>
 ICLR 2019. [[PDF](https://arxiv.org/abs/1809.11096)] Cited:`3631`
 
-`StyleGAN2` **Analyzing and Improving the Image Quality of StyleGAN.**<br>
+`StyleGAN2` **Analyzing and Improving the Image Quality of StyleGAN.** <br>
 Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila. <br>
 CVPR 2020. [[PDF](https://arxiv.org/abs/1912.04958)] Cited:`3028`
 
@@ -51,7 +51,7 @@ Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakk
 NeurIPS 2021. [[PDF](https://arxiv.org/abs/2106.12423)] [[Project](https://nvlabs.github.io/stylegan3/)] Cited:`588`
 
 **StyleSwin: Transformer-based GAN for High-resolution Image Generation**<br>
-Bowen Zhang, Shuyang Gu, Bo Zhang, Jianmin Bao, Dong Chen, Fang Wen, Yong Wang, Baining Guo<br>
+Bowen Zhang, Shuyang Gu, Bo Zhang, Jianmin Bao, Dong Chen, Fang Wen, Yong Wang, Baining Guo. <br>
 CVPR 2022. [[PDF](https://arxiv.org/abs/2112.10762)] Cited:`49`
 
 **StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets**<br>
@@ -67,7 +67,7 @@ SIGGRAPH 2022. [[PDF](https://arxiv.org/abs/2202.00273)] Cited:`124`
 
 ## GAN Objective
 **A Large-Scale Study on Regularization and Normalization in GANs**<br>
-*Karol Kurach, Mario Lucic, Xiaohua Zhai, Marcin Michalski, Sylvain Gelly*<br>
+*Karol Kurach, Mario Lucic, Xiaohua Zhai, Marcin Michalski, Sylvain Gelly* <br>
 ICML 2019. [[PDF](https://arxiv.org/abs/1807.04720)] Cited:`141`
 
 `EB-GAN` **Energy-based Generative Adversarial Networks**<br>
@@ -757,10 +757,6 @@ ICLR 2021. [[PDF](https://arxiv.org/abs/2101.06006)] Cited:`24`
 Nurit Spingarn-Eliezer, Ron Banner, Tomer Michaeli<br>
 ICLR 2021. [[PDF](https://arxiv.org/abs/2012.05328)] Cited:`36`
 
-**The Geometry of Deep Generative Image Models and its Applications**<br>
-Binxu Wang, Carlos R. Ponce<br>
-ICLR 2021. [[PDF](https://arxiv.org/abs/2101.06006)] Cited:`24`
-
 `SeFa` **Closed-Form Factorization of Latent Semantics in GANs**<br>
 Yujun Shen, Bolei Zhou. <br>
 CVPR 2021 [[PDF](https://arxiv.org/abs/2007.06600)] [[Project](https://genforce.github.io/sefa/)] Cited:`346`
@@ -1348,7 +1344,13 @@ Caroline Chan, Fredo Durand, Phillip Isola.<br>
 arxiv 2022. [[PDF](https://arxiv.org/abs/2203.12691)] Cited:`12`
 
 **Synthesizing the preferred inputs for neurons in neural networks via deep generator networks.**<br>
+Anh Nguyen, Alexey Dosovitskiy, Jason Yosinski, Thomas Brox, Jeff Clune. <br>
+NIPS 2016. [[PDF](https://arxiv.org/abs/1605.09304)]
 
 **Generating Images with Perceptual Similarity Metrics based on Deep Networks.**<br>
+Alexey Dosovitskiy, Thomas Brox<br>
+NIPS 2016. [[PDF](https://arxiv.org/abs/1602.02644)]
 
 **VectorFusion Text-to-SVG by Abstracting Pixel-Based Diffusion Models**<br>
+Ajay Jain, Amber Xie, Pieter Abbeel<br>
+arxiv 2022. [[PDF](https://arxiv.org/abs/2211.11319)]
