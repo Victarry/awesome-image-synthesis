@@ -1,18 +1,24 @@
 # <p align=center>`awesome image synthesis papers`</p>
 Collection of papers in image synthesis.
 
+## Updates:
+
+- 🔥 2024.7: A new awesome list for papers dedicated for diffusion model. [diffusion.md](./diffusion.md)
+
+Note: The following awesome list will not be maintained. Cut off in 2022.
+
 # Unconditional/(Class Conditional) Image Generation
 ## GAN Architecture
 ```mermaid
 flowchart TB
-  GAN[VanillaGAN, 2014] == architecture tricks --> DCGAN[DCGAN, 2016]
-  DCGAN == Progressive growing --> PG[PG-GAN, 2018]
+  GAN[VanillaGAN, 2014] -- architecture tricks --> DCGAN[DCGAN, 2016]
+  DCGAN -- Progressive growing --> PG[PG-GAN, 2018]
   PG --> BigGAN[BigGAN, 2019]
-  PG == AdaIN, mapping network --> SG1[StyleGAN, 2019]
-  SG1 == Weight demodulation --> SG2[StyleGAN2, 2020]
-  SG2 == Translate and rotate equivariance --> SG3[StyleGAN3, 2021]
-  DCGAN == Autoregressive transformer \n for vison tokens --> VQGAN
-  VQGAN == transformers architecture \n of  generator and discriminator --> TransGAN
+  PG -- AdaIN, mapping network --> SG1[StyleGAN, 2019]
+  SG1 -- Weight demodulation --> SG2[StyleGAN2, 2020]
+  SG2 -- Translate and rotate equivariance --> SG3[StyleGAN3, 2021]
+  DCGAN -- Autoregressive transformer \n for vision tokens --> VQGAN
+  VQGAN -- transformers architecture \n of generator and discriminator --> TransGAN
 ```
 **Generative adversarial nets.** <br>
 Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio*<br>
@@ -721,21 +727,21 @@ arxiv 2021. [[PDF](https://arxiv.org/abs/2107.07437)] Cited:`30`
 ## Unsupervised GAN Manipulation
 ```mermaid
 flowchart TD
-  root(Unsupervised GAN Manipulation) --> A(Mutual inforamtion)
+  root(Unsupervised GAN Manipulation) --> A(Mutual information)
   root --> B[Generator Parameter]
   root --> C[Training Regularization]
 
   A --> E[Unsupervised Discovery. Voynov. ICML 2020]
-  InfoGAN == on pretrained network --> E
-  E == RBF Path --> Warped[WarpedGANSpace. Tzelepis. ICCV 2021]
-  E == Parameter Space --> NaviGAN[NaviGAN. Cherepkov. CVPR 2021]
-  E == Contrastive Loss --> DisCo[Disco. Ren. ICLR 2022]
+  InfoGAN -- on pretrained network --> E
+  E -- RBF Path --> Warped[WarpedGANSpace. Tzelepis. ICCV 2021]
+  E -- Parameter Space --> NaviGAN[NaviGAN. Cherepkov. CVPR 2021]
+  E -- Contrastive Loss --> DisCo[Disco. Ren. ICLR 2022]
 
-  B == PCA on Intermediate/W space --> GANSpace[GANSpace. Härkönen. NIPS 2020.]
-  GANSpace == Closed-form Factorization of Weight --> SeFa[SeFa. Shen. CVPR 2021.]
-  GANSpace == Spatial Transformation \n on intermediate Feature --> GANS[GAN Steerability. Eliezer. ICLR 2021]
+  B -- PCA on Intermediate/W space --> GANSpace[GANSpace. Härkönen. NIPS 2020]
+  GANSpace -- Closed-form Factorization of Weight --> SeFa[SeFa. Shen. CVPR 2021]
+  GANSpace -- Spatial Transformation \n on intermediate Feature --> GANS[GAN Steerability. Eliezer. ICLR 2021]
 
-  SeFa == Variation for intermediate features --> VisualConcept[Visual Concept Vocabulary. Schwettmann. ICCV 2021]
+  SeFa -- Variation for intermediate features --> VisualConcept[Visual Concept Vocabulary. Schwettmann. ICCV 2021]
 ```
 **Unsupervised Discovery of Interpretable Directions in the GAN Latent Space.**<br>
 Andrey Voynov, Artem Babenko.<br>
